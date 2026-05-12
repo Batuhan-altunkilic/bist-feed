@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "ticker": "BRSAN",
+      "sector": "Steel",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 8.96,
+      "long_conviction": {
+        "score": 56.6,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 78.0,
+          "f_score": 50.0,
+          "foreign": 45.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -44.0,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": -86.7,
+          "orb": -80.0,
+          "vwap": -25.8,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": 0.0
+        },
+        "intraday": {
+          "last_price": 538.0,
+          "stop_long": 541.0,
+          "stop_short": 566.0,
+          "target_long": 532.0,
+          "target_short": 482.0,
+          "atr_pct": 5.89
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 5.2,
+      "advice": "🟡 BRSAN ortalama bir hisse (skor 56.6/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "MAGEN",
+      "sector": "Energy",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 15.89,
+      "long_conviction": {
+        "score": 62.5,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 100.0,
+          "f_score": 50.0,
+          "foreign": 60.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 34.9,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 1.2,
+          "orb": 80.0,
+          "vwap": 57.6,
+          "rsi": 25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": 50.0
+        },
+        "intraday": {
+          "last_price": 67.1,
+          "stop_long": 64.25,
+          "stop_short": 65.2,
+          "target_long": 72.8,
+          "target_short": 70.9,
+          "atr_pct": 4.38
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 3.1,
+      "advice": "🟡 MAGEN ortalama bir hisse (skor 62.5/100). Acelesi yok, daha güçlü sinyal bekle."
+    }
+  ]
+}

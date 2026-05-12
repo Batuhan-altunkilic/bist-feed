@@ -1,0 +1,11 @@
+{
+  "capital_tl": 2500.0,
+  "alarm_acil_enabled": true,
+  "alarm_kritik_enabled": true,
+  "alarm_yuksek_enabled": true,
+  "alarm_orta_enabled": false,
+  "golden_pick_repeat_count": 5,
+  "golden_pick_repeat_days": 7,
+  "watchlist": [],
+  "broker": "Midas"
+}
