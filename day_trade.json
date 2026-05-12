@@ -19,12 +19,12 @@
         }
       },
       "day_trade_conviction": {
-        "score": -44.0,
+        "score": -43.9,
         "direction": "SHORT",
         "breakdown": {
           "gap": -86.7,
           "orb": -80.0,
-          "vwap": -25.8,
+          "vwap": -24.9,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
@@ -74,24 +74,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 34.9,
+        "score": 37.2,
         "direction": "LONG",
         "breakdown": {
           "gap": 1.2,
           "orb": 80.0,
-          "vwap": 57.6,
+          "vwap": 72.9,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 50.0
         },
         "intraday": {
-          "last_price": 67.1,
+          "last_price": 67.55,
           "stop_long": 64.25,
           "stop_short": 65.2,
-          "target_long": 72.8,
-          "target_short": 70.9,
-          "atr_pct": 4.38
+          "target_long": 74.15,
+          "target_short": 72.25,
+          "atr_pct": 4.52
         }
       },
       "long_alarm": {
@@ -107,8 +107,228 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 3.1,
+      "estimated_potential_pct": 3.4,
       "advice": "🟡 MAGEN ortalama bir hisse (skor 62.5/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "AKBNK",
+      "sector": "Banking",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 54.61,
+      "long_conviction": {
+        "score": 54.5,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 50.0,
+          "f_score": 50.0,
+          "foreign": 80.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -36.3,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": -2.0,
+          "orb": -80.0,
+          "vwap": -65.1,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 72.95,
+          "stop_long": 75.2,
+          "stop_short": 76.0,
+          "target_long": 68.45,
+          "target_short": 66.85,
+          "atr_pct": 3.52
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 2.6,
+      "advice": "🟡 AKBNK ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "EKGYO",
+      "sector": "REIT",
+      "layer": "Long+Swing",
+      "weight_pct": 5.4,
+      "foreign_ratio_pct": 26.93,
+      "long_conviction": {
+        "score": 73.0,
+        "breakdown": {
+          "fundamental": 83.8,
+          "momentum": 59.5,
+          "f_score": 44.4,
+          "foreign": 60.0,
+          "overlap": 100.0,
+          "tech": 80.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -33.3,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": -35.1,
+          "orb": -80.0,
+          "vwap": -57.0,
+          "rsi": -25.0,
+          "fund_filter": 25.0,
+          "news": 0,
+          "volume": 0.0
+        },
+        "intraday": {
+          "last_price": 20.64,
+          "stop_long": 21.24,
+          "stop_short": 21.72,
+          "target_long": 19.44,
+          "target_short": 18.48,
+          "atr_pct": 4.21
+        }
+      },
+      "long_alarm": {
+        "tier": "YUKSEK",
+        "icon": "🟠",
+        "desc": "standart bildirim",
+        "threshold": 65
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 2.8,
+      "advice": "✅ EKGYO mantıklı bir uzun pozisyon (skor 73.0/100). Sermayenin küçük bir kısmıyla başla."
+    },
+    {
+      "ticker": "YKBNK",
+      "sector": "Banking",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 35.37,
+      "long_conviction": {
+        "score": 54.5,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 55.0,
+          "f_score": 50.0,
+          "foreign": 70.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -33.2,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": -4.5,
+          "orb": -80.0,
+          "vwap": -74.1,
+          "rsi": 25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 37.98,
+          "stop_long": 39.2,
+          "stop_short": 39.66,
+          "target_long": 35.54,
+          "target_short": 34.62,
+          "atr_pct": 4.51
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 3.0,
+      "advice": "🟡 YKBNK ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "FROTO",
+      "sector": "Automotive",
+      "layer": "Long",
+      "weight_pct": 4.0,
+      "foreign_ratio_pct": 37.31,
+      "long_conviction": {
+        "score": 51.3,
+        "breakdown": {
+          "fundamental": 45.2,
+          "momentum": 49.5,
+          "f_score": 33.3,
+          "foreign": 70.0,
+          "overlap": 60.0,
+          "tech": 60.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -31.9,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": 0.0,
+          "orb": -80.0,
+          "vwap": -39.6,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 94.1,
+          "stop_long": 96.35,
+          "stop_short": 97.3,
+          "target_long": 89.6,
+          "target_short": 87.7,
+          "atr_pct": 2.23
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 1.4,
+      "advice": "🟡 FROTO ortalama bir hisse (skor 51.3/100). Acelesi yok, daha güçlü sinyal bekle."
     }
   ]
 }
