@@ -19,24 +19,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 46.1,
+        "score": 51.8,
         "direction": "LONG",
         "breakdown": {
           "gap": 100.0,
           "orb": 80.0,
-          "vwap": 17.1,
+          "vwap": 55.5,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 690.5,
+          "last_price": 706.0,
           "stop_long": 677.0,
           "stop_short": 687.5,
-          "target_long": 717.5,
-          "target_short": 696.5,
-          "atr_pct": 2.35
+          "target_long": 764.0,
+          "target_short": 743.0,
+          "atr_pct": 2.68
         }
       },
       "long_alarm": {
@@ -46,69 +46,14 @@
         "threshold": 50
       },
       "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 2.2,
+      "estimated_potential_pct": 2.8,
       "advice": "🟡 MGROS ortalama bir hisse (skor 54.1/100). Acelesi yok, daha güçlü sinyal bekle."
-    },
-    {
-      "ticker": "SOKM",
-      "sector": "Retail",
-      "layer": "Swing",
-      "weight_pct": 1.4,
-      "foreign_ratio_pct": 34.15,
-      "long_conviction": {
-        "score": 59.8,
-        "breakdown": {
-          "fundamental": 50.0,
-          "momentum": 81.2,
-          "f_score": 50.0,
-          "foreign": 70.0,
-          "overlap": 60.0,
-          "tech": 50.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 30.2,
-        "direction": "LONG",
-        "breakdown": {
-          "gap": 11.7,
-          "orb": 80.0,
-          "vwap": 8.4,
-          "rsi": 25.0,
-          "fund_filter": 0.0,
-          "news": 0,
-          "volume": 50.0
-        },
-        "intraday": {
-          "last_price": 52.85,
-          "stop_long": 51.95,
-          "stop_short": 52.4,
-          "target_long": 54.65,
-          "target_short": 53.75,
-          "atr_pct": 3.2
-        }
-      },
-      "long_alarm": {
-        "tier": "ORTA",
-        "icon": "🟡",
-        "desc": "sessiz push",
-        "threshold": 50
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 1.9,
-      "advice": "🟡 SOKM ortalama bir hisse (skor 59.8/100). Acelesi yok, daha güçlü sinyal bekle."
     }
   ]
 }
