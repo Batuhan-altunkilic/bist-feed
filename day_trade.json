@@ -19,24 +19,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 37.4,
+        "score": 38.2,
         "direction": "LONG",
         "breakdown": {
           "gap": 15.9,
           "orb": 80.0,
-          "vwap": 82.5,
+          "vwap": 87.9,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 49.6,
+          "last_price": 49.94,
           "stop_long": 45.88,
           "stop_short": 47.26,
-          "target_long": 57.04,
-          "target_short": 54.28,
-          "atr_pct": 6.99
+          "target_long": 58.06,
+          "target_short": 55.3,
+          "atr_pct": 6.96
         }
       },
       "long_alarm": {
@@ -52,7 +52,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 5.2,
+      "estimated_potential_pct": 5.3,
       "advice": "🟡 MIATK ortalama bir hisse (skor 57.9/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -74,24 +74,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 33.5,
+        "score": 35.9,
         "direction": "LONG",
         "breakdown": {
           "gap": 7.7,
           "orb": 80.0,
-          "vwap": 70.5,
+          "vwap": 36.6,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
-          "volume": 0.0
+          "volume": 50.0
         },
         "intraday": {
-          "last_price": 41.5,
+          "last_price": 41.24,
           "stop_long": 39.28,
           "stop_short": 39.8,
-          "target_long": 45.94,
-          "target_short": 44.9,
-          "atr_pct": 4.58
+          "target_long": 45.16,
+          "target_short": 44.12,
+          "atr_pct": 4.62
         }
       },
       "long_alarm": {
@@ -107,63 +107,8 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 3.1,
+      "estimated_potential_pct": 3.3,
       "advice": "✅ HALKB mantıklı bir uzun pozisyon (skor 73.3/100). Sermayenin küçük bir kısmıyla başla."
-    },
-    {
-      "ticker": "DOHOL",
-      "sector": "Holding",
-      "layer": "Swing",
-      "weight_pct": 1.4,
-      "foreign_ratio_pct": 26.73,
-      "long_conviction": {
-        "score": 52.8,
-        "breakdown": {
-          "fundamental": 50.0,
-          "momentum": 51.2,
-          "f_score": 50.0,
-          "foreign": 60.0,
-          "overlap": 60.0,
-          "tech": 50.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": -30.6,
-        "direction": "SHORT",
-        "breakdown": {
-          "gap": -3.6,
-          "orb": -80.0,
-          "vwap": -58.2,
-          "rsi": 25.0,
-          "fund_filter": 0.0,
-          "news": 0,
-          "volume": -50.0
-        },
-        "intraday": {
-          "last_price": 23.44,
-          "stop_long": 23.92,
-          "stop_short": 24.6,
-          "target_long": 22.48,
-          "target_short": 21.12,
-          "atr_pct": 3.63
-        }
-      },
-      "long_alarm": {
-        "tier": "ORTA",
-        "icon": "🟡",
-        "desc": "sessiz push",
-        "threshold": 50
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 2.2,
-      "advice": "🟡 DOHOL ortalama bir hisse (skor 52.8/100). Acelesi yok, daha güçlü sinyal bekle."
     }
   ]
 }
