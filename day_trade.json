@@ -1,3 +1,334 @@
 {
-  "items": []
+  "items": [
+    {
+      "ticker": "ASTOR",
+      "sector": "Industrial",
+      "layer": "Long+Swing",
+      "weight_pct": 5.4,
+      "foreign_ratio_pct": 72.92,
+      "long_conviction": {
+        "score": 63.1,
+        "breakdown": {
+          "fundamental": 50.7,
+          "momentum": 60.8,
+          "f_score": 22.2,
+          "foreign": 80.0,
+          "overlap": 100.0,
+          "tech": 80.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -37.2,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": -4.5,
+          "orb": -80.0,
+          "vwap": -67.5,
+          "rsi": -50.0,
+          "fund_filter": 25.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 322.75,
+          "stop_long": 330.5,
+          "stop_short": 337.0,
+          "target_long": 307.25,
+          "target_short": 294.25,
+          "atr_pct": 5.58
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 4.2,
+      "advice": "🟡 ASTOR ortalama bir hisse (skor 63.1/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "BRSAN",
+      "sector": "Steel",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 22.25,
+      "long_conviction": {
+        "score": 58.1,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 78.0,
+          "f_score": 50.0,
+          "foreign": 60.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -37.0,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": -18.3,
+          "orb": -80.0,
+          "vwap": -42.9,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 520.0,
+          "stop_long": 527.5,
+          "stop_short": 540.5,
+          "target_long": 505.0,
+          "target_short": 479.0,
+          "atr_pct": 5.1
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 3.8,
+      "advice": "🟡 BRSAN ortalama bir hisse (skor 58.1/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "SOKM",
+      "sector": "Retail",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 35.08,
+      "long_conviction": {
+        "score": 59.8,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 81.2,
+          "f_score": 50.0,
+          "foreign": 70.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -36.4,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": -9.9,
+          "orb": -80.0,
+          "vwap": -53.1,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 50.15,
+          "stop_long": 51.7,
+          "stop_short": 53.2,
+          "target_long": 47.05,
+          "target_short": 44.05,
+          "atr_pct": 3.67
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 2.7,
+      "advice": "🟡 SOKM ortalama bir hisse (skor 59.8/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "TOASO",
+      "sector": "Automotive",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 30.34,
+      "long_conviction": {
+        "score": 54.5,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 54.8,
+          "f_score": 50.0,
+          "foreign": 70.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -32.4,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": -21.8,
+          "orb": -80.0,
+          "vwap": -39.6,
+          "rsi": 25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 302.75,
+          "stop_long": 305.75,
+          "stop_short": 312.0,
+          "target_long": 296.75,
+          "target_short": 284.25,
+          "atr_pct": 3.78
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 2.4,
+      "advice": "🟡 TOASO ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "TAVHL",
+      "sector": "Aviation",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 70.61,
+      "long_conviction": {
+        "score": 57.1,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 63.0,
+          "f_score": 50.0,
+          "foreign": 80.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -32.3,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": -11.2,
+          "orb": -80.0,
+          "vwap": -23.4,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 258.0,
+          "stop_long": 261.0,
+          "stop_short": 265.75,
+          "target_long": 252.0,
+          "target_short": 242.5,
+          "atr_pct": 2.91
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 1.9,
+      "advice": "🟡 TAVHL ortalama bir hisse (skor 57.1/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "TTKOM",
+      "sector": "Telecom",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 52.17,
+      "long_conviction": {
+        "score": 54.5,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 50.0,
+          "f_score": 50.0,
+          "foreign": 80.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -31.4,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": -9.4,
+          "orb": -80.0,
+          "vwap": -20.4,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 61.65,
+          "stop_long": 62.55,
+          "stop_short": 63.3,
+          "target_long": 59.85,
+          "target_short": 58.35,
+          "atr_pct": 3.26
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 2.0,
+      "advice": "🟡 TTKOM ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
+    }
+  ]
 }
