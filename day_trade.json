@@ -1,97 +1,42 @@
 {
   "items": [
     {
-      "ticker": "MIATK",
-      "sector": "Tech",
+      "ticker": "GUBRF",
+      "sector": "Chemicals",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 5.96,
+      "foreign_ratio_pct": 12.77,
       "long_conviction": {
-        "score": 57.9,
+        "score": 70.6,
         "breakdown": {
-          "fundamental": 57.6,
-          "momentum": 52.0,
-          "f_score": 22.2,
+          "fundamental": 64.2,
+          "momentum": 73.5,
+          "f_score": 66.7,
           "foreign": 45.0,
           "overlap": 100.0,
-          "tech": 60.0,
+          "tech": 80.0,
           "news": 50.0
         }
       },
       "day_trade_conviction": {
-        "score": 38.2,
+        "score": 31.6,
         "direction": "LONG",
         "breakdown": {
-          "gap": 15.9,
+          "gap": -6.1,
           "orb": 80.0,
-          "vwap": 87.9,
-          "rsi": 25.0,
-          "fund_filter": 25.0,
-          "news": 0,
-          "volume": 0.0
-        },
-        "intraday": {
-          "last_price": 49.94,
-          "stop_long": 45.88,
-          "stop_short": 47.26,
-          "target_long": 58.06,
-          "target_short": 55.3,
-          "atr_pct": 6.96
-        }
-      },
-      "long_alarm": {
-        "tier": "ORTA",
-        "icon": "🟡",
-        "desc": "sessiz push",
-        "threshold": 50
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 5.3,
-      "advice": "🟡 MIATK ortalama bir hisse (skor 57.9/100). Acelesi yok, daha güçlü sinyal bekle."
-    },
-    {
-      "ticker": "HALKB",
-      "sector": "Banking",
-      "layer": "Long+Swing",
-      "weight_pct": 5.4,
-      "foreign_ratio_pct": 0.6,
-      "long_conviction": {
-        "score": 73.3,
-        "breakdown": {
-          "fundamental": 84.4,
-          "momentum": 88.0,
-          "f_score": 33.3,
-          "foreign": 35.0,
-          "overlap": 100.0,
-          "tech": 60.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 35.9,
-        "direction": "LONG",
-        "breakdown": {
-          "gap": 7.7,
-          "orb": 80.0,
-          "vwap": 36.6,
+          "vwap": 31.2,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 50.0
         },
         "intraday": {
-          "last_price": 41.24,
-          "stop_long": 39.28,
-          "stop_short": 39.8,
-          "target_long": 45.16,
-          "target_short": 44.12,
-          "atr_pct": 4.62
+          "last_price": 609.5,
+          "stop_long": 599.0,
+          "stop_short": 606.0,
+          "target_long": 630.5,
+          "target_short": 616.5,
+          "atr_pct": 3.18
         }
       },
       "long_alarm": {
@@ -107,8 +52,8 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 3.3,
-      "advice": "✅ HALKB mantıklı bir uzun pozisyon (skor 73.3/100). Sermayenin küçük bir kısmıyla başla."
+      "estimated_potential_pct": 2.0,
+      "advice": "✅ GUBRF mantıklı bir uzun pozisyon (skor 70.6/100). Sermayenin küçük bir kısmıyla başla."
     }
   ]
 }
