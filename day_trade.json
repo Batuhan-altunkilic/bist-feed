@@ -5,7 +5,7 @@
       "sector": "Automotive",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 30.39,
+      "foreign_ratio_pct": 30.57,
       "long_conviction": {
         "score": 54.5,
         "breakdown": {
@@ -60,7 +60,7 @@
       "sector": "Defense",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 58.57,
+      "foreign_ratio_pct": 58.53,
       "long_conviction": {
         "score": 73.8,
         "breakdown": {
