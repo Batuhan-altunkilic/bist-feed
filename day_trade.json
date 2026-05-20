@@ -1,6 +1,61 @@
 {
   "items": [
     {
+      "ticker": "BRSAN",
+      "sector": "Steel",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 19.16,
+      "long_conviction": {
+        "score": 58.1,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 78.0,
+          "f_score": 50.0,
+          "foreign": 60.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -33.7,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": -7.3,
+          "orb": -80.0,
+          "vwap": -39.0,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 487.0,
+          "stop_long": 497.5,
+          "stop_short": 512.5,
+          "target_long": 466.0,
+          "target_short": 436.0,
+          "atr_pct": 5.08
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 3.4,
+      "advice": "🟡 BRSAN ortalama bir hisse (skor 58.1/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
       "ticker": "ASTOR",
       "sector": "Industrial",
       "layer": "Long+Swing",
@@ -19,24 +74,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 32.2,
+        "score": 33.3,
         "direction": "LONG",
         "breakdown": {
           "gap": 19.2,
           "orb": 80.0,
-          "vwap": 92.7,
+          "vwap": 100.0,
           "rsi": -50.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 340.5,
+          "last_price": 344.25,
           "stop_long": 313.25,
           "stop_short": 329.25,
-          "target_long": 395.0,
-          "target_short": 363.0,
-          "atr_pct": 6.06
+          "target_long": 406.25,
+          "target_short": 374.25,
+          "atr_pct": 6.09
         }
       },
       "long_alarm": {
@@ -52,8 +107,118 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 3.9,
+      "estimated_potential_pct": 4.1,
       "advice": "🟡 ASTOR ortalama bir hisse (skor 63.1/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "TRGYO",
+      "sector": "REIT",
+      "layer": "Long",
+      "weight_pct": 4.0,
+      "foreign_ratio_pct": 21.09,
+      "long_conviction": {
+        "score": 69.1,
+        "breakdown": {
+          "fundamental": 100.0,
+          "momentum": 50.0,
+          "f_score": 55.6,
+          "foreign": 60.0,
+          "overlap": 60.0,
+          "tech": 60.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 33.2,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 2.2,
+          "orb": 80.0,
+          "vwap": 27.9,
+          "rsi": 25.0,
+          "fund_filter": 25.0,
+          "news": 0,
+          "volume": 50.0
+        },
+        "intraday": {
+          "last_price": 100.0,
+          "stop_long": 97.55,
+          "stop_short": 98.9,
+          "target_long": 104.9,
+          "target_short": 102.2,
+          "atr_pct": 2.99
+        }
+      },
+      "long_alarm": {
+        "tier": "YUKSEK",
+        "icon": "🟠",
+        "desc": "standart bildirim",
+        "threshold": 65
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 2.0,
+      "advice": "✅ TRGYO mantıklı bir uzun pozisyon (skor 69.1/100). Sermayenin küçük bir kısmıyla başla."
+    },
+    {
+      "ticker": "MAGEN",
+      "sector": "Energy",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 16.45,
+      "long_conviction": {
+        "score": 62.5,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 100.0,
+          "f_score": 50.0,
+          "foreign": 60.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 31.3,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 0.0,
+          "orb": 80.0,
+          "vwap": 35.1,
+          "rsi": 25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": 50.0
+        },
+        "intraday": {
+          "last_price": 63.1,
+          "stop_long": 61.8,
+          "stop_short": 62.7,
+          "target_long": 65.7,
+          "target_short": 63.9,
+          "atr_pct": 4.25
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 2.7,
+      "advice": "🟡 MAGEN ortalama bir hisse (skor 62.5/100). Acelesi yok, daha güçlü sinyal bekle."
     }
   ]
 }
