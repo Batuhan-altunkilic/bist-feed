@@ -19,24 +19,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -35.4,
+        "score": -35.0,
         "direction": "SHORT",
         "breakdown": {
           "gap": -5.9,
           "orb": -80.0,
-          "vwap": -52.8,
+          "vwap": -100.0,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": -50.0
+          "volume": 0.0
         },
         "intraday": {
-          "last_price": 61.5,
+          "last_price": 57.5,
           "stop_long": 63.1,
           "stop_short": 63.85,
-          "target_long": 58.3,
-          "target_short": 56.8,
-          "atr_pct": 4.46
+          "target_long": 46.3,
+          "target_short": 44.8,
+          "atr_pct": 6.16
         }
       },
       "long_alarm": {
@@ -52,7 +52,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 3.2,
+      "estimated_potential_pct": 4.3,
       "advice": "🟡 MAGEN ortalama bir hisse (skor 62.5/100). Acelesi yok, daha güçlü sinyal bekle."
     }
   ]
