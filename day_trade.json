@@ -19,24 +19,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 34.0,
+        "score": 35.6,
         "direction": "LONG",
         "breakdown": {
           "gap": -1.2,
           "orb": 80.0,
-          "vwap": 88.8,
+          "vwap": 99.6,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 341.0,
+          "last_price": 344.0,
           "stop_long": 313.25,
           "stop_short": 331.0,
-          "target_long": 396.5,
-          "target_short": 361.0,
-          "atr_pct": 8.04
+          "target_long": 405.5,
+          "target_short": 370.0,
+          "atr_pct": 8.14
         }
       },
       "long_alarm": {
@@ -52,7 +52,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 5.5,
+      "estimated_potential_pct": 5.8,
       "advice": "🟡 ASTOR ortalama bir hisse (skor 63.1/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -74,24 +74,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 34.0,
+        "score": 32.5,
         "direction": "LONG",
         "breakdown": {
           "gap": 0.0,
           "orb": 80.0,
-          "vwap": 87.0,
+          "vwap": 76.5,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 45.7,
+          "last_price": 45.8,
           "stop_long": 42.14,
           "stop_short": 44.96,
-          "target_long": 52.82,
-          "target_short": 47.18,
-          "atr_pct": 8.68
+          "target_long": 53.12,
+          "target_short": 47.48,
+          "atr_pct": 8.75
         }
       },
       "long_alarm": {
@@ -107,8 +107,63 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 5.9,
+      "estimated_potential_pct": 5.7,
       "advice": "🟡 MIATK ortalama bir hisse (skor 57.9/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "FROTO",
+      "sector": "Automotive",
+      "layer": "Long",
+      "weight_pct": 4.0,
+      "foreign_ratio_pct": 35.75,
+      "long_conviction": {
+        "score": 51.3,
+        "breakdown": {
+          "fundamental": 45.2,
+          "momentum": 49.5,
+          "f_score": 33.3,
+          "foreign": 70.0,
+          "overlap": 60.0,
+          "tech": 60.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 32.2,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 0.0,
+          "orb": 80.0,
+          "vwap": 75.0,
+          "rsi": 50.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": 0.0
+        },
+        "intraday": {
+          "last_price": 85.8,
+          "stop_long": 81.65,
+          "stop_short": 83.9,
+          "target_long": 94.1,
+          "target_short": 89.6,
+          "atr_pct": 3.97
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 2.6,
+      "advice": "🟡 FROTO ortalama bir hisse (skor 51.3/100). Acelesi yok, daha güçlü sinyal bekle."
     }
   ]
 }
