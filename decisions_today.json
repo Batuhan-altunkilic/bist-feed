@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T14:11:17",
+  "generated_at": "2026-05-25T16:49:25",
   "summary": {
     "total": 31,
     "golden_picks": 0,
@@ -17,7 +17,7 @@
       "sector": "Defense",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 58.55,
+      "foreign_ratio_pct": 58.2,
       "long_conviction": {
         "score": 73.8,
         "breakdown": {
@@ -31,24 +31,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -21.4,
+        "score": -2.8,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 4.5,
-          "orb": -80.0,
-          "vwap": -26.7,
+          "orb": 0.0,
+          "vwap": -9.3,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 397.75,
+          "last_price": 399.5,
           "stop_long": 399.0,
           "stop_short": 413.0,
-          "target_long": 395.25,
-          "target_short": 367.25,
-          "atr_pct": 6.08
+          "target_long": 400.5,
+          "target_short": 372.5,
+          "atr_pct": 6.06
         }
       },
       "long_alarm": {
@@ -64,7 +64,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 2.6,
+      "estimated_potential_pct": 0.3,
       "advice": "✅ ASELS mantıklı bir uzun pozisyon (skor 73.8/100). Sermayenin küçük bir kısmıyla başla."
     },
     {
@@ -72,7 +72,7 @@
       "sector": "Banking",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 0.57,
+      "foreign_ratio_pct": 0.56,
       "long_conviction": {
         "score": 73.3,
         "breakdown": {
@@ -86,23 +86,23 @@
         }
       },
       "day_trade_conviction": {
-        "score": 31.3,
+        "score": 30.1,
         "direction": "LONG",
         "breakdown": {
           "gap": 16.5,
           "orb": 80.0,
-          "vwap": 41.1,
+          "vwap": 33.0,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 40.48,
+          "last_price": 40.46,
           "stop_long": 38.44,
           "stop_short": 39.6,
-          "target_long": 44.56,
-          "target_short": 42.24,
+          "target_long": 44.5,
+          "target_short": 42.18,
           "atr_pct": 7.0
         }
       },
@@ -119,7 +119,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 4.4,
+      "estimated_potential_pct": 4.2,
       "advice": "✅ HALKB mantıklı bir uzun pozisyon (skor 73.3/100). Sermayenin küçük bir kısmıyla başla."
     },
     {
@@ -141,24 +141,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 2.1,
+        "score": 1.6,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 7.8,
           "orb": 0.0,
-          "vwap": 0.9,
+          "vwap": -2.4,
           "rsi": -25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 19.64,
+          "last_price": 19.6,
           "stop_long": 19.32,
           "stop_short": 19.97,
-          "target_long": 20.28,
-          "target_short": 18.98,
-          "atr_pct": 4.62
+          "target_long": 20.16,
+          "target_short": 18.86,
+          "atr_pct": 4.63
         }
       },
       "long_alarm": {
@@ -174,7 +174,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 0.2,
+      "estimated_potential_pct": 0.1,
       "advice": "✅ EKGYO mantıklı bir uzun pozisyon (skor 73.0/100). Sermayenin küçük bir kısmıyla başla."
     },
     {
@@ -196,12 +196,12 @@
         }
       },
       "day_trade_conviction": {
-        "score": 27.0,
+        "score": 26.5,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 12.4,
           "orb": 80.0,
-          "vwap": 19.2,
+          "vwap": 15.6,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
@@ -229,7 +229,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 2.9,
+      "estimated_potential_pct": 2.8,
       "advice": "✅ GUBRF mantıklı bir uzun pozisyon (skor 70.6/100). Sermayenin küçük bir kısmıyla başla."
     },
     {
@@ -251,24 +251,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 21.1,
+        "score": 21.3,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 9.0,
           "orb": 80.0,
-          "vwap": 18.9,
+          "vwap": 20.4,
           "rsi": -25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 30.48,
+          "last_price": 30.56,
           "stop_long": 29.98,
           "stop_short": 30.26,
-          "target_long": 31.48,
-          "target_short": 30.92,
-          "atr_pct": 4.51
+          "target_long": 31.72,
+          "target_short": 31.16,
+          "atr_pct": 4.5
         }
       },
       "long_alarm": {
@@ -306,24 +306,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -13.5,
+        "score": 4.8,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 18.9,
-          "orb": -80.0,
-          "vwap": -15.0,
+          "orb": 0.0,
+          "vwap": 0.3,
           "rsi": -25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 98.55,
+          "last_price": 98.85,
           "stop_long": 98.7,
           "stop_short": 100.4,
-          "target_long": 98.25,
-          "target_short": 94.85,
-          "atr_pct": 4.57
+          "target_long": 99.15,
+          "target_short": 95.75,
+          "atr_pct": 4.59
         }
       },
       "long_alarm": {
@@ -339,7 +339,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.2,
+      "estimated_potential_pct": 0.4,
       "advice": "✅ ENKAI mantıklı bir uzun pozisyon (skor 70.1/100). Sermayenin küçük bir kısmıyla başla."
     },
     {
@@ -361,24 +361,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 16.2,
+        "score": 15.7,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 39.8,
           "orb": 0.0,
-          "vwap": 8.1,
+          "vwap": 5.1,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 153.2,
+          "last_price": 153.1,
           "stop_long": 152.9,
           "stop_short": 156.0,
-          "target_long": 153.8,
-          "target_short": 147.6,
-          "atr_pct": 6.55
+          "target_long": 153.5,
+          "target_short": 147.3,
+          "atr_pct": 6.56
         }
       },
       "long_alarm": {
@@ -428,12 +428,12 @@
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 93.05,
+          "last_price": 93.0,
           "stop_long": 92.9,
           "stop_short": 93.9,
-          "target_long": 93.35,
-          "target_short": 91.35,
-          "atr_pct": 3.64
+          "target_long": 93.2,
+          "target_short": 91.2,
+          "atr_pct": 3.68
         }
       },
       "long_alarm": {
@@ -471,24 +471,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 3.9,
+        "score": 24.0,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 8.5,
-          "orb": 0.0,
-          "vwap": 12.0,
+          "orb": 80.0,
+          "vwap": 39.3,
           "rsi": -25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 122.8,
+          "last_price": 124.2,
           "stop_long": 121.7,
           "stop_short": 123.3,
-          "target_long": 125.0,
-          "target_short": 121.8,
-          "atr_pct": 4.25
+          "target_long": 129.2,
+          "target_short": 126.0,
+          "atr_pct": 4.38
         }
       },
       "long_alarm": {
@@ -504,7 +504,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 0.3,
+      "estimated_potential_pct": 2.1,
       "advice": "✅ GARAN mantıklı bir uzun pozisyon (skor 67.0/100). Sermayenin küçük bir kısmıyla başla."
     },
     {
@@ -526,12 +526,12 @@
         }
       },
       "day_trade_conviction": {
-        "score": -13.9,
+        "score": -13.1,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 13.1,
           "orb": -80.0,
-          "vwap": -41.1,
+          "vwap": -36.0,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
@@ -559,7 +559,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 2.2,
+      "estimated_potential_pct": 2.1,
       "advice": "🟡 ASTOR ortalama bir hisse (skor 63.1/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -581,24 +581,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -2.6,
-        "direction": "NEUTRAL",
+        "score": -31.7,
+        "direction": "SHORT",
         "breakdown": {
           "gap": 1.3,
-          "orb": 0.0,
-          "vwap": -3.0,
+          "orb": -80.0,
+          "vwap": -40.2,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": -50.0
         },
         "intraday": {
-          "last_price": 57.55,
+          "last_price": 56.85,
           "stop_long": 57.4,
           "stop_short": 58.25,
-          "target_long": 57.85,
-          "target_short": 56.15,
-          "atr_pct": 6.39
+          "target_long": 55.75,
+          "target_short": 54.05,
+          "atr_pct": 6.47
         }
       },
       "long_alarm": {
@@ -614,7 +614,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 0.3,
+      "estimated_potential_pct": 4.1,
       "advice": "🟡 MAGEN ortalama bir hisse (skor 62.5/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -641,18 +641,18 @@
         "breakdown": {
           "gap": 21.3,
           "orb": 0.0,
-          "vwap": 1.2,
+          "vwap": 1.5,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 77.9,
+          "last_price": 77.95,
           "stop_long": 77.45,
           "stop_short": 79.0,
-          "target_long": 78.8,
-          "target_short": 75.7,
+          "target_long": 78.95,
+          "target_short": 75.85,
           "atr_pct": 5.61
         }
       },
@@ -691,24 +691,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -21.6,
+        "score": 0.8,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": -3.6,
-          "orb": -80.0,
-          "vwap": -15.0,
+          "orb": 0.0,
+          "vwap": 27.9,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 41.22,
+          "last_price": 41.82,
           "stop_long": 41.28,
           "stop_short": 41.88,
-          "target_long": 41.1,
-          "target_short": 39.9,
-          "atr_pct": 3.69
+          "target_long": 42.9,
+          "target_short": 41.7,
+          "atr_pct": 3.7
         }
       },
       "long_alarm": {
@@ -724,7 +724,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.6,
+      "estimated_potential_pct": 0.1,
       "advice": "🟡 MAVI ortalama bir hisse (skor 60.6/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -746,24 +746,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -21.1,
+        "score": -19.0,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 3.0,
           "orb": -80.0,
-          "vwap": -22.2,
+          "vwap": -8.1,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 49.04,
+          "last_price": 49.2,
           "stop_long": 49.76,
           "stop_short": 50.45,
-          "target_long": 47.6,
-          "target_short": 46.22,
-          "atr_pct": 4.29
+          "target_long": 48.08,
+          "target_short": 46.7,
+          "atr_pct": 4.27
         }
       },
       "long_alarm": {
@@ -779,63 +779,8 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.8,
+      "estimated_potential_pct": 1.6,
       "advice": "🟡 SOKM ortalama bir hisse (skor 59.8/100). Acelesi yok, daha güçlü sinyal bekle."
-    },
-    {
-      "ticker": "BRSAN",
-      "sector": "Steel",
-      "layer": "Swing",
-      "weight_pct": 1.4,
-      "foreign_ratio_pct": 17.72,
-      "long_conviction": {
-        "score": 58.1,
-        "breakdown": {
-          "fundamental": 50.0,
-          "momentum": 78.0,
-          "f_score": 50.0,
-          "foreign": 60.0,
-          "overlap": 60.0,
-          "tech": 50.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 4.5,
-        "direction": "NEUTRAL",
-        "breakdown": {
-          "gap": 9.6,
-          "orb": 0.0,
-          "vwap": 30.6,
-          "rsi": -25.0,
-          "fund_filter": 0.0,
-          "news": 0,
-          "volume": 0.0
-        },
-        "intraday": {
-          "last_price": 489.5,
-          "stop_long": 470.75,
-          "stop_short": 489.75,
-          "target_long": 527.0,
-          "target_short": 489.0,
-          "atr_pct": 6.68
-        }
-      },
-      "long_alarm": {
-        "tier": "ORTA",
-        "icon": "🟡",
-        "desc": "sessiz push",
-        "threshold": 50
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 0.6,
-      "advice": "🟡 BRSAN ortalama bir hisse (skor 58.1/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
       "ticker": "MIATK",
@@ -856,12 +801,12 @@
         }
       },
       "day_trade_conviction": {
-        "score": 39.4,
+        "score": 38.7,
         "direction": "LONG",
         "breakdown": {
           "gap": 33.0,
           "orb": 80.0,
-          "vwap": 67.5,
+          "vwap": 63.0,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
@@ -889,7 +834,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 6.3,
+      "estimated_potential_pct": 6.2,
       "advice": "🟡 MIATK ortalama bir hisse (skor 57.9/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -911,24 +856,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 21.5,
+        "score": 19.7,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 17.4,
           "orb": 80.0,
-          "vwap": 24.6,
+          "vwap": 12.6,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 84.85,
+          "last_price": 84.65,
           "stop_long": 82.95,
           "stop_short": 84.35,
-          "target_long": 88.65,
-          "target_short": 85.85,
-          "atr_pct": 4.81
+          "target_long": 88.05,
+          "target_short": 85.25,
+          "atr_pct": 4.87
         }
       },
       "long_alarm": {
@@ -944,7 +889,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 2.1,
+      "estimated_potential_pct": 1.9,
       "advice": "🟡 ECILC ortalama bir hisse (skor 57.9/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -966,24 +911,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -9.3,
+        "score": -11.2,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": -30.9,
           "orb": 0.0,
-          "vwap": 6.0,
+          "vwap": -6.6,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 235.6,
+          "last_price": 234.2,
           "stop_long": 234.0,
           "stop_short": 239.0,
-          "target_long": 238.8,
-          "target_short": 228.8,
-          "atr_pct": 3.87
+          "target_long": 234.6,
+          "target_short": 224.6,
+          "atr_pct": 3.89
         }
       },
       "long_alarm": {
@@ -999,7 +944,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 0.7,
+      "estimated_potential_pct": 0.9,
       "advice": "🟡 TUPRS ortalama bir hisse (skor 57.4/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -1007,7 +952,7 @@
       "sector": "Aviation",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 70.45,
+      "foreign_ratio_pct": 70.16,
       "long_conviction": {
         "score": 57.1,
         "breakdown": {
@@ -1021,24 +966,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -11.3,
+        "score": 11.9,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 40.2,
-          "orb": -80.0,
-          "vwap": -19.2,
+          "orb": 0.0,
+          "vwap": 28.8,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 255.75,
+          "last_price": 260.5,
           "stop_long": 257.25,
           "stop_short": 262.25,
-          "target_long": 252.75,
-          "target_short": 242.75,
-          "atr_pct": 4.86
+          "target_long": 267.0,
+          "target_short": 257.0,
+          "atr_pct": 4.83
         }
       },
       "long_alarm": {
@@ -1056,6 +1001,61 @@
       "is_golden_pick": false,
       "estimated_potential_pct": 1.1,
       "advice": "🟡 TAVHL ortalama bir hisse (skor 57.1/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "BRSAN",
+      "sector": "Steel",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 14.3,
+      "long_conviction": {
+        "score": 56.6,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 78.0,
+          "f_score": 50.0,
+          "foreign": 45.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 3.6,
+        "direction": "NEUTRAL",
+        "breakdown": {
+          "gap": 9.6,
+          "orb": 0.0,
+          "vwap": 24.6,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": 0.0
+        },
+        "intraday": {
+          "last_price": 489.75,
+          "stop_long": 470.75,
+          "stop_short": 489.75,
+          "target_long": 527.75,
+          "target_short": 489.75,
+          "atr_pct": 6.75
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 0.5,
+      "advice": "🟡 BRSAN ortalama bir hisse (skor 56.6/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
       "ticker": "CCOLA",
@@ -1076,12 +1076,12 @@
         }
       },
       "day_trade_conviction": {
-        "score": 2.1,
+        "score": 2.4,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 0.9,
           "orb": 0.0,
-          "vwap": -3.9,
+          "vwap": -2.4,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
@@ -1131,24 +1131,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 4.5,
+        "score": 23.1,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 4.2,
-          "orb": 0.0,
-          "vwap": 6.3,
+          "orb": 80.0,
+          "vwap": 23.4,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 362.0,
+          "last_price": 364.75,
           "stop_long": 356.0,
           "stop_short": 362.5,
-          "target_long": 374.0,
-          "target_short": 361.0,
-          "atr_pct": 6.3
+          "target_long": 382.25,
+          "target_short": 369.25,
+          "atr_pct": 6.25
         }
       },
       "long_alarm": {
@@ -1164,7 +1164,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 0.6,
+      "estimated_potential_pct": 2.9,
       "advice": "🟡 ECZYT ortalama bir hisse (skor 55.0/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -1172,7 +1172,7 @@
       "sector": "Banking",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 35.01,
+      "foreign_ratio_pct": 34.28,
       "long_conviction": {
         "score": 54.5,
         "breakdown": {
@@ -1186,24 +1186,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -15.8,
+        "score": 3.7,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 15.5,
-          "orb": -80.0,
-          "vwap": -7.8,
+          "orb": 0.0,
+          "vwap": 15.9,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 32.9,
+          "last_price": 33.16,
           "stop_long": 32.92,
           "stop_short": 33.44,
-          "target_long": 32.86,
-          "target_short": 31.82,
-          "atr_pct": 5.7
+          "target_long": 33.64,
+          "target_short": 32.6,
+          "atr_pct": 5.73
         }
       },
       "long_alarm": {
@@ -1219,15 +1219,70 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.8,
+      "estimated_potential_pct": 0.4,
       "advice": "🟡 YKBNK ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "TOASO",
+      "sector": "Automotive",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 30.91,
+      "long_conviction": {
+        "score": 54.5,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 54.8,
+          "f_score": 50.0,
+          "foreign": 70.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -2.2,
+        "direction": "NEUTRAL",
+        "breakdown": {
+          "gap": 5.0,
+          "orb": 0.0,
+          "vwap": -39.3,
+          "rsi": 25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": 0.0
+        },
+        "intraday": {
+          "last_price": 301.0,
+          "stop_long": 300.75,
+          "stop_short": 306.5,
+          "target_long": 301.5,
+          "target_short": 290.0,
+          "atr_pct": 5.33
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 0.2,
+      "advice": "🟡 TOASO ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
       "ticker": "AKBNK",
       "sector": "Banking",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 53.31,
+      "foreign_ratio_pct": 53.08,
       "long_conviction": {
         "score": 54.5,
         "breakdown": {
@@ -1241,24 +1296,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 1.2,
+        "score": 22.3,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 14.1,
-          "orb": 0.0,
-          "vwap": 0.9,
+          "orb": 80.0,
+          "vwap": 35.4,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 64.05,
+          "last_price": 65.0,
           "stop_long": 63.7,
           "stop_short": 64.45,
-          "target_long": 64.75,
-          "target_short": 63.25,
-          "atr_pct": 4.7
+          "target_long": 67.6,
+          "target_short": 66.1,
+          "atr_pct": 4.88
         }
       },
       "long_alarm": {
@@ -1274,7 +1329,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 0.1,
+      "estimated_potential_pct": 2.2,
       "advice": "🟡 AKBNK ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -1296,24 +1351,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -19.4,
+        "score": -1.0,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 6.3,
-          "orb": -80.0,
-          "vwap": -16.8,
+          "orb": 0.0,
+          "vwap": -0.3,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 59.05,
+          "last_price": 59.35,
           "stop_long": 59.35,
           "stop_short": 60.2,
-          "target_long": 58.45,
-          "target_short": 56.75,
-          "atr_pct": 4.67
+          "target_long": 59.35,
+          "target_short": 57.65,
+          "atr_pct": 4.65
         }
       },
       "long_alarm": {
@@ -1329,7 +1384,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.8,
+      "estimated_potential_pct": 0.1,
       "advice": "🟡 TTKOM ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -1356,19 +1411,19 @@
         "breakdown": {
           "gap": 2.2,
           "orb": -80.0,
-          "vwap": -35.4,
+          "vwap": -34.8,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 677.0,
+          "last_price": 676.0,
           "stop_long": 680.5,
           "stop_short": 690.5,
-          "target_long": 670.0,
-          "target_short": 650.0,
-          "atr_pct": 4.33
+          "target_long": 667.0,
+          "target_short": 647.0,
+          "atr_pct": 4.41
         }
       },
       "long_alarm": {
@@ -1392,7 +1447,7 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 4.0,
-      "foreign_ratio_pct": 47.48,
+      "foreign_ratio_pct": 47.4,
       "long_conviction": {
         "score": 53.7,
         "breakdown": {
@@ -1406,24 +1461,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -25.6,
+        "score": -24.1,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 0.9,
           "orb": -80.0,
-          "vwap": -48.9,
+          "vwap": -39.0,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 379.5,
+          "last_price": 378.25,
           "stop_long": 390.0,
           "stop_short": 397.5,
-          "target_long": 358.5,
-          "target_short": 343.5,
-          "atr_pct": 5.03
+          "target_long": 354.75,
+          "target_short": 339.75,
+          "atr_pct": 5.22
         }
       },
       "long_alarm": {
@@ -1439,7 +1494,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 2.6,
+      "estimated_potential_pct": 2.5,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 53.7/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -1461,23 +1516,23 @@
         }
       },
       "day_trade_conviction": {
-        "score": -12.0,
+        "score": -12.2,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 10.1,
           "orb": -80.0,
-          "vwap": -6.6,
+          "vwap": -8.1,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 96.85,
+          "last_price": 96.8,
           "stop_long": 96.9,
           "stop_short": 98.0,
-          "target_long": 96.75,
-          "target_short": 94.55,
+          "target_long": 96.6,
+          "target_short": 94.4,
           "atr_pct": 4.95
         }
       },
@@ -1516,24 +1571,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -18.6,
+        "score": -25.1,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 0.0,
           "orb": -80.0,
-          "vwap": -33.9,
-          "rsi": 25.0,
+          "vwap": -43.8,
+          "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 23.1,
+          "last_price": 22.74,
           "stop_long": 23.4,
           "stop_short": 23.72,
-          "target_long": 22.5,
-          "target_short": 21.86,
-          "atr_pct": 6.13
+          "target_long": 21.42,
+          "target_short": 20.78,
+          "atr_pct": 6.53
         }
       },
       "long_alarm": {
@@ -1549,70 +1604,15 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 2.3,
+      "estimated_potential_pct": 3.3,
       "advice": "🟡 DOHOL ortalama bir hisse (skor 52.8/100). Acelesi yok, daha güçlü sinyal bekle."
-    },
-    {
-      "ticker": "TOASO",
-      "sector": "Automotive",
-      "layer": "Swing",
-      "weight_pct": 1.4,
-      "foreign_ratio_pct": null,
-      "long_conviction": {
-        "score": 52.5,
-        "breakdown": {
-          "fundamental": 50.0,
-          "momentum": 54.8,
-          "f_score": 50.0,
-          "foreign": 50.0,
-          "overlap": 60.0,
-          "tech": 50.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 0.4,
-        "direction": "NEUTRAL",
-        "breakdown": {
-          "gap": 5.0,
-          "orb": 0.0,
-          "vwap": -22.2,
-          "rsi": 25.0,
-          "fund_filter": 0.0,
-          "news": 0,
-          "volume": 0.0
-        },
-        "intraday": {
-          "last_price": 303.5,
-          "stop_long": 300.75,
-          "stop_short": 306.5,
-          "target_long": 309.0,
-          "target_short": 297.5,
-          "atr_pct": 5.21
-        }
-      },
-      "long_alarm": {
-        "tier": "ORTA",
-        "icon": "🟡",
-        "desc": "sessiz push",
-        "threshold": 50
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 0.0,
-      "advice": "🟡 TOASO ortalama bir hisse (skor 52.5/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
       "ticker": "FROTO",
       "sector": "Automotive",
       "layer": "Long",
       "weight_pct": 4.0,
-      "foreign_ratio_pct": 35.75,
+      "foreign_ratio_pct": 33.59,
       "long_conviction": {
         "score": 51.3,
         "breakdown": {
@@ -1626,23 +1626,23 @@
         }
       },
       "day_trade_conviction": {
-        "score": -18.4,
+        "score": -18.2,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 8.7,
           "orb": -80.0,
-          "vwap": -13.8,
+          "vwap": -12.6,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 86.65,
+          "last_price": 86.55,
           "stop_long": 86.75,
           "stop_short": 87.8,
-          "target_long": 86.45,
-          "target_short": 84.35,
+          "target_long": 86.15,
+          "target_short": 84.05,
           "atr_pct": 4.18
         }
       },
@@ -1681,24 +1681,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 1.6,
+        "score": 4.2,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 0.0,
           "orb": 0.0,
-          "vwap": -5.7,
+          "vwap": 11.1,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 9.12,
+          "last_price": 9.17,
           "stop_long": 9.1,
           "stop_short": 9.21,
-          "target_long": 9.16,
-          "target_short": 8.94,
-          "atr_pct": 3.62
+          "target_long": 9.31,
+          "target_short": 9.09,
+          "atr_pct": 3.6
         }
       },
       "long_alarm": {
@@ -1714,7 +1714,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 0.1,
+      "estimated_potential_pct": 0.3,
       "advice": "⚪ AKSGY şu an aktif sinyal vermiyor (skor 49.2/100). Geç."
     }
   ]
