@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T20:34:04",
+  "generated_at": "2026-05-27T13:46:35",
   "summary": {
     "total": 31,
     "golden_picks": 0,
@@ -581,13 +581,13 @@
         }
       },
       "day_trade_conviction": {
-        "score": 31.9,
-        "direction": "LONG",
+        "score": 26.9,
+        "direction": "NEUTRAL",
         "breakdown": {
           "gap": 0.0,
           "orb": 80.0,
           "vwap": 39.0,
-          "rsi": 25.0,
+          "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 50.0
@@ -614,7 +614,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 3.9,
+      "estimated_potential_pct": 3.3,
       "advice": "🟡 MAGEN ortalama bir hisse (skor 62.5/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -1241,13 +1241,13 @@
         }
       },
       "day_trade_conviction": {
-        "score": -31.6,
-        "direction": "SHORT",
+        "score": -26.6,
+        "direction": "NEUTRAL",
         "breakdown": {
           "gap": -9.9,
           "orb": -80.0,
           "vwap": -21.0,
-          "rsi": -25.0,
+          "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": -50.0
@@ -1274,7 +1274,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 3.2,
+      "estimated_potential_pct": 2.7,
       "advice": "🟡 TOASO ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {

@@ -166,61 +166,6 @@
       "advice": "🟡 SOKM ortalama bir hisse (skor 59.8/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
-      "ticker": "MAGEN",
-      "sector": "Energy",
-      "layer": "Swing",
-      "weight_pct": 1.4,
-      "foreign_ratio_pct": 16.3,
-      "long_conviction": {
-        "score": 62.5,
-        "breakdown": {
-          "fundamental": 50.0,
-          "momentum": 100.0,
-          "f_score": 50.0,
-          "foreign": 60.0,
-          "overlap": 60.0,
-          "tech": 50.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 31.9,
-        "direction": "LONG",
-        "breakdown": {
-          "gap": 0.0,
-          "orb": 80.0,
-          "vwap": 39.0,
-          "rsi": 25.0,
-          "fund_filter": 0.0,
-          "news": 0,
-          "volume": 50.0
-        },
-        "intraday": {
-          "last_price": 61.1,
-          "stop_long": 58.35,
-          "stop_short": 59.0,
-          "target_long": 66.6,
-          "target_short": 65.3,
-          "atr_pct": 6.07
-        }
-      },
-      "long_alarm": {
-        "tier": "ORTA",
-        "icon": "🟡",
-        "desc": "sessiz push",
-        "threshold": 50
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 3.9,
-      "advice": "🟡 MAGEN ortalama bir hisse (skor 62.5/100). Acelesi yok, daha güçlü sinyal bekle."
-    },
-    {
       "ticker": "AKBNK",
       "sector": "Banking",
       "layer": "Swing",
@@ -274,61 +219,6 @@
       "is_golden_pick": false,
       "estimated_potential_pct": 3.2,
       "advice": "🟡 AKBNK ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
-    },
-    {
-      "ticker": "TOASO",
-      "sector": "Automotive",
-      "layer": "Swing",
-      "weight_pct": 1.4,
-      "foreign_ratio_pct": 31.08,
-      "long_conviction": {
-        "score": 54.5,
-        "breakdown": {
-          "fundamental": 50.0,
-          "momentum": 54.8,
-          "f_score": 50.0,
-          "foreign": 70.0,
-          "overlap": 60.0,
-          "tech": 50.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": -31.6,
-        "direction": "SHORT",
-        "breakdown": {
-          "gap": -9.9,
-          "orb": -80.0,
-          "vwap": -21.0,
-          "rsi": -25.0,
-          "fund_filter": 0.0,
-          "news": 0,
-          "volume": -50.0
-        },
-        "intraday": {
-          "last_price": 296.0,
-          "stop_long": 297.0,
-          "stop_short": 303.25,
-          "target_long": 294.0,
-          "target_short": 281.5,
-          "atr_pct": 5.07
-        }
-      },
-      "long_alarm": {
-        "tier": "ORTA",
-        "icon": "🟡",
-        "desc": "sessiz push",
-        "threshold": 50
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 3.2,
-      "advice": "🟡 TOASO ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
       "ticker": "ASELS",
