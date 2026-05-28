@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T20:10:16",
+  "generated_at": "2026-05-28T13:50:51",
   "summary": {
     "total": 31,
     "golden_picks": 0,
@@ -196,13 +196,13 @@
         }
       },
       "day_trade_conviction": {
-        "score": -27.5,
+        "score": -22.5,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": -2.6,
           "orb": -80.0,
           "vwap": -22.5,
-          "rsi": -25.0,
+          "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": -50.0
@@ -229,7 +229,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 3.1,
+      "estimated_potential_pct": 2.5,
       "advice": "✅ GUBRF mantıklı bir uzun pozisyon (skor 70.6/100). Sermayenin küçük bir kısmıyla başla."
     },
     {
@@ -1241,13 +1241,13 @@
         }
       },
       "day_trade_conviction": {
-        "score": -26.6,
-        "direction": "NEUTRAL",
+        "score": -31.6,
+        "direction": "SHORT",
         "breakdown": {
           "gap": -9.9,
           "orb": -80.0,
           "vwap": -21.0,
-          "rsi": 25.0,
+          "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": -50.0
@@ -1274,7 +1274,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 2.7,
+      "estimated_potential_pct": 3.2,
       "advice": "🟡 TOASO ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -1516,13 +1516,13 @@
         }
       },
       "day_trade_conviction": {
-        "score": -24.0,
+        "score": -29.0,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": -3.1,
           "orb": -80.0,
           "vwap": -14.7,
-          "rsi": 25.0,
+          "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": -50.0
@@ -1549,7 +1549,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 2.2,
+      "estimated_potential_pct": 2.6,
       "advice": "🟡 ALARK ortalama bir hisse (skor 53.6/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
@@ -1626,13 +1626,13 @@
         }
       },
       "day_trade_conviction": {
-        "score": -22.5,
+        "score": -15.0,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": -3.5,
           "orb": -80.0,
           "vwap": -21.0,
-          "rsi": -25.0,
+          "rsi": 50.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
@@ -1659,7 +1659,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.9,
+      "estimated_potential_pct": 1.3,
       "advice": "🟡 FROTO ortalama bir hisse (skor 51.3/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {

@@ -221,6 +221,61 @@
       "advice": "🟡 AKBNK ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
+      "ticker": "TOASO",
+      "sector": "Automotive",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 31.08,
+      "long_conviction": {
+        "score": 54.5,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 54.8,
+          "f_score": 50.0,
+          "foreign": 70.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -31.6,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": -9.9,
+          "orb": -80.0,
+          "vwap": -21.0,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 296.0,
+          "stop_long": 297.0,
+          "stop_short": 303.25,
+          "target_long": 294.0,
+          "target_short": 281.5,
+          "atr_pct": 5.07
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 3.2,
+      "advice": "🟡 TOASO ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
       "ticker": "ASELS",
       "sector": "Defense",
       "layer": "Long+Swing",
