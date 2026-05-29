@@ -668,7 +668,7 @@
       "weight_pct": 5.4,
       "foreign_ratio_pct": 45.28,
       "long_conviction": {
-        "score": 60.6,
+        "score": 59.8,
         "breakdown": {
           "fundamental": 47.7,
           "momentum": 52.2,
@@ -676,11 +676,11 @@
           "foreign": 70.0,
           "overlap": 100.0,
           "tech": 80.0,
-          "news": 50.0
+          "news": 35.0
         }
       },
       "day_trade_conviction": {
-        "score": -20.4,
+        "score": -22.7,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 23.2,
@@ -688,7 +688,7 @@
           "vwap": -1.5,
           "rsi": -25.0,
           "fund_filter": 0.0,
-          "news": 0,
+          "news": -45,
           "volume": -50.0
         },
         "intraday": {
@@ -713,8 +713,8 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 0.8,
-      "advice": "🟡 MAVI ortalama bir hisse (skor 60.6/100). Acelesi yok, daha güçlü sinyal bekle."
+      "estimated_potential_pct": 0.9,
+      "advice": "🟡 MAVI ortalama bir hisse (skor 59.8/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
       "ticker": "SOKM",
@@ -1707,5 +1707,5 @@
       "advice": "⚪ AKSGY şu an aktif sinyal vermiyor (skor 49.2/100). Geç."
     }
   ],
-  "generated_at": "2026-05-29T12:58:35+00:00"
+  "generated_at": "2026-05-29T17:38:51+00:00"
 }
