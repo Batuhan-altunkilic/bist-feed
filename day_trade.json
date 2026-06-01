@@ -1,3 +1,114 @@
 {
-  "items": []
+  "items": [
+    {
+      "ticker": "HALKB",
+      "sector": "Banking",
+      "layer": "Long+Swing",
+      "weight_pct": 5.4,
+      "foreign_ratio_pct": 0.57,
+      "long_conviction": {
+        "score": 73.3,
+        "breakdown": {
+          "fundamental": 84.4,
+          "momentum": 88.0,
+          "f_score": 33.3,
+          "foreign": 35.0,
+          "overlap": 100.0,
+          "tech": 60.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 40.3,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 39.1,
+          "orb": 80.0,
+          "vwap": 63.6,
+          "rsi": 25.0,
+          "fund_filter": 25.0,
+          "news": 0,
+          "volume": 0.0
+        },
+        "intraday": {
+          "last_price": 44.82,
+          "stop_long": 42.92,
+          "stop_short": 43.64,
+          "target_long": 48.62,
+          "target_short": 47.18,
+          "atr_pct": 1.74
+        }
+      },
+      "long_alarm": {
+        "tier": "YUKSEK",
+        "icon": "🟠",
+        "desc": "standart bildirim",
+        "threshold": 65
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 1.4,
+      "advice": "✅ HALKB mantıklı bir uzun pozisyon (skor 73.3/100). Sermayenin küçük bir kısmıyla başla."
+    },
+    {
+      "ticker": "TRGYO",
+      "sector": "REIT",
+      "layer": "Long",
+      "weight_pct": 4.0,
+      "foreign_ratio_pct": 20.63,
+      "long_conviction": {
+        "score": 69.1,
+        "breakdown": {
+          "fundamental": 100.0,
+          "momentum": 50.0,
+          "f_score": 55.6,
+          "foreign": 60.0,
+          "overlap": 60.0,
+          "tech": 60.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 32.2,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 16.7,
+          "orb": 80.0,
+          "vwap": 46.8,
+          "rsi": 25.0,
+          "fund_filter": 25.0,
+          "news": 0,
+          "volume": 0.0
+        },
+        "intraday": {
+          "last_price": 93.85,
+          "stop_long": 90.5,
+          "stop_short": 92.4,
+          "target_long": 100.55,
+          "target_short": 96.75,
+          "atr_pct": 1.61
+        }
+      },
+      "long_alarm": {
+        "tier": "YUKSEK",
+        "icon": "🟠",
+        "desc": "standart bildirim",
+        "threshold": 65
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 1.0,
+      "advice": "✅ TRGYO mantıklı bir uzun pozisyon (skor 69.1/100). Sermayenin küçük bir kısmıyla başla."
+    }
+  ]
 }
