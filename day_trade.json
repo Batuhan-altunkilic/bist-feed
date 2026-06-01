@@ -5,7 +5,7 @@
       "sector": "Tech",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 5.65,
+      "foreign_ratio_pct": 6.51,
       "long_conviction": {
         "score": 57.9,
         "breakdown": {
@@ -60,7 +60,7 @@
       "sector": "Energy",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 5.54,
+      "foreign_ratio_pct": 5.68,
       "long_conviction": {
         "score": 61.0,
         "breakdown": {
@@ -115,7 +115,7 @@
       "sector": "Steel",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 12.58,
+      "foreign_ratio_pct": 12.33,
       "long_conviction": {
         "score": 56.6,
         "breakdown": {
@@ -170,7 +170,7 @@
       "sector": "Holding",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 26.98,
+      "foreign_ratio_pct": 27.04,
       "long_conviction": {
         "score": 52.8,
         "breakdown": {
@@ -225,7 +225,7 @@
       "sector": "REIT",
       "layer": "Long",
       "weight_pct": 4.0,
-      "foreign_ratio_pct": 20.63,
+      "foreign_ratio_pct": 20.51,
       "long_conviction": {
         "score": 69.1,
         "breakdown": {
@@ -280,7 +280,7 @@
       "sector": "Banking",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 0.57,
+      "foreign_ratio_pct": 0.6,
       "long_conviction": {
         "score": 73.3,
         "breakdown": {
@@ -335,7 +335,7 @@
       "sector": "Energy",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 16.3,
+      "foreign_ratio_pct": 16.1,
       "long_conviction": {
         "score": 62.5,
         "breakdown": {

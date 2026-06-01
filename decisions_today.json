@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T19:25:31",
+  "generated_at": "2026-06-01T22:27:33",
   "summary": {
     "total": 31,
     "golden_picks": 0,
@@ -13,11 +13,66 @@
   },
   "decisions": [
     {
+      "ticker": "ASELS",
+      "sector": "Defense",
+      "layer": "Long+Swing",
+      "weight_pct": 5.4,
+      "foreign_ratio_pct": 58.07,
+      "long_conviction": {
+        "score": 73.8,
+        "breakdown": {
+          "fundamental": 47.4,
+          "momentum": 92.8,
+          "f_score": 55.6,
+          "foreign": 80.0,
+          "overlap": 100.0,
+          "tech": 100.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -26.6,
+        "direction": "NEUTRAL",
+        "breakdown": {
+          "gap": 18.8,
+          "orb": -80.0,
+          "vwap": -35.4,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 384.5,
+          "stop_long": 385.0,
+          "stop_short": 398.25,
+          "target_long": 383.5,
+          "target_short": 357.0,
+          "atr_pct": 1.91
+        }
+      },
+      "long_alarm": {
+        "tier": "YUKSEK",
+        "icon": "🟠",
+        "desc": "standart bildirim",
+        "threshold": 65
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 1.0,
+      "advice": "✅ ASELS mantıklı bir uzun pozisyon (skor 73.8/100). Sermayenin küçük bir kısmıyla başla."
+    },
+    {
       "ticker": "HALKB",
       "sector": "Banking",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 0.57,
+      "foreign_ratio_pct": 0.6,
       "long_conviction": {
         "score": 73.3,
         "breakdown": {
@@ -123,66 +178,11 @@
       "advice": "✅ EKGYO mantıklı bir uzun pozisyon (skor 73.0/100). Sermayenin küçük bir kısmıyla başla."
     },
     {
-      "ticker": "ASELS",
-      "sector": "Defense",
-      "layer": "Long+Swing",
-      "weight_pct": 5.4,
-      "foreign_ratio_pct": null,
-      "long_conviction": {
-        "score": 70.8,
-        "breakdown": {
-          "fundamental": 47.4,
-          "momentum": 92.8,
-          "f_score": 55.6,
-          "foreign": 50.0,
-          "overlap": 100.0,
-          "tech": 100.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": -26.6,
-        "direction": "NEUTRAL",
-        "breakdown": {
-          "gap": 18.8,
-          "orb": -80.0,
-          "vwap": -35.4,
-          "rsi": -25.0,
-          "fund_filter": 0.0,
-          "news": 0,
-          "volume": -50.0
-        },
-        "intraday": {
-          "last_price": 384.5,
-          "stop_long": 385.0,
-          "stop_short": 398.25,
-          "target_long": 383.5,
-          "target_short": 357.0,
-          "atr_pct": 1.91
-        }
-      },
-      "long_alarm": {
-        "tier": "YUKSEK",
-        "icon": "🟠",
-        "desc": "standart bildirim",
-        "threshold": 65
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 1.0,
-      "advice": "✅ ASELS mantıklı bir uzun pozisyon (skor 70.8/100). Sermayenin küçük bir kısmıyla başla."
-    },
-    {
       "ticker": "GUBRF",
       "sector": "Chemicals",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 12.22,
+      "foreign_ratio_pct": 12.16,
       "long_conviction": {
         "score": 70.6,
         "breakdown": {
@@ -237,7 +237,7 @@
       "sector": "Banking",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 2.62,
+      "foreign_ratio_pct": 2.55,
       "long_conviction": {
         "score": 70.4,
         "breakdown": {
@@ -292,7 +292,7 @@
       "sector": "Construction",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 28.31,
+      "foreign_ratio_pct": 28.12,
       "long_conviction": {
         "score": 70.1,
         "breakdown": {
@@ -347,7 +347,7 @@
       "sector": "Tech",
       "layer": "Long",
       "weight_pct": 4.0,
-      "foreign_ratio_pct": 34.01,
+      "foreign_ratio_pct": 34.02,
       "long_conviction": {
         "score": 70.1,
         "breakdown": {
@@ -402,7 +402,7 @@
       "sector": "REIT",
       "layer": "Long",
       "weight_pct": 4.0,
-      "foreign_ratio_pct": 20.63,
+      "foreign_ratio_pct": 20.51,
       "long_conviction": {
         "score": 69.1,
         "breakdown": {
@@ -457,14 +457,14 @@
       "sector": "Banking",
       "layer": "Long",
       "weight_pct": 4.0,
-      "foreign_ratio_pct": null,
+      "foreign_ratio_pct": 8.25,
       "long_conviction": {
-        "score": 67.5,
+        "score": 67.0,
         "breakdown": {
           "fundamental": 99.1,
           "momentum": 49.8,
           "f_score": 33.3,
-          "foreign": 50.0,
+          "foreign": 45.0,
           "overlap": 60.0,
           "tech": 80.0,
           "news": 50.0
@@ -505,14 +505,14 @@
       },
       "is_golden_pick": false,
       "estimated_potential_pct": 0.5,
-      "advice": "✅ GARAN mantıklı bir uzun pozisyon (skor 67.5/100). Sermayenin küçük bir kısmıyla başla."
+      "advice": "✅ GARAN mantıklı bir uzun pozisyon (skor 67.0/100). Sermayenin küçük bir kısmıyla başla."
     },
     {
       "ticker": "ASTOR",
       "sector": "Industrial",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 74.35,
+      "foreign_ratio_pct": 74.54,
       "long_conviction": {
         "score": 63.1,
         "breakdown": {
@@ -567,7 +567,7 @@
       "sector": "Energy",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 16.3,
+      "foreign_ratio_pct": 16.1,
       "long_conviction": {
         "score": 62.5,
         "breakdown": {
@@ -622,7 +622,7 @@
       "sector": "Energy",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 5.54,
+      "foreign_ratio_pct": 5.68,
       "long_conviction": {
         "score": 61.0,
         "breakdown": {
@@ -677,7 +677,7 @@
       "sector": "Retail",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 45.28,
+      "foreign_ratio_pct": 45.06,
       "long_conviction": {
         "score": 60.6,
         "breakdown": {
@@ -732,7 +732,7 @@
       "sector": "Retail",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 35.97,
+      "foreign_ratio_pct": 35.85,
       "long_conviction": {
         "score": 59.8,
         "breakdown": {
@@ -787,7 +787,7 @@
       "sector": "Tech",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 5.65,
+      "foreign_ratio_pct": 6.51,
       "long_conviction": {
         "score": 57.9,
         "breakdown": {
@@ -842,7 +842,7 @@
       "sector": "Pharma",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 6.89,
+      "foreign_ratio_pct": 7.25,
       "long_conviction": {
         "score": 57.9,
         "breakdown": {
@@ -897,7 +897,7 @@
       "sector": "Energy",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 41.82,
+      "foreign_ratio_pct": 41.91,
       "long_conviction": {
         "score": 57.4,
         "breakdown": {
@@ -952,7 +952,7 @@
       "sector": "Aviation",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 70.13,
+      "foreign_ratio_pct": 70.34,
       "long_conviction": {
         "score": 57.1,
         "breakdown": {
@@ -1007,7 +1007,7 @@
       "sector": "Steel",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 12.58,
+      "foreign_ratio_pct": 12.33,
       "long_conviction": {
         "score": 56.6,
         "breakdown": {
@@ -1062,7 +1062,7 @@
       "sector": "Beverages",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 82.3,
+      "foreign_ratio_pct": 82.26,
       "long_conviction": {
         "score": 56.2,
         "breakdown": {
@@ -1117,7 +1117,7 @@
       "sector": "Holding",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 4.5,
+      "foreign_ratio_pct": 4.51,
       "long_conviction": {
         "score": 55.0,
         "breakdown": {
@@ -1172,7 +1172,7 @@
       "sector": "Banking",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 34.29,
+      "foreign_ratio_pct": 34.26,
       "long_conviction": {
         "score": 54.5,
         "breakdown": {
@@ -1227,7 +1227,7 @@
       "sector": "Automotive",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 31.08,
+      "foreign_ratio_pct": 31.29,
       "long_conviction": {
         "score": 54.5,
         "breakdown": {
@@ -1282,7 +1282,7 @@
       "sector": "Banking",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 52.67,
+      "foreign_ratio_pct": 50.95,
       "long_conviction": {
         "score": 54.5,
         "breakdown": {
@@ -1337,7 +1337,7 @@
       "sector": "Telecom",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 51.24,
+      "foreign_ratio_pct": 51.28,
       "long_conviction": {
         "score": 54.5,
         "breakdown": {
@@ -1392,7 +1392,7 @@
       "sector": "Retail",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 43.21,
+      "foreign_ratio_pct": 42.97,
       "long_conviction": {
         "score": 54.1,
         "breakdown": {
@@ -1447,7 +1447,7 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 4.0,
-      "foreign_ratio_pct": 47.53,
+      "foreign_ratio_pct": 47.44,
       "long_conviction": {
         "score": 53.7,
         "breakdown": {
@@ -1502,7 +1502,7 @@
       "sector": "Holding",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 14.23,
+      "foreign_ratio_pct": 14.68,
       "long_conviction": {
         "score": 53.6,
         "breakdown": {
@@ -1557,7 +1557,7 @@
       "sector": "Holding",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 26.98,
+      "foreign_ratio_pct": 27.04,
       "long_conviction": {
         "score": 52.8,
         "breakdown": {
@@ -1612,7 +1612,7 @@
       "sector": "Automotive",
       "layer": "Long",
       "weight_pct": 4.0,
-      "foreign_ratio_pct": 32.73,
+      "foreign_ratio_pct": 32.33,
       "long_conviction": {
         "score": 51.3,
         "breakdown": {
@@ -1667,7 +1667,7 @@
       "sector": "REIT",
       "layer": "Long",
       "weight_pct": 4.0,
-      "foreign_ratio_pct": 6.27,
+      "foreign_ratio_pct": 6.26,
       "long_conviction": {
         "score": 49.2,
         "breakdown": {
