@@ -1,49 +1,49 @@
 {
   "items": [
     {
-      "ticker": "HALKB",
-      "sector": "Banking",
+      "ticker": "MIATK",
+      "sector": "Tech",
       "layer": "Long+Swing",
       "weight_pct": 5.4,
-      "foreign_ratio_pct": 0.57,
+      "foreign_ratio_pct": 5.65,
       "long_conviction": {
-        "score": 73.3,
+        "score": 57.9,
         "breakdown": {
-          "fundamental": 84.4,
-          "momentum": 88.0,
-          "f_score": 33.3,
-          "foreign": 35.0,
+          "fundamental": 57.6,
+          "momentum": 52.0,
+          "f_score": 22.2,
+          "foreign": 45.0,
           "overlap": 100.0,
           "tech": 60.0,
           "news": 50.0
         }
       },
       "day_trade_conviction": {
-        "score": 40.3,
+        "score": 43.5,
         "direction": "LONG",
         "breakdown": {
-          "gap": 39.1,
+          "gap": 58.2,
           "orb": 80.0,
-          "vwap": 63.6,
+          "vwap": 52.8,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 44.82,
-          "stop_long": 42.92,
-          "stop_short": 43.64,
-          "target_long": 48.62,
-          "target_short": 47.18,
-          "atr_pct": 1.74
+          "last_price": 54.95,
+          "stop_long": 51.4,
+          "stop_short": 54.25,
+          "target_long": 62.05,
+          "target_short": 56.35,
+          "atr_pct": 2.92
         }
       },
       "long_alarm": {
-        "tier": "YUKSEK",
-        "icon": "🟠",
-        "desc": "standart bildirim",
-        "threshold": 65
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
       },
       "day_alarm": {
         "tier": "NONE",
@@ -52,8 +52,173 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.4,
-      "advice": "✅ HALKB mantıklı bir uzun pozisyon (skor 73.3/100). Sermayenin küçük bir kısmıyla başla."
+      "estimated_potential_pct": 2.5,
+      "advice": "🟡 MIATK ortalama bir hisse (skor 57.9/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "AKSEN",
+      "sector": "Energy",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 5.54,
+      "long_conviction": {
+        "score": 61.0,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 100.0,
+          "f_score": 50.0,
+          "foreign": 45.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -36.3,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": 0.9,
+          "orb": -80.0,
+          "vwap": -70.2,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 77.55,
+          "stop_long": 79.2,
+          "stop_short": 80.5,
+          "target_long": 74.25,
+          "target_short": 71.65,
+          "atr_pct": 1.72
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 1.2,
+      "advice": "🟡 AKSEN ortalama bir hisse (skor 61.0/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "BRSAN",
+      "sector": "Steel",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 12.58,
+      "long_conviction": {
+        "score": 56.6,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 78.0,
+          "f_score": 50.0,
+          "foreign": 45.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 35.6,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 100.0,
+          "orb": 0.0,
+          "vwap": 4.2,
+          "rsi": 25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": 50.0
+        },
+        "intraday": {
+          "last_price": 537.5,
+          "stop_long": 537.5,
+          "stop_short": 537.5,
+          "target_long": 537.5,
+          "target_short": 537.5,
+          "atr_pct": 0.86
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 0.6,
+      "advice": "🟡 BRSAN ortalama bir hisse (skor 56.6/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "DOHOL",
+      "sector": "Holding",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 26.98,
+      "long_conviction": {
+        "score": 52.8,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 51.2,
+          "f_score": 50.0,
+          "foreign": 60.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -34.2,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": 0.0,
+          "orb": -80.0,
+          "vwap": -54.9,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 22.5,
+          "stop_long": 22.98,
+          "stop_short": 23.52,
+          "target_long": 21.54,
+          "target_short": 20.46,
+          "atr_pct": 1.8
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 1.2,
+      "advice": "🟡 DOHOL ortalama bir hisse (skor 52.8/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
       "ticker": "TRGYO",
@@ -74,24 +239,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 32.2,
+        "score": 33.1,
         "direction": "LONG",
         "breakdown": {
           "gap": 16.7,
           "orb": 80.0,
-          "vwap": 46.8,
+          "vwap": 3.0,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
-          "volume": 0.0
+          "volume": 50.0
         },
         "intraday": {
-          "last_price": 93.85,
+          "last_price": 92.75,
           "stop_long": 90.5,
           "stop_short": 92.4,
-          "target_long": 100.55,
-          "target_short": 96.75,
-          "atr_pct": 1.61
+          "target_long": 97.25,
+          "target_short": 93.45,
+          "atr_pct": 1.7
         }
       },
       "long_alarm": {
@@ -107,8 +272,118 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.0,
+      "estimated_potential_pct": 1.1,
       "advice": "✅ TRGYO mantıklı bir uzun pozisyon (skor 69.1/100). Sermayenin küçük bir kısmıyla başla."
+    },
+    {
+      "ticker": "HALKB",
+      "sector": "Banking",
+      "layer": "Long+Swing",
+      "weight_pct": 5.4,
+      "foreign_ratio_pct": 0.57,
+      "long_conviction": {
+        "score": 73.3,
+        "breakdown": {
+          "fundamental": 84.4,
+          "momentum": 88.0,
+          "f_score": 33.3,
+          "foreign": 35.0,
+          "overlap": 100.0,
+          "tech": 60.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 31.4,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 39.1,
+          "orb": 80.0,
+          "vwap": -20.7,
+          "rsi": 25.0,
+          "fund_filter": 25.0,
+          "news": 0,
+          "volume": 25.0
+        },
+        "intraday": {
+          "last_price": 43.76,
+          "stop_long": 42.92,
+          "stop_short": 43.64,
+          "target_long": 45.44,
+          "target_short": 44.0,
+          "atr_pct": 1.91
+        }
+      },
+      "long_alarm": {
+        "tier": "YUKSEK",
+        "icon": "🟠",
+        "desc": "standart bildirim",
+        "threshold": 65
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 1.2,
+      "advice": "✅ HALKB mantıklı bir uzun pozisyon (skor 73.3/100). Sermayenin küçük bir kısmıyla başla."
+    },
+    {
+      "ticker": "MAGEN",
+      "sector": "Energy",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 16.3,
+      "long_conviction": {
+        "score": 62.5,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 100.0,
+          "f_score": 50.0,
+          "foreign": 60.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 31.4,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 0.0,
+          "orb": 80.0,
+          "vwap": 36.3,
+          "rsi": 25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": 50.0
+        },
+        "intraday": {
+          "last_price": 63.7,
+          "stop_long": 60.15,
+          "stop_short": 62.2,
+          "target_long": 70.8,
+          "target_short": 66.7,
+          "atr_pct": 2.32
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 1.5,
+      "advice": "🟡 MAGEN ortalama bir hisse (skor 62.5/100). Acelesi yok, daha güçlü sinyal bekle."
     }
   ]
 }
