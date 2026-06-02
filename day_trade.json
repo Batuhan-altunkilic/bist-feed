@@ -1,61 +1,6 @@
 {
   "items": [
     {
-      "ticker": "VAKBN",
-      "sector": "Banking",
-      "layer": "Long+Swing",
-      "weight_pct": 5.4,
-      "foreign_ratio_pct": 2.55,
-      "long_conviction": {
-        "score": 70.4,
-        "breakdown": {
-          "fundamental": 87.4,
-          "momentum": 59.0,
-          "f_score": 33.3,
-          "foreign": 35.0,
-          "overlap": 100.0,
-          "tech": 80.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 41.5,
-        "direction": "LONG",
-        "breakdown": {
-          "gap": 20.2,
-          "orb": 80.0,
-          "vwap": 53.1,
-          "rsi": 25.0,
-          "fund_filter": 25.0,
-          "news": 0,
-          "volume": 50.0
-        },
-        "intraday": {
-          "last_price": 32.6,
-          "stop_long": 31.5,
-          "stop_short": 31.96,
-          "target_long": 34.8,
-          "target_short": 33.88,
-          "atr_pct": 1.45
-        }
-      },
-      "long_alarm": {
-        "tier": "YUKSEK",
-        "icon": "🟠",
-        "desc": "standart bildirim",
-        "threshold": 65
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 1.2,
-      "advice": "✅ VAKBN mantıklı bir uzun pozisyon (skor 70.4/100). Sermayenin küçük bir kısmıyla başla."
-    },
-    {
       "ticker": "HALKB",
       "sector": "Banking",
       "layer": "Long+Swing",
@@ -74,24 +19,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 40.9,
+        "score": 40.1,
         "direction": "LONG",
         "breakdown": {
           "gap": 26.9,
           "orb": 80.0,
-          "vwap": 87.6,
+          "vwap": 82.8,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 47.4,
+          "last_price": 47.84,
           "stop_long": 44.26,
           "stop_short": 45.42,
-          "target_long": 53.68,
-          "target_short": 51.36,
-          "atr_pct": 2.37
+          "target_long": 55.0,
+          "target_short": 52.68,
+          "atr_pct": 2.53
         }
       },
       "long_alarm": {
@@ -107,8 +52,63 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.9,
+      "estimated_potential_pct": 2.0,
       "advice": "✅ HALKB mantıklı bir uzun pozisyon (skor 73.3/100). Sermayenin küçük bir kısmıyla başla."
+    },
+    {
+      "ticker": "VAKBN",
+      "sector": "Banking",
+      "layer": "Long+Swing",
+      "weight_pct": 5.4,
+      "foreign_ratio_pct": 2.55,
+      "long_conviction": {
+        "score": 70.4,
+        "breakdown": {
+          "fundamental": 87.4,
+          "momentum": 59.0,
+          "f_score": 33.3,
+          "foreign": 35.0,
+          "overlap": 100.0,
+          "tech": 80.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 39.3,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 20.2,
+          "orb": 80.0,
+          "vwap": 88.2,
+          "rsi": 25.0,
+          "fund_filter": 25.0,
+          "news": 0,
+          "volume": 0.0
+        },
+        "intraday": {
+          "last_price": 33.76,
+          "stop_long": 31.5,
+          "stop_short": 31.96,
+          "target_long": 38.28,
+          "target_short": 37.36,
+          "atr_pct": 2.3
+        }
+      },
+      "long_alarm": {
+        "tier": "YUKSEK",
+        "icon": "🟠",
+        "desc": "standart bildirim",
+        "threshold": 65
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 1.8,
+      "advice": "✅ VAKBN mantıklı bir uzun pozisyon (skor 70.4/100). Sermayenin küçük bir kısmıyla başla."
     },
     {
       "ticker": "ASTOR",
@@ -129,24 +129,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 35.5,
+        "score": 39.2,
         "direction": "LONG",
         "breakdown": {
           "gap": 15.9,
           "orb": 80.0,
-          "vwap": 70.2,
+          "vwap": 94.8,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 356.25,
+          "last_price": 363.5,
           "stop_long": 331.75,
           "stop_short": 345.25,
-          "target_long": 405.25,
-          "target_short": 378.25,
-          "atr_pct": 2.86
+          "target_long": 427.0,
+          "target_short": 400.0,
+          "atr_pct": 3.08
         }
       },
       "long_alarm": {
@@ -162,118 +162,8 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 2.0,
+      "estimated_potential_pct": 2.4,
       "advice": "🟡 ASTOR ortalama bir hisse (skor 63.1/100). Acelesi yok, daha güçlü sinyal bekle."
-    },
-    {
-      "ticker": "YKBNK",
-      "sector": "Banking",
-      "layer": "Swing",
-      "weight_pct": 1.4,
-      "foreign_ratio_pct": 34.26,
-      "long_conviction": {
-        "score": 54.5,
-        "breakdown": {
-          "fundamental": 50.0,
-          "momentum": 55.0,
-          "f_score": 50.0,
-          "foreign": 70.0,
-          "overlap": 60.0,
-          "tech": 50.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 32.5,
-        "direction": "LONG",
-        "breakdown": {
-          "gap": 23.4,
-          "orb": 80.0,
-          "vwap": 37.5,
-          "rsi": -25.0,
-          "fund_filter": 0.0,
-          "news": 0,
-          "volume": 50.0
-        },
-        "intraday": {
-          "last_price": 34.86,
-          "stop_long": 33.88,
-          "stop_short": 34.48,
-          "target_long": 36.82,
-          "target_short": 35.62,
-          "atr_pct": 1.17
-        }
-      },
-      "long_alarm": {
-        "tier": "ORTA",
-        "icon": "🟡",
-        "desc": "sessiz push",
-        "threshold": 50
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 0.8,
-      "advice": "🟡 YKBNK ortalama bir hisse (skor 54.5/100). Acelesi yok, daha güçlü sinyal bekle."
-    },
-    {
-      "ticker": "GARAN",
-      "sector": "Banking",
-      "layer": "Long",
-      "weight_pct": 4.0,
-      "foreign_ratio_pct": 8.25,
-      "long_conviction": {
-        "score": 67.5,
-        "breakdown": {
-          "fundamental": 99.1,
-          "momentum": 49.8,
-          "f_score": 33.3,
-          "foreign": 45.0,
-          "overlap": 60.0,
-          "tech": 80.0,
-          "news": 60.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 30.5,
-        "direction": "LONG",
-        "breakdown": {
-          "gap": 14.5,
-          "orb": 80.0,
-          "vwap": 37.5,
-          "rsi": -25.0,
-          "fund_filter": 25.0,
-          "news": 30,
-          "volume": 25.0
-        },
-        "intraday": {
-          "last_price": 128.3,
-          "stop_long": 124.2,
-          "stop_short": 126.7,
-          "target_long": 136.5,
-          "target_short": 131.5,
-          "atr_pct": 1.36
-        }
-      },
-      "long_alarm": {
-        "tier": "YUKSEK",
-        "icon": "🟠",
-        "desc": "standart bildirim",
-        "threshold": 65
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 0.8,
-      "advice": "✅ GARAN mantıklı bir uzun pozisyon (skor 67.5/100). Sermayenin küçük bir kısmıyla başla."
     }
   ]
 }
