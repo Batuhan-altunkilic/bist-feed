@@ -1,6 +1,61 @@
 {
   "items": [
     {
+      "ticker": "BRSAN",
+      "sector": "Steel",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 11.61,
+      "long_conviction": {
+        "score": 56.6,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 78.0,
+          "f_score": 50.0,
+          "foreign": 45.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 41.2,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 23.7,
+          "orb": 80.0,
+          "vwap": 62.1,
+          "rsi": 25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": 50.0
+        },
+        "intraday": {
+          "last_price": 581.0,
+          "stop_long": 571.0,
+          "stop_short": 580.0,
+          "target_long": 601.0,
+          "target_short": 583.0,
+          "atr_pct": 3.94
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 3.2,
+      "advice": "🟡 BRSAN ortalama bir hisse (skor 56.6/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
       "ticker": "MAGEN",
       "sector": "Energy",
       "layer": "Swing",
@@ -19,12 +74,12 @@
         }
       },
       "day_trade_conviction": {
-        "score": -38.6,
+        "score": -38.4,
         "direction": "SHORT",
         "breakdown": {
           "gap": -33.5,
           "orb": -80.0,
-          "vwap": -78.3,
+          "vwap": -76.8,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
