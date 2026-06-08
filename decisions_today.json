@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T13:24:26",
+  "generated_at": "2026-06-08T13:53:24",
   "summary": {
     "total": 31,
     "golden_picks": 0,
@@ -79,7 +79,7 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**ASELS** (Defense) uzun vade skoru 74/100 (YUKSEK seviye). Skorun ana sürücüleri: fiyat momentumu çok güçlü (son haftalarda piyasayı yenmiş); sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); temel zayıf (skor 47/100). Önerilen stop: 433.25, hedef: 409.25."
+      "explanation": "**ASELS** (Defense) uzun vade skoru 74/100 (YUKSEK seviye). Skorun ana sürücüleri: fiyat momentumu çok güçlü (son haftalarda piyasayı yenmiş); sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); 52 haftalık zirveye çok yakın — breakout teyidi."
     },
     {
       "ticker": "HALKB",
@@ -148,7 +148,7 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**HALKB** (Banking) uzun vade skoru 73/100 (YUKSEK seviye). Skorun ana sürücüleri: temel göstergeler üst çeyrekte; fiyat momentumu çok güçlü (son haftalarda piyasayı yenmiş); sistem hem fundamental hem momentum katmanında onaylıyor (çift onay). Son haberler: 📰 \"HalkBank sonuçları açıklandı mı, ne zaman açıklanacak?\" (Dunya). Önerilen stop: 40.74, hedef: 42.06."
+      "explanation": "**HALKB** (Banking) uzun vade skoru 73/100 (YUKSEK seviye). Skorun ana sürücüleri: temel göstergeler üst çeyrekte; fiyat momentumu çok güçlü (son haftalarda piyasayı yenmiş); sistem hem fundamental hem momentum katmanında onaylıyor (çift onay). Son haberler: 📰 \"HalkBank sonuçları açıklandı mı, ne zaman açıklanacak?\" (Dunya)."
     },
     {
       "ticker": "EKGYO",
@@ -217,7 +217,7 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**EKGYO** (REIT) uzun vade skoru 73/100 (YUKSEK seviye). Skorun ana sürücüleri: temel göstergeler üst çeyrekte; sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); momentum nötr. **Gün içi sinyal SHORT yönlü** (skor -32); VIOP'ta sözleşmesi var, pozisyon açılabilir.. Gün içi destek: ORB short tetikleyicisi (açılış aralığı aşağı kırıldı); gap nötr (%-2.3). Önerilen stop: 21.72, hedef: 18.96."
+      "explanation": "**EKGYO** (REIT) uzun vade skoru 73/100 (YUKSEK seviye). Skorun ana sürücüleri: temel göstergeler üst çeyrekte; sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); teknik görünüm pozitif (52w yüksekten makul mesafede). **Gün içi sinyal SHORT yönlü** (skor -32); VIOP'ta sözleşmesi var, pozisyon açılabilir.. Gün içi SHORT pozisyonu açacaksan önerilen stop: 21.72, hedef: 18.96."
     },
     {
       "ticker": "GUBRF",
@@ -286,7 +286,7 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**GUBRF** (Chemicals) uzun vade skoru 71/100 (YUKSEK seviye). Skorun ana sürücüleri: temel görünüm ortalama; sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); momentum pozitif yönlü. Önerilen stop: 615.0, hedef: 571.5."
+      "explanation": "**GUBRF** (Chemicals) uzun vade skoru 71/100 (YUKSEK seviye). Skorun ana sürücüleri: sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); momentum pozitif yönlü; temel görünüm ortalama."
     },
     {
       "ticker": "VAKBN",
@@ -355,7 +355,7 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**VAKBN** (Banking) uzun vade skoru 70/100 (YUKSEK seviye). Skorun ana sürücüleri: VAKBN temel analizi çok güçlü (sektörün üst diliminde); sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); momentum nötr. Önerilen stop: 32.28, hedef: 31.86."
+      "explanation": "**VAKBN** (Banking) uzun vade skoru 70/100 (YUKSEK seviye). Skorun ana sürücüleri: VAKBN temel analizi çok güçlü (sektörün üst diliminde); sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); teknik görünüm pozitif (52w yüksekten makul mesafede)."
     },
     {
       "ticker": "ENKAI",
@@ -424,7 +424,7 @@
       },
       "is_shortable": false,
       "short_note": null,
-      "explanation": "**ENKAI** (Construction) uzun vade skoru 70/100 (YUKSEK seviye). Skorun ana sürücüleri: temel göstergeler üst çeyrekte; sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); momentum pozitif yönlü. Önerilen stop: 104.5, hedef: 96.1."
+      "explanation": "**ENKAI** (Construction) uzun vade skoru 70/100 (YUKSEK seviye). Skorun ana sürücüleri: sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); temel göstergeler üst çeyrekte; momentum pozitif yönlü."
     },
     {
       "ticker": "LOGO",
@@ -493,7 +493,7 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**LOGO** (Tech) uzun vade skoru 70/100 (YUKSEK seviye). Skorun ana sürücüleri: LOGO temel analizi çok güçlü (sektörün üst diliminde); momentum nötr; long-term katmanda yer alıyor. Önerilen stop: 163.0, hedef: 140.8."
+      "explanation": "**LOGO** (Tech) uzun vade skoru 70/100 (YUKSEK seviye). Skorun ana sürücüleri: LOGO temel analizi çok güçlü (sektörün üst diliminde); yabancı oranı %33 (sağlıklı seviye); long-term katmanda yer alıyor."
     },
     {
       "ticker": "TRGYO",
@@ -562,7 +562,7 @@
       },
       "is_shortable": false,
       "short_note": null,
-      "explanation": "**TRGYO** (REIT) uzun vade skoru 69/100 (YUKSEK seviye). Skorun ana sürücüleri: TRGYO temel analizi çok güçlü (sektörün üst diliminde); momentum nötr; long-term katmanda yer alıyor. Önerilen stop: 106.6, hedef: 94.3."
+      "explanation": "**TRGYO** (REIT) uzun vade skoru 69/100 (YUKSEK seviye). Skorun ana sürücüleri: TRGYO temel analizi çok güçlü (sektörün üst diliminde); long-term katmanda yer alıyor; yabancı oranı %22 (orta)."
     },
     {
       "ticker": "GARAN",
@@ -631,7 +631,7 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**GARAN** (Banking) uzun vade skoru 67/100 (YUKSEK seviye). Skorun ana sürücüleri: GARAN temel analizi çok güçlü (sektörün üst diliminde); momentum zayıf; long-term katmanda yer alıyor. Önerilen stop: 138.0, hedef: 132.0."
+      "explanation": "**GARAN** (Banking) uzun vade skoru 67/100 (YUKSEK seviye). Skorun ana sürücüleri: GARAN temel analizi çok güçlü (sektörün üst diliminde); teknik görünüm pozitif (52w yüksekten makul mesafede); long-term katmanda yer alıyor."
     },
     {
       "ticker": "ASTOR",
@@ -700,7 +700,7 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**ASTOR** (Industrial) uzun vade skoru 63/100 (ORTA seviye). Skorun ana sürücüleri: temel görünüm ortalama; sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); momentum pozitif yönlü. Önerilen stop: 334.5, hedef: 328.5."
+      "explanation": "**ASTOR** (Industrial) uzun vade skoru 63/100 (ORTA seviye). Skorun ana sürücüleri: sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); yabancı oranı %72 — kurumsal yatırımcı favorisi; teknik görünüm pozitif (52w yüksekten makul mesafede). Skoru aşağı çeken: Piotroski düşük (mali sağlamlık zayıf) (sürücüler bu zayıflığı kompanze ediyor)."
     },
     {
       "ticker": "MAGEN",
