@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-06-08T10:25:30+00:00",
+  "regime": {
+    "name": "NORMAL",
+    "exposure_multiplier": 1.0,
+    "usdtry": 42.94,
+    "usdtry_30d_vol_ann_pct": 1.2,
+    "usdtry_3m_mom_pct": 3.3,
+    "note": "✓ Normal exposure (1.0x) — sermayeyi olduğu gibi koy."
+  },
+  "allocation": {
+    "long_term_core_pct": 60.0,
+    "long_term_core_count": 15,
+    "long_term_core_desc": "15 hisse, PIT fundamental composite (Quality 50% + Value 25% + Growth 25%), 1-3 yıl tut, çeyreklik rebalance",
+    "swing_momentum_pct": 35.0,
+    "swing_momentum_count": 25,
+    "swing_momentum_desc": "25 hisse, momentum top-25 + sektör cap, aylık rebalance",
+    "cash_buffer_pct": 5.0,
+    "overlap_count": 9,
+    "overlap_desc": "hem Long hem Swing'de"
+  },
+  "sektor_dagilimi": [
+    {
+      "sektor": "Banking",
+      "yuzde": 17.6
+    },
+    {
+      "sektor": "REIT",
+      "yuzde": 13.4
+    },
+    {
+      "sektor": "Retail",
+      "yuzde": 12.2
+    },
+    {
+      "sektor": "Tech",
+      "yuzde": 9.4
+    },
+    {
+      "sektor": "Defense",
+      "yuzde": 5.4
+    },
+    {
+      "sektor": "Automotive",
+      "yuzde": 5.4
+    },
+    {
+      "sektor": "Construction",
+      "yuzde": 5.4
+    },
+    {
+      "sektor": "Chemicals",
+      "yuzde": 5.4
+    },
+    {
+      "sektor": "Industrial",
+      "yuzde": 5.4
+    },
+    {
+      "sektor": "Holding",
+      "yuzde": 4.2
+    },
+    {
+      "sektor": "Energy",
+      "yuzde": 4.2
+    },
+    {
+      "sektor": "Beverages",
+      "yuzde": 1.4
+    },
+    {
+      "sektor": "Aviation",
+      "yuzde": 1.4
+    },
+    {
+      "sektor": "Pharma",
+      "yuzde": 1.4
+    },
+    {
+      "sektor": "Steel",
+      "yuzde": 1.4
+    },
+    {
+      "sektor": "Telecom",
+      "yuzde": 1.4
+    }
+  ],
+  "layer_summary": [
+    {
+      "layer": "Long-Term Core",
+      "target_pct": 60.0,
+      "actual_pct": 72.6
+    },
+    {
+      "layer": "Swing Momentum",
+      "target_pct": 35.0,
+      "actual_pct": 71.0
+    },
+    {
+      "layer": "Cash",
+      "target_pct": 5.0,
+      "actual_pct": 5.0
+    }
+  ],
+  "risk_notes": {
+    "position_size": "Sermayen × %1 (tek emirde max risk)",
+    "stop": "Long için OR low, Short için OR high (kesin)",
+    "target": "Risk × 2 (2:1 R/R minimum)",
+    "exit": "Hedef geldiğinde, stop tetiklendiğinde, veya gün sonu (overnight tutma)",
+    "capital_warning": "BIST komisyonu round-trip %0.40. <50K TL hesapta day trade ekonomik değil — paper olarak öğren."
+  },
+  "implementation_notes": [
+    "$1K sermaye için minimum lot maliyeti yüzünden 5-8 pozisyona indirgemek gerekebilir; en yüksek ağırlıklı 5'i seç.",
+    "$5K+ sermaye için tablo doğrudan uygulanabilir.",
+    "Long pozisyonlar 3 ay tut; swing pozisyonlar 4-8 hafta.",
+    "Komisyon: BIST tipik %0.10-0.20 + spread. Algolab veya BIM borsa hesabı önerilir.",
+    "Vergi: %10 stopaj brüt × 0.90 net mantığıyla hesapla."
+  ],
+  "limitations": [
+    "Fundamental data İsyatırım'dan, point-in-time announce_date approximation: period_end + 50/70 gün.",
+    "Bu liste algoritmik analitik çıktısıdır, yatırım tavsiyesi değildir.",
+    "Survivorship bias mevcut (delisted hisseler dışında).",
+    "Reaktif risk overlay BIST'te çalışmadı (v3 testi); rejim-tabanlı overlay sıradaki adım.",
+    "Takas/yabancı oranı analizi henüz dahil değil (Yol 1'de eklenecek)."
+  ],
+  "universe": "BIST 100",
+  "production_date": "2026-05-12",
+  "data_cutoff_date": "2025-12-30",
+  "data_sources": "İsyatırım çeyreklik mali tablolar (TTM, PIT) + yfinance fiyat + USDTRY makro"
+}
