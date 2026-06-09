@@ -1,42 +1,42 @@
 {
   "items": [
     {
-      "ticker": "BRSAN",
-      "sector": "Steel",
-      "layer": "Swing",
-      "weight_pct": 1.4,
-      "foreign_ratio_pct": 10.38,
+      "ticker": "BIMAS",
+      "sector": "Retail",
+      "layer": "Long",
+      "weight_pct": 4.0,
+      "foreign_ratio_pct": 46.52,
       "long_conviction": {
-        "score": 56.6,
+        "score": 53.7,
         "breakdown": {
-          "fundamental": 50.0,
-          "momentum": 78.0,
-          "f_score": 50.0,
-          "foreign": 45.0,
+          "fundamental": 42.5,
+          "momentum": 50.0,
+          "f_score": 44.4,
+          "foreign": 70.0,
           "overlap": 60.0,
-          "tech": 50.0,
+          "tech": 80.0,
           "news": 50.0
         }
       },
       "day_trade_conviction": {
-        "score": 36.2,
+        "score": 32.0,
         "direction": "LONG",
         "breakdown": {
-          "gap": -6.0,
+          "gap": 8.0,
           "orb": 80.0,
-          "vwap": 78.3,
+          "vwap": 51.9,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 50.0
+          "volume": 25.0
         },
         "intraday": {
-          "last_price": 637.5,
-          "stop_long": 614.0,
-          "stop_short": 634.0,
-          "target_long": 684.5,
-          "target_short": 644.5,
-          "atr_pct": 7.47
+          "last_price": 387.25,
+          "stop_long": 375.75,
+          "stop_short": 379.5,
+          "target_long": 410.25,
+          "target_short": 402.75,
+          "atr_pct": 3.05
         }
       },
       "long_alarm": {
@@ -52,46 +52,46 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 5.4,
-      "advice": "🟡 BRSAN ortalama bir hisse (skor 56.6/100). Acelesi yok, daha güçlü sinyal bekle."
+      "estimated_potential_pct": 2.0,
+      "advice": "🟡 BIMAS ortalama bir hisse (skor 53.7/100). Acelesi yok, daha güçlü sinyal bekle."
     },
     {
-      "ticker": "TRGYO",
-      "sector": "REIT",
-      "layer": "Long",
-      "weight_pct": 4.0,
-      "foreign_ratio_pct": 19.58,
+      "ticker": "HALKB",
+      "sector": "Banking",
+      "layer": "Long+Swing",
+      "weight_pct": 5.4,
+      "foreign_ratio_pct": 0.51,
       "long_conviction": {
-        "score": 69.1,
+        "score": 73.3,
         "breakdown": {
-          "fundamental": 100.0,
-          "momentum": 50.0,
-          "f_score": 55.6,
-          "foreign": 60.0,
-          "overlap": 60.0,
+          "fundamental": 84.4,
+          "momentum": 88.0,
+          "f_score": 33.3,
+          "foreign": 35.0,
+          "overlap": 100.0,
           "tech": 60.0,
           "news": 50.0
         }
       },
       "day_trade_conviction": {
-        "score": 32.7,
+        "score": 31.7,
         "direction": "LONG",
         "breakdown": {
-          "gap": -0.8,
+          "gap": 4.7,
           "orb": 80.0,
-          "vwap": 29.4,
+          "vwap": 63.3,
           "rsi": 25.0,
           "fund_filter": 25.0,
           "news": 0,
-          "volume": 50.0
+          "volume": 0.0
         },
         "intraday": {
-          "last_price": 98.3,
-          "stop_long": 94.6,
-          "stop_short": 96.95,
-          "target_long": 105.7,
-          "target_short": 101.0,
-          "atr_pct": 2.57
+          "last_price": 48.3,
+          "stop_long": 45.82,
+          "stop_short": 47.08,
+          "target_long": 53.26,
+          "target_short": 50.74,
+          "atr_pct": 6.97
         }
       },
       "long_alarm": {
@@ -107,63 +107,8 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.7,
-      "advice": "✅ TRGYO mantıklı bir uzun pozisyon (skor 69.1/100). Sermayenin küçük bir kısmıyla başla."
-    },
-    {
-      "ticker": "ASTOR",
-      "sector": "Industrial",
-      "layer": "Long+Swing",
-      "weight_pct": 5.4,
-      "foreign_ratio_pct": 74.09,
-      "long_conviction": {
-        "score": 63.1,
-        "breakdown": {
-          "fundamental": 50.7,
-          "momentum": 60.8,
-          "f_score": 22.2,
-          "foreign": 80.0,
-          "overlap": 100.0,
-          "tech": 80.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": -31.1,
-        "direction": "SHORT",
-        "breakdown": {
-          "gap": -9.4,
-          "orb": -80.0,
-          "vwap": -59.7,
-          "rsi": -25.0,
-          "fund_filter": 25.0,
-          "news": 0,
-          "volume": -25.0
-        },
-        "intraday": {
-          "last_price": 307.25,
-          "stop_long": 307.5,
-          "stop_short": 319.0,
-          "target_long": 306.75,
-          "target_short": 283.75,
-          "atr_pct": 9.59
-        }
-      },
-      "long_alarm": {
-        "tier": "ORTA",
-        "icon": "🟡",
-        "desc": "sessiz push",
-        "threshold": 50
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 6.0,
-      "advice": "🟡 ASTOR ortalama bir hisse (skor 63.1/100). Acelesi yok, daha güçlü sinyal bekle."
+      "estimated_potential_pct": 4.4,
+      "advice": "✅ HALKB mantıklı bir uzun pozisyon (skor 73.3/100). Sermayenin küçük bir kısmıyla başla."
     }
   ]
 }
