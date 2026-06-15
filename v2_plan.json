@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-15",
+  "ts": "2026-06-15T11:00:01",
+  "is_today": true,
+  "picks": [
+    {
+      "ticker": "YKBNK",
+      "side": "LONG",
+      "score": 6.0,
+      "entry": 40.54,
+      "rsi": 68.9,
+      "stop": 40.08
+    },
+    {
+      "ticker": "THYAO",
+      "side": "LONG",
+      "score": 5.0,
+      "entry": 326.75,
+      "rsi": 68.6,
+      "stop": 323.25
+    },
+    {
+      "ticker": "ISCTR",
+      "side": "LONG",
+      "score": 5.0,
+      "entry": 15.02,
+      "rsi": 67.0,
+      "stop": 14.94
+    }
+  ],
+  "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
+}

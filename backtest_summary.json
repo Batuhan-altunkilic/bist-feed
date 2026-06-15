@@ -1,0 +1,10 @@
+{
+  "v1": null,
+  "v2": null,
+  "learning": {
+    "n_samples": 0,
+    "status": "insufficient_data",
+    "generated_at": "2026-06-13 12:55",
+    "top_component": null
+  }
+}

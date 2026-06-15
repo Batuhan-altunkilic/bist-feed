@@ -1,29 +1,33 @@
 {
   "overall": {
-    "total_signals": 1,
-    "evaluated_t1": 0,
-    "hits_t1": 0,
-    "win_rate_t1_pct": 0.0,
-    "evaluated_t3": 0,
-    "hits_t3": 0,
-    "win_rate_t3_pct": 0.0,
-    "evaluated_t5": 0,
-    "hits_t5": 0,
-    "win_rate_t5_pct": 0.0
+    "total_signals": 14,
+    "evaluated_t1": 2,
+    "hits_t1": 2,
+    "win_rate_t1_pct": 100.0,
+    "evaluated_t3": 2,
+    "hits_t3": 2,
+    "win_rate_t3_pct": 100.0,
+    "evaluated_t5": 1,
+    "hits_t5": 1,
+    "win_rate_t5_pct": 100.0
   },
   "by_layer": {
     "Long": {
-      "n": 1,
-      "win_rate_t3_pct": 0.0
+      "n": 6,
+      "win_rate_t3_pct": 100.0
     },
     "Swing": {
-      "n": 1,
-      "win_rate_t3_pct": 0.0
+      "n": 12,
+      "win_rate_t3_pct": 100.0
     }
   },
   "by_tier": {
     "YUKSEK": {
-      "n": 1,
+      "n": 5,
+      "win_rate_t3_pct": 100.0
+    },
+    "ORTA": {
+      "n": 9,
       "win_rate_t3_pct": 0.0
     }
   },
@@ -31,18 +35,18 @@
   "bottom_sectors": [],
   "period": {
     "last_30d": {
-      "n": 1,
-      "win_rate_t3_pct": 0.0
+      "n": 14,
+      "win_rate_t3_pct": 100.0
     },
     "last_90d": {
-      "n": 1,
-      "win_rate_t3_pct": 0.0
+      "n": 14,
+      "win_rate_t3_pct": 100.0
     }
   },
-  "generated_at": "2026-06-08T08:15:26+00:00",
-  "total_signals": 1,
-  "win_rate_t1_pct": 0.0,
-  "win_rate_t3_pct": 0.0,
-  "win_rate_t5_pct": 0.0,
-  "evaluated_t3": 0
+  "generated_at": "2026-06-15T14:02:19+00:00",
+  "total_signals": 14,
+  "win_rate_t1_pct": 100.0,
+  "win_rate_t3_pct": 100.0,
+  "win_rate_t5_pct": 100.0,
+  "evaluated_t3": 2
 }
