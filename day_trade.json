@@ -1,61 +1,6 @@
 {
   "items": [
     {
-      "ticker": "TOASO",
-      "sector": "Automotive",
-      "layer": "Swing",
-      "weight_pct": 1.4,
-      "foreign_ratio_pct": 29.78,
-      "long_conviction": {
-        "score": 53.5,
-        "breakdown": {
-          "fundamental": 50.0,
-          "momentum": 54.8,
-          "f_score": 50.0,
-          "foreign": 60.0,
-          "overlap": 60.0,
-          "tech": 50.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 44.2,
-        "direction": "LONG",
-        "breakdown": {
-          "gap": 96.4,
-          "orb": 80.0,
-          "vwap": 10.5,
-          "rsi": 25.0,
-          "fund_filter": 0.0,
-          "news": 0,
-          "volume": 0.0
-        },
-        "intraday": {
-          "last_price": 323.5,
-          "stop_long": 314.25,
-          "stop_short": 320.0,
-          "target_long": 342.0,
-          "target_short": 330.5,
-          "atr_pct": 3.46
-        }
-      },
-      "long_alarm": {
-        "tier": "ORTA",
-        "icon": "🟡",
-        "desc": "sessiz push",
-        "threshold": 50
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 3.1,
-      "advice": "🟡 TOASO ortalama bir hisse (skor 53.5/100). Acelesi yok, daha güçlü sinyal bekle."
-    },
-    {
       "ticker": "ASELS",
       "sector": "Defense",
       "layer": "Long+Swing",
@@ -74,24 +19,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 35.2,
+        "score": 39.2,
         "direction": "LONG",
         "breakdown": {
-          "gap": 43.5,
+          "gap": 24.9,
           "orb": 80.0,
-          "vwap": 38.7,
+          "vwap": 46.5,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": 50.0
         },
         "intraday": {
-          "last_price": 389.0,
+          "last_price": 394.0,
           "stop_long": 379.25,
           "stop_short": 386.25,
-          "target_long": 408.5,
-          "target_short": 394.5,
-          "atr_pct": 4.31
+          "target_long": 423.5,
+          "target_short": 409.5,
+          "atr_pct": 4.82
         }
       },
       "long_alarm": {
@@ -107,46 +52,46 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 3.0,
+      "estimated_potential_pct": 3.8,
       "advice": "✅ ASELS mantıklı bir uzun pozisyon (skor 73.8/100). Sermayenin küçük bir kısmıyla başla."
     },
     {
-      "ticker": "FROTO",
-      "sector": "Automotive",
-      "layer": "Long",
-      "weight_pct": 4.0,
-      "foreign_ratio_pct": 28.16,
+      "ticker": "ECZYT",
+      "sector": "Holding",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 4.09,
       "long_conviction": {
-        "score": 50.3,
+        "score": 55.0,
         "breakdown": {
-          "fundamental": 45.2,
-          "momentum": 49.5,
-          "f_score": 33.3,
-          "foreign": 60.0,
+          "fundamental": 50.0,
+          "momentum": 75.0,
+          "f_score": 50.0,
+          "foreign": 35.0,
           "overlap": 60.0,
-          "tech": 60.0,
+          "tech": 50.0,
           "news": 50.0
         }
       },
       "day_trade_conviction": {
-        "score": 34.1,
+        "score": 31.2,
         "direction": "LONG",
         "breakdown": {
-          "gap": 58.8,
+          "gap": 4.3,
           "orb": 80.0,
-          "vwap": 6.0,
-          "rsi": 25.0,
+          "vwap": 60.9,
+          "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": 50.0
         },
         "intraday": {
-          "last_price": 91.55,
-          "stop_long": 89.75,
-          "stop_short": 91.35,
-          "target_long": 95.15,
-          "target_short": 91.95,
-          "atr_pct": 2.75
+          "last_price": 350.5,
+          "stop_long": 341.25,
+          "stop_short": 347.5,
+          "target_long": 369.0,
+          "target_short": 356.5,
+          "atr_pct": 3.92
         }
       },
       "long_alarm": {
@@ -162,8 +107,63 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.9,
-      "advice": "🟡 FROTO ortalama bir hisse (skor 50.3/100). Acelesi yok, daha güçlü sinyal bekle."
+      "estimated_potential_pct": 2.4,
+      "advice": "🟡 ECZYT ortalama bir hisse (skor 55.0/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "TUPRS",
+      "sector": "Energy",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": null,
+      "long_conviction": {
+        "score": 55.4,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 69.2,
+          "f_score": 50.0,
+          "foreign": 50.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": -30.4,
+        "direction": "SHORT",
+        "breakdown": {
+          "gap": 0.0,
+          "orb": -80.0,
+          "vwap": -29.1,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": -50.0
+        },
+        "intraday": {
+          "last_price": 225.5,
+          "stop_long": 229.0,
+          "stop_short": 233.1,
+          "target_long": 218.5,
+          "target_short": 210.3,
+          "atr_pct": 3.28
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 2.0,
+      "advice": "🟡 TUPRS ortalama bir hisse (skor 55.4/100). Acelesi yok, daha güçlü sinyal bekle."
     }
   ]
 }
