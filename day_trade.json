@@ -1,152 +1,42 @@
 {
   "items": [
     {
-      "ticker": "ASELS",
-      "sector": "Defense",
-      "layer": "Long+Swing",
-      "weight_pct": 5.4,
-      "foreign_ratio_pct": 56.07,
-      "long_conviction": {
-        "score": 73.8,
-        "breakdown": {
-          "fundamental": 47.4,
-          "momentum": 92.8,
-          "f_score": 55.6,
-          "foreign": 80.0,
-          "overlap": 100.0,
-          "tech": 100.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 39.2,
-        "direction": "LONG",
-        "breakdown": {
-          "gap": 24.9,
-          "orb": 80.0,
-          "vwap": 46.5,
-          "rsi": 25.0,
-          "fund_filter": 0.0,
-          "news": 0,
-          "volume": 50.0
-        },
-        "intraday": {
-          "last_price": 394.0,
-          "stop_long": 379.25,
-          "stop_short": 386.25,
-          "target_long": 423.5,
-          "target_short": 409.5,
-          "atr_pct": 4.82
-        }
-      },
-      "long_alarm": {
-        "tier": "YUKSEK",
-        "icon": "🟠",
-        "desc": "standart bildirim",
-        "threshold": 65
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 3.8,
-      "advice": "✅ ASELS mantıklı bir uzun pozisyon (skor 73.8/100). Sermayenin küçük bir kısmıyla başla."
-    },
-    {
-      "ticker": "ECZYT",
-      "sector": "Holding",
-      "layer": "Swing",
-      "weight_pct": 1.4,
-      "foreign_ratio_pct": 4.09,
-      "long_conviction": {
-        "score": 55.0,
-        "breakdown": {
-          "fundamental": 50.0,
-          "momentum": 75.0,
-          "f_score": 50.0,
-          "foreign": 35.0,
-          "overlap": 60.0,
-          "tech": 50.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 31.2,
-        "direction": "LONG",
-        "breakdown": {
-          "gap": 4.3,
-          "orb": 80.0,
-          "vwap": 60.9,
-          "rsi": -25.0,
-          "fund_filter": 0.0,
-          "news": 0,
-          "volume": 50.0
-        },
-        "intraday": {
-          "last_price": 350.5,
-          "stop_long": 341.25,
-          "stop_short": 347.5,
-          "target_long": 369.0,
-          "target_short": 356.5,
-          "atr_pct": 3.92
-        }
-      },
-      "long_alarm": {
-        "tier": "ORTA",
-        "icon": "🟡",
-        "desc": "sessiz push",
-        "threshold": 50
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 2.4,
-      "advice": "🟡 ECZYT ortalama bir hisse (skor 55.0/100). Acelesi yok, daha güçlü sinyal bekle."
-    },
-    {
-      "ticker": "TUPRS",
+      "ticker": "AKSEN",
       "sector": "Energy",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": null,
+      "foreign_ratio_pct": 5.31,
       "long_conviction": {
-        "score": 55.4,
+        "score": 61.0,
         "breakdown": {
           "fundamental": 50.0,
-          "momentum": 69.2,
+          "momentum": 100.0,
           "f_score": 50.0,
-          "foreign": 50.0,
+          "foreign": 45.0,
           "overlap": 60.0,
           "tech": 50.0,
           "news": 50.0
         }
       },
       "day_trade_conviction": {
-        "score": -30.4,
+        "score": -31.2,
         "direction": "SHORT",
         "breakdown": {
-          "gap": 0.0,
+          "gap": 10.1,
           "orb": -80.0,
-          "vwap": -29.1,
+          "vwap": -51.3,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": -50.0
         },
         "intraday": {
-          "last_price": 225.5,
-          "stop_long": 229.0,
-          "stop_short": 233.1,
-          "target_long": 218.5,
-          "target_short": 210.3,
-          "atr_pct": 3.28
+          "last_price": 79.6,
+          "stop_long": 80.75,
+          "stop_short": 82.7,
+          "target_long": 77.3,
+          "target_short": 73.4,
+          "atr_pct": 3.63
         }
       },
       "long_alarm": {
@@ -162,8 +52,8 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 2.0,
-      "advice": "🟡 TUPRS ortalama bir hisse (skor 55.4/100). Acelesi yok, daha güçlü sinyal bekle."
+      "estimated_potential_pct": 2.3,
+      "advice": "🟡 AKSEN ortalama bir hisse (skor 61.0/100). Acelesi yok, daha güçlü sinyal bekle."
     }
   ]
 }
