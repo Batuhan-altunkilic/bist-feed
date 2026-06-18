@@ -1,61 +1,6 @@
 {
   "items": [
     {
-      "ticker": "MAGEN",
-      "sector": "Energy",
-      "layer": "Swing",
-      "weight_pct": 1.4,
-      "foreign_ratio_pct": 22.08,
-      "long_conviction": {
-        "score": 62.5,
-        "breakdown": {
-          "fundamental": 50.0,
-          "momentum": 100.0,
-          "f_score": 50.0,
-          "foreign": 60.0,
-          "overlap": 60.0,
-          "tech": 50.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 36.0,
-        "direction": "LONG",
-        "breakdown": {
-          "gap": 0.0,
-          "orb": 80.0,
-          "vwap": 75.0,
-          "rsi": 50.0,
-          "fund_filter": 0.0,
-          "news": 0,
-          "volume": 25.0
-        },
-        "intraday": {
-          "last_price": 36.66,
-          "stop_long": 34.14,
-          "stop_short": 35.66,
-          "target_long": 41.7,
-          "target_short": 38.66,
-          "atr_pct": 9.58
-        }
-      },
-      "long_alarm": {
-        "tier": "ORTA",
-        "icon": "🟡",
-        "desc": "sessiz push",
-        "threshold": 50
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 6.9,
-      "advice": "🟡 MAGEN ortalama bir hisse (skor 62.5/100). Acelesi yok, daha güçlü sinyal bekle."
-    },
-    {
       "ticker": "AKSEN",
       "sector": "Energy",
       "layer": "Swing",
@@ -74,24 +19,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 30.2,
+        "score": 41.3,
         "direction": "LONG",
         "breakdown": {
           "gap": 9.3,
           "orb": 80.0,
-          "vwap": 62.4,
+          "vwap": 86.4,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": 50.0
         },
         "intraday": {
-          "last_price": 84.7,
+          "last_price": 87.15,
           "stop_long": 80.6,
           "stop_short": 81.3,
-          "target_long": 92.9,
-          "target_short": 91.5,
-          "atr_pct": 4.32
+          "target_long": 100.25,
+          "target_short": 98.85,
+          "atr_pct": 4.82
         }
       },
       "long_alarm": {
@@ -107,8 +52,283 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 2.6,
+      "estimated_potential_pct": 4.0,
       "advice": "🟡 AKSEN ortalama bir hisse (skor 61.0/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "ASELS",
+      "sector": "Defense",
+      "layer": "Long+Swing",
+      "weight_pct": 5.4,
+      "foreign_ratio_pct": 56.01,
+      "long_conviction": {
+        "score": 73.8,
+        "breakdown": {
+          "fundamental": 47.4,
+          "momentum": 92.8,
+          "f_score": 55.6,
+          "foreign": 80.0,
+          "overlap": 100.0,
+          "tech": 100.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 37.1,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": -5.7,
+          "orb": 80.0,
+          "vwap": 83.7,
+          "rsi": 25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": 50.0
+        },
+        "intraday": {
+          "last_price": 411.0,
+          "stop_long": 390.0,
+          "stop_short": 395.75,
+          "target_long": 453.0,
+          "target_short": 441.5,
+          "atr_pct": 4.32
+        }
+      },
+      "long_alarm": {
+        "tier": "YUKSEK",
+        "icon": "🟠",
+        "desc": "standart bildirim",
+        "threshold": 65
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 3.2,
+      "advice": "✅ ASELS mantıklı bir uzun pozisyon (skor 73.8/100). Sermayenin küçük bir kısmıyla başla."
+    },
+    {
+      "ticker": "ASTOR",
+      "sector": "Industrial",
+      "layer": "Long+Swing",
+      "weight_pct": 5.4,
+      "foreign_ratio_pct": 71.23,
+      "long_conviction": {
+        "score": 63.1,
+        "breakdown": {
+          "fundamental": 50.7,
+          "momentum": 60.8,
+          "f_score": 22.2,
+          "foreign": 80.0,
+          "overlap": 100.0,
+          "tech": 80.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 36.9,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 11.9,
+          "orb": 80.0,
+          "vwap": 69.9,
+          "rsi": -25.0,
+          "fund_filter": 25.0,
+          "news": 0,
+          "volume": 50.0
+        },
+        "intraday": {
+          "last_price": 295.0,
+          "stop_long": 282.0,
+          "stop_short": 290.0,
+          "target_long": 321.0,
+          "target_short": 305.0,
+          "atr_pct": 8.14
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 6.0,
+      "advice": "🟡 ASTOR ortalama bir hisse (skor 63.1/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "FROTO",
+      "sector": "Automotive",
+      "layer": "Long",
+      "weight_pct": 4.0,
+      "foreign_ratio_pct": 28.37,
+      "long_conviction": {
+        "score": 50.3,
+        "breakdown": {
+          "fundamental": 45.2,
+          "momentum": 49.5,
+          "f_score": 33.3,
+          "foreign": 60.0,
+          "overlap": 60.0,
+          "tech": 60.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 32.1,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 5.9,
+          "orb": 80.0,
+          "vwap": 30.6,
+          "rsi": 25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": 50.0
+        },
+        "intraday": {
+          "last_price": 91.85,
+          "stop_long": 89.2,
+          "stop_short": 90.05,
+          "target_long": 97.15,
+          "target_short": 95.45,
+          "atr_pct": 2.99
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 1.9,
+      "advice": "🟡 FROTO ortalama bir hisse (skor 50.3/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "TTKOM",
+      "sector": "Telecom",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 42.11,
+      "long_conviction": {
+        "score": 53.5,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 50.0,
+          "f_score": 50.0,
+          "foreign": 70.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 31.5,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 6.0,
+          "orb": 80.0,
+          "vwap": 26.4,
+          "rsi": 25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": 50.0
+        },
+        "intraday": {
+          "last_price": 64.0,
+          "stop_long": 62.7,
+          "stop_short": 63.25,
+          "target_long": 66.6,
+          "target_short": 65.5,
+          "atr_pct": 2.83
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 1.8,
+      "advice": "🟡 TTKOM ortalama bir hisse (skor 53.5/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "VAKBN",
+      "sector": "Banking",
+      "layer": "Long+Swing",
+      "weight_pct": 5.4,
+      "foreign_ratio_pct": 2.41,
+      "long_conviction": {
+        "score": 70.4,
+        "breakdown": {
+          "fundamental": 87.4,
+          "momentum": 59.0,
+          "f_score": 33.3,
+          "foreign": 35.0,
+          "overlap": 100.0,
+          "tech": 80.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 31.1,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 10.5,
+          "orb": 80.0,
+          "vwap": 24.9,
+          "rsi": 25.0,
+          "fund_filter": 25.0,
+          "news": 0,
+          "volume": 25.0
+        },
+        "intraday": {
+          "last_price": 35.18,
+          "stop_long": 34.26,
+          "stop_short": 34.9,
+          "target_long": 37.02,
+          "target_short": 35.74,
+          "atr_pct": 3.71
+        }
+      },
+      "long_alarm": {
+        "tier": "YUKSEK",
+        "icon": "🟠",
+        "desc": "standart bildirim",
+        "threshold": 65
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 2.3,
+      "advice": "✅ VAKBN mantıklı bir uzun pozisyon (skor 70.4/100). Sermayenin küçük bir kısmıyla başla."
     }
   ]
 }
