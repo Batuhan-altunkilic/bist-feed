@@ -1,42 +1,42 @@
 {
   "items": [
     {
-      "ticker": "AKSEN",
+      "ticker": "MAGEN",
       "sector": "Energy",
       "layer": "Swing",
       "weight_pct": 1.4,
-      "foreign_ratio_pct": 5.31,
+      "foreign_ratio_pct": 22.08,
       "long_conviction": {
-        "score": 61.0,
+        "score": 62.5,
         "breakdown": {
           "fundamental": 50.0,
           "momentum": 100.0,
           "f_score": 50.0,
-          "foreign": 45.0,
+          "foreign": 60.0,
           "overlap": 60.0,
           "tech": 50.0,
           "news": 50.0
         }
       },
       "day_trade_conviction": {
-        "score": -31.2,
-        "direction": "SHORT",
+        "score": 36.0,
+        "direction": "LONG",
         "breakdown": {
-          "gap": 10.1,
-          "orb": -80.0,
-          "vwap": -51.3,
-          "rsi": -25.0,
+          "gap": 0.0,
+          "orb": 80.0,
+          "vwap": 75.0,
+          "rsi": 50.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": -50.0
+          "volume": 25.0
         },
         "intraday": {
-          "last_price": 79.6,
-          "stop_long": 80.75,
-          "stop_short": 82.7,
-          "target_long": 77.3,
-          "target_short": 73.4,
-          "atr_pct": 3.63
+          "last_price": 36.66,
+          "stop_long": 34.14,
+          "stop_short": 35.66,
+          "target_long": 41.7,
+          "target_short": 38.66,
+          "atr_pct": 9.58
         }
       },
       "long_alarm": {
@@ -52,7 +52,62 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 2.3,
+      "estimated_potential_pct": 6.9,
+      "advice": "🟡 MAGEN ortalama bir hisse (skor 62.5/100). Acelesi yok, daha güçlü sinyal bekle."
+    },
+    {
+      "ticker": "AKSEN",
+      "sector": "Energy",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 5.29,
+      "long_conviction": {
+        "score": 61.0,
+        "breakdown": {
+          "fundamental": 50.0,
+          "momentum": 100.0,
+          "f_score": 50.0,
+          "foreign": 45.0,
+          "overlap": 60.0,
+          "tech": 50.0,
+          "news": 50.0
+        }
+      },
+      "day_trade_conviction": {
+        "score": 30.2,
+        "direction": "LONG",
+        "breakdown": {
+          "gap": 9.3,
+          "orb": 80.0,
+          "vwap": 62.4,
+          "rsi": 25.0,
+          "fund_filter": 0.0,
+          "news": 0,
+          "volume": 0.0
+        },
+        "intraday": {
+          "last_price": 84.7,
+          "stop_long": 80.6,
+          "stop_short": 81.3,
+          "target_long": 92.9,
+          "target_short": 91.5,
+          "atr_pct": 4.32
+        }
+      },
+      "long_alarm": {
+        "tier": "ORTA",
+        "icon": "🟡",
+        "desc": "sessiz push",
+        "threshold": 50
+      },
+      "day_alarm": {
+        "tier": "NONE",
+        "icon": "",
+        "desc": "alarm yok",
+        "threshold": 0
+      },
+      "is_golden_pick": false,
+      "estimated_potential_pct": 2.6,
       "advice": "🟡 AKSEN ortalama bir hisse (skor 61.0/100). Acelesi yok, daha güçlü sinyal bekle."
     }
   ]
