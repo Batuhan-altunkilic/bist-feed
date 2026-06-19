@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-06-19T18:26:01",
+  "asof": "2026-06-19",
+  "strategy": "swing-research (paper)",
+  "headline_new": [],
+  "breadth_new": [
+    {
+      "ticker": "KONTR",
+      "tier": "C",
+      "signal_date": "2026-06-19",
+      "entry": 5.54,
+      "target": 5.817,
+      "stop": 5.263,
+      "target_pct": 5.0,
+      "stop_pct": 5.0,
+      "rsi": 27.8,
+      "pctb": 0.03,
+      "adx": 22.9,
+      "ret5": -8.73,
+      "status": "OPEN",
+      "mtm_price": 5.54,
+      "mtm_pnl_pct": 0.0
+    }
+  ],
+  "open_positions": [
+    {
+      "ticker": "KONTR",
+      "tier": "C",
+      "signal_date": "2026-06-19",
+      "entry": 5.54,
+      "target": 5.817,
+      "stop": 5.263,
+      "target_pct": 5.0,
+      "stop_pct": 5.0,
+      "rsi": 27.8,
+      "pctb": 0.03,
+      "adx": 22.9,
+      "ret5": -8.73,
+      "status": "OPEN",
+      "mtm_price": 5.54,
+      "mtm_pnl_pct": 0.0
+    }
+  ],
+  "closed_today": [],
+  "open_book": {
+    "n": 1,
+    "avg_mtm_pct": 0.0,
+    "tl": 0.0
+  },
+  "open_book_AB": {}
+}
