@@ -1,52 +1,64 @@
 {
   "overall": {
-    "total_signals": 14,
-    "evaluated_t1": 2,
-    "hits_t1": 2,
-    "win_rate_t1_pct": 100.0,
-    "evaluated_t3": 2,
-    "hits_t3": 2,
-    "win_rate_t3_pct": 100.0,
-    "evaluated_t5": 1,
+    "total_signals": 41,
+    "evaluated_t1": 32,
+    "hits_t1": 16,
+    "win_rate_t1_pct": 50.0,
+    "evaluated_t3": 14,
+    "hits_t3": 9,
+    "win_rate_t3_pct": 64.3,
+    "evaluated_t5": 2,
     "hits_t5": 1,
-    "win_rate_t5_pct": 100.0
+    "win_rate_t5_pct": 50.0
   },
   "by_layer": {
     "Long": {
-      "n": 6,
-      "win_rate_t3_pct": 100.0
+      "n": 19,
+      "win_rate_t3_pct": 66.7
     },
     "Swing": {
-      "n": 12,
-      "win_rate_t3_pct": 100.0
+      "n": 34,
+      "win_rate_t3_pct": 66.7
     }
   },
   "by_tier": {
     "YUKSEK": {
-      "n": 5,
-      "win_rate_t3_pct": 100.0
+      "n": 12,
+      "win_rate_t3_pct": 80.0
     },
     "ORTA": {
-      "n": 9,
-      "win_rate_t3_pct": 0.0
+      "n": 29,
+      "win_rate_t3_pct": 55.6
     }
   },
-  "top_sectors": [],
-  "bottom_sectors": [],
+  "top_sectors": [
+    {
+      "sector": "Banking",
+      "n": 6,
+      "win_rate_t3_pct": 100.0
+    }
+  ],
+  "bottom_sectors": [
+    {
+      "sector": "Banking",
+      "n": 6,
+      "win_rate_t3_pct": 100.0
+    }
+  ],
   "period": {
     "last_30d": {
-      "n": 14,
-      "win_rate_t3_pct": 100.0
+      "n": 41,
+      "win_rate_t3_pct": 64.3
     },
     "last_90d": {
-      "n": 14,
-      "win_rate_t3_pct": 100.0
+      "n": 41,
+      "win_rate_t3_pct": 64.3
     }
   },
-  "generated_at": "2026-06-15T14:02:19+00:00",
-  "total_signals": 14,
-  "win_rate_t1_pct": 100.0,
-  "win_rate_t3_pct": 100.0,
-  "win_rate_t5_pct": 100.0,
-  "evaluated_t3": 2
+  "generated_at": "2026-06-19T06:32:05+00:00",
+  "total_signals": 41,
+  "win_rate_t1_pct": 50.0,
+  "win_rate_t3_pct": 64.3,
+  "win_rate_t5_pct": 50.0,
+  "evaluated_t3": 14
 }
