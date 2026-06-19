@@ -116,7 +116,7 @@
           "volume": 50.0
         },
         "intraday": {
-          "last_price": 402.5,
+          "last_price": 402.25,
           "stop_long": 390.0,
           "stop_short": 395.75,
           "target_long": 453.0,
@@ -201,7 +201,7 @@
           "volume": 50.0
         },
         "intraday": {
-          "last_price": 294.5,
+          "last_price": 294.0,
           "stop_long": 282.0,
           "stop_short": 290.0,
           "target_long": 321.0,
@@ -286,7 +286,7 @@
           "volume": 50.0
         },
         "intraday": {
-          "last_price": 90.15,
+          "last_price": 90.2,
           "stop_long": 89.2,
           "stop_short": 90.05,
           "target_long": 97.15,
@@ -371,7 +371,7 @@
           "volume": 50.0
         },
         "intraday": {
-          "last_price": 62.9,
+          "last_price": 62.95,
           "stop_long": 62.7,
           "stop_short": 63.25,
           "target_long": 66.6,
