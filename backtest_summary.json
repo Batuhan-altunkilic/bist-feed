@@ -1,10 +1,23 @@
 {
-  "v1": null,
-  "v2": null,
+  "v1": {
+    "label": "Eski kurallar (her yön, 3 saat)",
+    "trades": 1228,
+    "win_rate_pct": 37.1,
+    "avg_net_pct": -0.32,
+    "total_tl_per_10k": -39106.0
+  },
+  "v2": {
+    "label": "V2 (SHORT-only, 11:00, hedefsiz)",
+    "trades": 144,
+    "win_rate_pct": 45.8,
+    "avg_net_pct": 0.06,
+    "total_tl_per_10k": 828.0,
+    "validation_note": "Val. dönemi (13 May sonrası): +0.51%/işlem — ileri-test sürüyor"
+  },
   "learning": {
-    "n_samples": 0,
-    "status": "insufficient_data",
-    "generated_at": "2026-06-13 12:55",
-    "top_component": null
+    "n_samples": 60,
+    "status": "ok",
+    "generated_at": "2026-06-19 09:31",
+    "top_component": "tech"
   }
 }

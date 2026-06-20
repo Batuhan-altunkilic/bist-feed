@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-06-19T16:43:52+00:00",
+  "generated_at": "2026-06-20T22:46:12+00:00",
   "source": "github-actions",
   "decisions_count": 31,
   "golden_picks": 0,
   "news_count": 100,
-  "regime": null
+  "regime": null,
+  "perf_total": 41,
+  "perf_win_rate_t3": 64.3
 }
