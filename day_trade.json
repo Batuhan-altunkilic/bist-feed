@@ -1,42 +1,42 @@
 {
   "items": [
     {
-      "ticker": "ASTOR",
-      "sector": "Industrial",
-      "layer": "Long+Swing",
-      "weight_pct": 5.4,
-      "foreign_ratio_pct": 70.58,
+      "ticker": "MAGEN",
+      "sector": "Energy",
+      "layer": "Swing",
+      "weight_pct": 1.4,
+      "foreign_ratio_pct": 21.75,
       "long_conviction": {
-        "score": 63.1,
+        "score": 62.5,
         "breakdown": {
-          "fundamental": 50.7,
-          "momentum": 60.8,
-          "f_score": 22.2,
-          "foreign": 80.0,
-          "overlap": 100.0,
-          "tech": 80.0,
+          "fundamental": 50.0,
+          "momentum": 100.0,
+          "f_score": 50.0,
+          "foreign": 60.0,
+          "overlap": 60.0,
+          "tech": 50.0,
           "news": 50.0
         }
       },
       "day_trade_conviction": {
-        "score": 30.3,
-        "direction": "LONG",
+        "score": -31.2,
+        "direction": "SHORT",
         "breakdown": {
-          "gap": 11.4,
-          "orb": 80.0,
-          "vwap": 42.9,
-          "rsi": 25.0,
-          "fund_filter": 25.0,
+          "gap": 0.0,
+          "orb": -80.0,
+          "vwap": -84.9,
+          "rsi": -25.0,
+          "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 312.0,
-          "stop_long": 297.0,
-          "stop_short": 308.0,
-          "target_long": 339.0,
-          "target_short": 317.0,
-          "atr_pct": 5.45
+          "last_price": 36.52,
+          "stop_long": 37.7,
+          "stop_short": 38.84,
+          "target_long": 34.04,
+          "target_short": 31.76,
+          "atr_pct": 6.56
         }
       },
       "long_alarm": {
@@ -52,37 +52,37 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 3.3,
-      "advice": "🟡 ASTOR ortalama bir hisse (skor 63.1/100). Acelesi yok, daha güçlü sinyal bekle.",
+      "estimated_potential_pct": 4.1,
+      "advice": "🟡 MAGEN ortalama bir hisse (skor 62.5/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
-        "fund_composite": 0.507,
-        "mom_z": 0.43,
-        "roe_ttm_pct": 22.9,
-        "op_margin_pct": 23.6,
-        "debt_eq": 0.16,
-        "rev_yoy_pct": -2.8,
-        "ni_yoy_pct": -24.5,
-        "f_score": 2.0,
-        "dist_high_pct": -7.3
+        "fund_composite": null,
+        "mom_z": 5.62,
+        "roe_ttm_pct": null,
+        "op_margin_pct": null,
+        "debt_eq": null,
+        "rev_yoy_pct": null,
+        "ni_yoy_pct": null,
+        "f_score": null,
+        "dist_high_pct": null
       },
-      "is_shortable": true,
-      "short_note": null,
-      "explanation": "**ASTOR** (Industrial) uzun vade skoru 63/100 (ORTA seviye). Skorun ana sürücüleri: sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); yabancı oranı %71 — kurumsal yatırımcı favorisi; teknik görünüm pozitif (52w yüksekten makul mesafede). Skoru aşağı çeken: Piotroski düşük (mali sağlamlık zayıf) (sürücüler bu zayıflığı kompanze ediyor). **Gün içi (day-trade) sinyali LONG yönlü** (skor +30). Gün içi destek: ORB long tetikleyicisi (açılış aralığı yukarı kırıldı). Gün içi (day-trade) pozisyonu açacaksan önerilen stop: 297.0, hedef: 339.0.",
+      "is_shortable": false,
+      "short_note": "📉 Sistem düşüş bekliyor ancak bu hisse VIOP'ta işlem görmediği için fiilen SHORT pozisyon açılamaz. Mevcut long pozisyonu satmayı düşün veya kenarda bekle.",
+      "explanation": null,
       "trade_plan": {
-        "direction": "LONG",
-        "entry_price": 311.0,
-        "stop_loss": 297.0,
-        "take_profit": 339.0,
-        "risk_pct": -4.5,
-        "reward_pct": 9.0,
+        "direction": "SHORT",
+        "entry_price": 36.48,
+        "stop_loss": 38.84,
+        "take_profit": 31.76,
+        "risk_pct": 6.47,
+        "reward_pct": 12.94,
         "risk_reward_ratio": 2.0,
-        "atr_pct": 5.45,
-        "trigger": "ORB long (OR yukarı kırıldı); VWAP üstü (+1.4%)",
+        "atr_pct": 6.56,
+        "trigger": "ORB short (OR aşağı kırıldı); VWAP altı (-2.8%)",
         "confidence": "MEDIUM",
-        "shares_per_1k_capital": 0,
-        "shares_per_50k_capital": 35,
-        "risk_per_share_tl": 14.0,
-        "actionable": true
+        "shares_per_1k_capital": 4,
+        "shares_per_50k_capital": 211,
+        "risk_per_share_tl": 2.36,
+        "actionable": false
       }
     }
   ]
