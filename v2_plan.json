@@ -1,23 +1,23 @@
 {
-  "date": "2026-06-19",
-  "ts": "2026-06-19T11:00:01",
-  "is_today": false,
+  "date": "2026-06-22",
+  "ts": "2026-06-22T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "AKCNS",
-      "side": "SHORT",
-      "score": -5.0,
-      "entry": 202.1,
-      "rsi": 41.5,
-      "stop": 212.7
+      "ticker": "SELEC",
+      "side": "LONG",
+      "score": 6.92,
+      "entry": 184.3,
+      "rsi": 89.2,
+      "stop": 175.0
     },
     {
       "ticker": "ODAS",
       "side": "LONG",
-      "score": 6.0,
-      "entry": 9.29,
-      "rsi": 75.9,
-      "stop": 9.01
+      "score": 4.5,
+      "entry": 9.46,
+      "rsi": 77.5,
+      "stop": 9.33
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
