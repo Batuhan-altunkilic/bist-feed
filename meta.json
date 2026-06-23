@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-22T14:40:31+00:00",
+  "generated_at": "2026-06-23T06:32:49+00:00",
   "source": "vm-live",
   "decisions_count": 31,
   "golden_picks": 0,
   "news_count": 100,
   "regime": null,
-  "perf_total": 47,
-  "perf_win_rate_t3": null,
-  "perf_insufficient_sample": true
+  "perf_total": 51,
+  "perf_win_rate_t3": 46.3,
+  "perf_insufficient_sample": false
 }
