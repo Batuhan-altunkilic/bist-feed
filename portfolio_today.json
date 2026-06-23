@@ -231,7 +231,7 @@
       },
       "day_trade_conviction": {
         "score": 31.1,
-        "direction": "LONG",
+        "direction": "NEUTRAL",
         "breakdown": {
           "gap": 13.8,
           "orb": 80.0,
@@ -278,23 +278,8 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**GUBRF** (Chemicals) uzun vade skoru 71/100 (YUKSEK seviye). Skorun ana sürücüleri: sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); momentum pozitif yönlü; temel görünüm ortalama. **Gün içi (day-trade) sinyali LONG yönlü** (skor +31). Gün içi destek: ORB long tetikleyicisi (açılış aralığı yukarı kırıldı). Gün içi (day-trade) pozisyonu açacaksan önerilen stop: 493.25, hedef: 543.5.",
-      "trade_plan": {
-        "direction": "LONG",
-        "entry_price": 510.0,
-        "stop_loss": 493.25,
-        "take_profit": 543.5,
-        "risk_pct": -3.28,
-        "reward_pct": 6.57,
-        "risk_reward_ratio": 2.0,
-        "atr_pct": 4.37,
-        "trigger": "ORB long (OR yukarı kırıldı); VWAP üstü (+0.9%); hacim 4.0x normal",
-        "confidence": "MEDIUM",
-        "shares_per_1k_capital": 0,
-        "shares_per_50k_capital": 29,
-        "risk_per_share_tl": 16.75,
-        "actionable": true
-      }
+      "explanation": "**GUBRF** (Chemicals) uzun vade skoru 71/100 (YUKSEK seviye). Skorun ana sürücüleri: sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); momentum pozitif yönlü; temel görünüm ortalama. Gün içi sinyal nötr (skor +31). Gün içi destek: ORB long tetikleyicisi (açılış aralığı yukarı kırıldı).",
+      "trade_plan": null
     },
     {
       "ticker": "VAKBN",
@@ -666,7 +651,7 @@
       },
       "day_trade_conviction": {
         "score": 36.2,
-        "direction": "LONG",
+        "direction": "NEUTRAL",
         "breakdown": {
           "gap": 11.4,
           "orb": 80.0,
@@ -713,23 +698,8 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**ASTOR** (Industrial) uzun vade skoru 63/100 (ORTA seviye). Skorun ana sürücüleri: sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); yabancı oranı %71 — kurumsal yatırımcı favorisi; teknik görünüm pozitif (52w yüksekten makul mesafede). Skoru aşağı çeken: Piotroski düşük (mali sağlamlık zayıf) (sürücüler bu zayıflığı kompanze ediyor). **Gün içi (day-trade) sinyali LONG yönlü** (skor +36). Gün içi destek: ORB long tetikleyicisi (açılış aralığı yukarı kırıldı). Gün içi (day-trade) pozisyonu açacaksan önerilen stop: 297.0, hedef: 341.25.",
-      "trade_plan": {
-        "direction": "LONG",
-        "entry_price": 311.75,
-        "stop_loss": 297.0,
-        "take_profit": 341.25,
-        "risk_pct": -4.73,
-        "reward_pct": 9.46,
-        "risk_reward_ratio": 2.0,
-        "atr_pct": 5.44,
-        "trigger": "ORB long (OR yukarı kırıldı); VWAP üstü (+1.1%); hacim 3.6x normal",
-        "confidence": "MEDIUM",
-        "shares_per_1k_capital": 0,
-        "shares_per_50k_capital": 33,
-        "risk_per_share_tl": 14.75,
-        "actionable": true
-      }
+      "explanation": "**ASTOR** (Industrial) uzun vade skoru 63/100 (ORTA seviye). Skorun ana sürücüleri: sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); yabancı oranı %71 — kurumsal yatırımcı favorisi; teknik görünüm pozitif (52w yüksekten makul mesafede). Skoru aşağı çeken: Piotroski düşük (mali sağlamlık zayıf) (sürücüler bu zayıflığı kompanze ediyor). Gün içi sinyal nötr (skor +36). Gün içi destek: ORB long tetikleyicisi (açılış aralığı yukarı kırıldı).",
+      "trade_plan": null
     },
     {
       "ticker": "MAGEN",

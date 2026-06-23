@@ -1,91 +1,6 @@
 {
   "items": [
     {
-      "ticker": "ASTOR",
-      "sector": "Industrial",
-      "layer": "Long+Swing",
-      "weight_pct": 5.4,
-      "foreign_ratio_pct": 71.29,
-      "long_conviction": {
-        "score": 63.1,
-        "breakdown": {
-          "fundamental": 50.7,
-          "momentum": 60.8,
-          "f_score": 22.2,
-          "foreign": 80.0,
-          "overlap": 100.0,
-          "tech": 80.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 36.2,
-        "direction": "LONG",
-        "breakdown": {
-          "gap": 11.4,
-          "orb": 80.0,
-          "vwap": 32.4,
-          "rsi": 25.0,
-          "fund_filter": 25.0,
-          "news": 0,
-          "volume": 50.0
-        },
-        "intraday": {
-          "last_price": 304.75,
-          "stop_long": 297.0,
-          "stop_short": 308.0,
-          "target_long": 341.25,
-          "target_short": 319.25,
-          "atr_pct": 5.44
-        }
-      },
-      "long_alarm": {
-        "tier": "ORTA",
-        "icon": "🟡",
-        "desc": "sessiz push",
-        "threshold": 50
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 3.9,
-      "advice": "🟡 ASTOR ortalama bir hisse (skor 63.1/100). Acelesi yok, daha güçlü sinyal bekle.",
-      "fundamentals": {
-        "fund_composite": 0.507,
-        "mom_z": 0.43,
-        "roe_ttm_pct": 22.9,
-        "op_margin_pct": 23.6,
-        "debt_eq": 0.16,
-        "rev_yoy_pct": -2.8,
-        "ni_yoy_pct": -24.5,
-        "f_score": 2.0,
-        "dist_high_pct": -7.3
-      },
-      "is_shortable": true,
-      "short_note": null,
-      "explanation": "**ASTOR** (Industrial) uzun vade skoru 63/100 (ORTA seviye). Skorun ana sürücüleri: sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); yabancı oranı %71 — kurumsal yatırımcı favorisi; teknik görünüm pozitif (52w yüksekten makul mesafede). Skoru aşağı çeken: Piotroski düşük (mali sağlamlık zayıf) (sürücüler bu zayıflığı kompanze ediyor). **Gün içi (day-trade) sinyali LONG yönlü** (skor +36). Gün içi destek: ORB long tetikleyicisi (açılış aralığı yukarı kırıldı). Gün içi (day-trade) pozisyonu açacaksan önerilen stop: 297.0, hedef: 341.25.",
-      "trade_plan": {
-        "direction": "LONG",
-        "entry_price": 311.75,
-        "stop_loss": 297.0,
-        "take_profit": 341.25,
-        "risk_pct": -4.73,
-        "reward_pct": 9.46,
-        "risk_reward_ratio": 2.0,
-        "atr_pct": 5.44,
-        "trigger": "ORB long (OR yukarı kırıldı); VWAP üstü (+1.1%); hacim 3.6x normal",
-        "confidence": "MEDIUM",
-        "shares_per_1k_capital": 0,
-        "shares_per_50k_capital": 33,
-        "risk_per_share_tl": 14.75,
-        "actionable": true
-      }
-    },
-    {
       "ticker": "MIATK",
       "sector": "Tech",
       "layer": "Long+Swing",
@@ -116,7 +31,7 @@
           "volume": -50.0
         },
         "intraday": {
-          "last_price": 44.22,
+          "last_price": 44.04,
           "stop_long": 46.68,
           "stop_short": 47.18,
           "target_long": 42.96,
@@ -171,91 +86,6 @@
       }
     },
     {
-      "ticker": "GUBRF",
-      "sector": "Chemicals",
-      "layer": "Long+Swing",
-      "weight_pct": 5.4,
-      "foreign_ratio_pct": 12.72,
-      "long_conviction": {
-        "score": 70.6,
-        "breakdown": {
-          "fundamental": 64.2,
-          "momentum": 73.5,
-          "f_score": 66.7,
-          "foreign": 45.0,
-          "overlap": 100.0,
-          "tech": 80.0,
-          "news": 50.0
-        }
-      },
-      "day_trade_conviction": {
-        "score": 31.1,
-        "direction": "LONG",
-        "breakdown": {
-          "gap": 13.8,
-          "orb": 80.0,
-          "vwap": 27.6,
-          "rsi": -25.0,
-          "fund_filter": 25.0,
-          "news": 0,
-          "volume": 50.0
-        },
-        "intraday": {
-          "last_price": 498.0,
-          "stop_long": 493.25,
-          "stop_short": 497.5,
-          "target_long": 543.5,
-          "target_short": 535.0,
-          "atr_pct": 4.37
-        }
-      },
-      "long_alarm": {
-        "tier": "YUKSEK",
-        "icon": "🟠",
-        "desc": "standart bildirim",
-        "threshold": 65
-      },
-      "day_alarm": {
-        "tier": "NONE",
-        "icon": "",
-        "desc": "alarm yok",
-        "threshold": 0
-      },
-      "is_golden_pick": false,
-      "estimated_potential_pct": 2.7,
-      "advice": "✅ GUBRF mantıklı bir uzun pozisyon (skor 70.6/100). Sermayenin küçük bir kısmıyla başla.",
-      "fundamentals": {
-        "fund_composite": 0.642,
-        "mom_z": 0.94,
-        "roe_ttm_pct": 26.0,
-        "op_margin_pct": 12.2,
-        "debt_eq": 0.32,
-        "rev_yoy_pct": 64.2,
-        "ni_yoy_pct": -576.9,
-        "f_score": 6.0,
-        "dist_high_pct": -4.8
-      },
-      "is_shortable": true,
-      "short_note": null,
-      "explanation": "**GUBRF** (Chemicals) uzun vade skoru 71/100 (YUKSEK seviye). Skorun ana sürücüleri: sistem hem fundamental hem momentum katmanında onaylıyor (çift onay); momentum pozitif yönlü; temel görünüm ortalama. **Gün içi (day-trade) sinyali LONG yönlü** (skor +31). Gün içi destek: ORB long tetikleyicisi (açılış aralığı yukarı kırıldı). Gün içi (day-trade) pozisyonu açacaksan önerilen stop: 493.25, hedef: 543.5.",
-      "trade_plan": {
-        "direction": "LONG",
-        "entry_price": 510.0,
-        "stop_loss": 493.25,
-        "take_profit": 543.5,
-        "risk_pct": -3.28,
-        "reward_pct": 6.57,
-        "risk_reward_ratio": 2.0,
-        "atr_pct": 4.37,
-        "trigger": "ORB long (OR yukarı kırıldı); VWAP üstü (+0.9%); hacim 4.0x normal",
-        "confidence": "MEDIUM",
-        "shares_per_1k_capital": 0,
-        "shares_per_50k_capital": 29,
-        "risk_per_share_tl": 16.75,
-        "actionable": true
-      }
-    },
-    {
       "ticker": "MAVI",
       "sector": "Retail",
       "layer": "Long+Swing",
@@ -286,7 +116,7 @@
           "volume": -50.0
         },
         "intraday": {
-          "last_price": 41.0,
+          "last_price": 40.9,
           "stop_long": 41.68,
           "stop_short": 42.2,
           "target_long": 39.94,
@@ -340,5 +170,8 @@
         "actionable": true
       }
     }
-  ]
+  ],
+  "validated": false,
+  "direction_only": "SHORT",
+  "note": "Deneysel — yalnız SHORT yön gösterilir (v3 SHORT-only doğrulandı, tek pencere, paper-test sürüyor). LONG day-trade kapatıldı."
 }
