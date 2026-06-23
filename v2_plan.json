@@ -1,23 +1,24 @@
 {
-  "date": "2026-06-22",
-  "ts": "2026-06-22T11:00:01",
-  "is_today": false,
+  "date": "2026-06-23",
+  "ts": "2026-06-23T11:00:01",
+  "is_today": true,
   "picks": [
+    {
+      "ticker": "TUPRS",
+      "side": "SHORT",
+      "score": -4.5,
+      "entry": 218.4,
+      "rsi": 34.1,
+      "stop": 228.55,
+      "anlik": 219.5
+    },
     {
       "ticker": "SELEC",
       "side": "LONG",
-      "score": 6.92,
-      "entry": 184.3,
-      "rsi": 89.2,
-      "stop": 175.0
-    },
-    {
-      "ticker": "ODAS",
-      "side": "LONG",
-      "score": 4.5,
-      "entry": 9.46,
-      "rsi": 77.5,
-      "stop": 9.33
+      "score": 7.5,
+      "entry": 202.7,
+      "rsi": 91.3,
+      "stop": 182.45
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"

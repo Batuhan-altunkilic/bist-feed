@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T07:42:21+00:00",
+  "generated_at": "2026-06-23T10:02:11+00:00",
   "regime": {
     "name": "NORMAL",
     "exposure_multiplier": 1.0,
@@ -104,7 +104,7 @@
   ],
   "risk_notes": {
     "position_size": "Sermayen × %1 (tek emirde max risk)",
-    "stop": "Long için OR low, Short için OR high (kesin)",
+    "stop": "ATR×2.5 mesafe (v3: OR-stop zarar kaynağıydı; geniş ATR stop daha iyi). Asıl koruma EOD çıkışı; gün-içi felaket stop'u geniştir.",
     "target": "Risk × 2 (2:1 R/R minimum)",
     "exit": "Hedef geldiğinde, stop tetiklendiğinde, veya gün sonu (overnight tutma)",
     "capital_warning": "BIST komisyonu round-trip %0.40. <50K TL hesapta day trade ekonomik değil — paper olarak öğren."
