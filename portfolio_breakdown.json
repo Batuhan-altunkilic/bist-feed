@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T10:02:03+00:00",
+  "generated_at": "2026-06-24T11:57:01+00:00",
   "regime": {
     "name": "NORMAL",
     "exposure_multiplier": 1.0,
@@ -10,96 +10,36 @@
   },
   "allocation": {
     "long_term_core_pct": 60.0,
-    "long_term_core_count": 15,
-    "long_term_core_desc": "15 hisse, PIT fundamental composite (Quality 50% + Value 25% + Growth 25%), 1-3 yıl tut, çeyreklik rebalance",
+    "long_term_core_count": 1,
+    "long_term_core_desc": "1 hisse, PIT fundamental composite (Quality 50% + Value 25% + Growth 25%), 1-3 yıl tut, çeyreklik rebalance",
     "swing_momentum_pct": 35.0,
-    "swing_momentum_count": 25,
-    "swing_momentum_desc": "25 hisse, momentum top-25 + sektör cap, aylık rebalance",
+    "swing_momentum_count": 0,
+    "swing_momentum_desc": "0 hisse, momentum top-25 + sektör cap, aylık rebalance",
     "cash_buffer_pct": 5.0,
-    "overlap_count": 9,
+    "overlap_count": 0,
     "overlap_desc": "hem Long hem Swing'de"
   },
   "sektor_dagilimi": [
     {
-      "sektor": "Banking",
-      "yuzde": 17.6
-    },
-    {
-      "sektor": "REIT",
-      "yuzde": 13.4
-    },
-    {
       "sektor": "Retail",
-      "yuzde": 12.2
-    },
-    {
-      "sektor": "Tech",
-      "yuzde": 9.4
-    },
-    {
-      "sektor": "Defense",
-      "yuzde": 5.4
-    },
-    {
-      "sektor": "Automotive",
-      "yuzde": 5.4
-    },
-    {
-      "sektor": "Construction",
-      "yuzde": 5.4
-    },
-    {
-      "sektor": "Chemicals",
-      "yuzde": 5.4
-    },
-    {
-      "sektor": "Industrial",
-      "yuzde": 5.4
-    },
-    {
-      "sektor": "Holding",
-      "yuzde": 4.2
-    },
-    {
-      "sektor": "Energy",
-      "yuzde": 4.2
-    },
-    {
-      "sektor": "Beverages",
-      "yuzde": 1.4
-    },
-    {
-      "sektor": "Aviation",
-      "yuzde": 1.4
-    },
-    {
-      "sektor": "Pharma",
-      "yuzde": 1.4
-    },
-    {
-      "sektor": "Steel",
-      "yuzde": 1.4
-    },
-    {
-      "sektor": "Telecom",
-      "yuzde": 1.4
+      "yuzde": 60.0
     }
   ],
   "layer_summary": [
     {
       "layer": "Long-Term Core",
       "target_pct": 60.0,
-      "actual_pct": 72.6
+      "actual_pct": 60.0
     },
     {
       "layer": "Swing Momentum",
       "target_pct": 35.0,
-      "actual_pct": 71.0
+      "actual_pct": 0.0
     },
     {
       "layer": "Cash",
       "target_pct": 5.0,
-      "actual_pct": 5.0
+      "actual_pct": 40.0
     }
   ],
   "risk_notes": {
@@ -124,7 +64,7 @@
     "Takas/yabancı oranı analizi henüz dahil değil (Yol 1'de eklenecek)."
   ],
   "universe": "BIST 100",
-  "production_date": "2026-05-12",
-  "data_cutoff_date": "2025-12-30",
+  "production_date": "2026-06-24",
+  "data_cutoff_date": "2026-06-23",
   "data_sources": "İsyatırım çeyreklik mali tablolar (TTM, PIT) + yfinance fiyat + USDTRY makro"
 }
