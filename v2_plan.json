@@ -1,24 +1,23 @@
 {
-  "date": "2026-06-23",
-  "ts": "2026-06-23T11:00:01",
-  "is_today": false,
+  "date": "2026-06-24",
+  "ts": "2026-06-24T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "TUPRS",
+      "ticker": "HEKTS",
       "side": "SHORT",
-      "score": -4.5,
-      "entry": 218.4,
-      "rsi": 34.1,
-      "stop": 228.55,
-      "anlik": 217.5
+      "score": -6.5,
+      "entry": 3.76,
+      "rsi": 44.4,
+      "stop": 4.41
     },
     {
       "ticker": "SELEC",
       "side": "LONG",
-      "score": 7.5,
-      "entry": 202.7,
-      "rsi": 91.3,
-      "stop": 182.45
+      "score": 5.61,
+      "entry": 217.9,
+      "rsi": 92.5,
+      "stop": 187.8
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
