@@ -49,7 +49,7 @@
       "long_score": 70.6,
       "day_score": 31.1,
       "entry_price_estimate": 510.0,
-      "return_t1_pct": null,
+      "return_t1_pct": -8.38,
       "return_t3_pct": null,
       "return_t5_pct": null,
       "status": "OPEN",
@@ -63,7 +63,7 @@
       "long_score": 63.1,
       "day_score": 36.2,
       "entry_price_estimate": 311.75,
-      "return_t1_pct": null,
+      "return_t1_pct": -4.41,
       "return_t3_pct": null,
       "return_t5_pct": null,
       "status": "OPEN",
@@ -77,7 +77,7 @@
       "long_score": 60.6,
       "day_score": -30.3,
       "entry_price_estimate": 41.1,
-      "return_t1_pct": null,
+      "return_t1_pct": -3.6,
       "return_t3_pct": null,
       "return_t5_pct": null,
       "status": "OPEN",
@@ -91,7 +91,7 @@
       "long_score": 56.9,
       "day_score": -32.8,
       "entry_price_estimate": 45.44,
-      "return_t1_pct": null,
+      "return_t1_pct": -8.1,
       "return_t3_pct": null,
       "return_t5_pct": null,
       "status": "OPEN",
@@ -141,6 +141,6 @@
       "is_golden_pick": false
     }
   ],
-  "generated_at": "2026-06-24T17:02:32",
+  "generated_at": "2026-06-25T09:32:18",
   "total_in_log": 54
 }

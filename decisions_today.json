@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T17:02:16",
+  "generated_at": "2026-06-25T09:31:27",
   "summary": {
     "total": 1,
     "golden_picks": 0,
@@ -17,11 +17,11 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 60.0,
-      "foreign_ratio_pct": 47.16,
+      "foreign_ratio_pct": 47.28,
       "long_conviction": {
-        "score": 52.9,
+        "score": 54.6,
         "breakdown": {
-          "fundamental": 39.9,
+          "fundamental": 45.5,
           "momentum": 50.0,
           "f_score": 44.4,
           "foreign": 70.0,
@@ -31,12 +31,12 @@
         }
       },
       "day_trade_conviction": {
-        "score": -21.2,
+        "score": -20.8,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 1.1,
           "orb": -80.0,
-          "vwap": -19.8,
+          "vwap": -17.1,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
@@ -65,23 +65,22 @@
       },
       "is_golden_pick": false,
       "estimated_potential_pct": 1.1,
-      "advice": "🟡 BIMAS ortalama bir hisse (skor 52.9/100). Acelesi yok, daha güçlü sinyal bekle.",
+      "advice": "🟡 BIMAS ortalama bir hisse (skor 54.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
-        "fund_composite": 0.399,
+        "fund_composite": 0.455,
         "mom_z": null,
-        "roe_ttm_pct": 11.3,
-        "op_margin_pct": 2.2,
-        "debt_eq": 0.32,
-        "rev_yoy_pct": 6.0,
-        "ni_yoy_pct": -23.4,
+        "roe_ttm_pct": 12.4,
+        "op_margin_pct": 2.7,
+        "debt_eq": 0.31,
+        "rev_yoy_pct": 11.4,
+        "ni_yoy_pct": 4.0,
         "f_score": 4.0,
-        "dist_high_pct": -7.1
+        "dist_high_pct": -9.2
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**BIMAS** (Retail) uzun vade skoru 53/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %47 (sağlıklı seviye); long-term katmanda yer alıyor. Skoru aşağı çeken: temel görünüm ortalama altı (skor 40/100) (sürücüler bu zayıflığı kompanze ediyor).",
+      "explanation": "**BIMAS** (Retail) uzun vade skoru 55/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %47 (sağlıklı seviye); long-term katmanda yer alıyor.",
       "trade_plan": null
     }
-  ],
-  "price_refreshed_at": "2026-06-24T18:15:09"
+  ]
 }
