@@ -1,23 +1,23 @@
 {
-  "date": "2026-06-24",
-  "ts": "2026-06-24T11:00:01",
-  "is_today": false,
+  "date": "2026-06-25",
+  "ts": "2026-06-25T11:00:01",
+  "is_today": true,
   "picks": [
     {
       "ticker": "HEKTS",
       "side": "SHORT",
-      "score": -6.5,
-      "entry": 3.76,
-      "rsi": 44.4,
-      "stop": 4.41
+      "score": -5.0,
+      "entry": 3.49,
+      "rsi": 40.0,
+      "stop": 4.19
     },
     {
-      "ticker": "SELEC",
+      "ticker": "THYAO",
       "side": "LONG",
-      "score": 5.61,
-      "entry": 217.9,
-      "rsi": 92.5,
-      "stop": 187.8
+      "score": 4.5,
+      "entry": 332.5,
+      "rsi": 68.1,
+      "stop": 317.12
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
