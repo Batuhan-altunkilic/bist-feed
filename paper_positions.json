@@ -1,22 +1,22 @@
 {
   "open": [
     {
-      "ticker": "GARAN",
-      "kind": "long",
-      "signal_date": "2026-06-06",
-      "score": 67.0,
-      "is_golden_pick": false,
-      "mtm_pnl_pct": 13.569,
-      "hold_days": 12
-    },
-    {
       "ticker": "EKGYO",
       "kind": "long",
       "signal_date": "2026-06-06",
       "score": 73.0,
       "is_golden_pick": false,
-      "mtm_pnl_pct": 13.534,
-      "hold_days": 12
+      "mtm_pnl_pct": 13.207,
+      "hold_days": 13
+    },
+    {
+      "ticker": "GARAN",
+      "kind": "long",
+      "signal_date": "2026-06-06",
+      "score": 67.0,
+      "is_golden_pick": false,
+      "mtm_pnl_pct": 11.298,
+      "hold_days": 13
     },
     {
       "ticker": "VAKBN",
@@ -24,8 +24,8 @@
       "signal_date": "2026-06-06",
       "score": 70.4,
       "is_golden_pick": false,
-      "mtm_pnl_pct": 6.102,
-      "hold_days": 12
+      "mtm_pnl_pct": 2.965,
+      "hold_days": 13
     },
     {
       "ticker": "TRGYO",
@@ -33,8 +33,8 @@
       "signal_date": "2026-06-06",
       "score": 69.1,
       "is_golden_pick": false,
-      "mtm_pnl_pct": 1.413,
-      "hold_days": 12
+      "mtm_pnl_pct": 2.606,
+      "hold_days": 13
     },
     {
       "ticker": "ASELS",
@@ -42,17 +42,17 @@
       "signal_date": "2026-06-06",
       "score": 73.8,
       "is_golden_pick": false,
-      "mtm_pnl_pct": 0.11,
-      "hold_days": 12
+      "mtm_pnl_pct": 1.749,
+      "hold_days": 13
     },
     {
-      "ticker": "HALKB",
+      "ticker": "GUBRF",
       "kind": "long",
       "signal_date": "2026-06-06",
-      "score": 73.3,
+      "score": 70.6,
       "is_golden_pick": false,
-      "mtm_pnl_pct": -2.591,
-      "hold_days": 12
+      "mtm_pnl_pct": -1.694,
+      "hold_days": 13
     },
     {
       "ticker": "LOGO",
@@ -61,16 +61,16 @@
       "score": 70.1,
       "is_golden_pick": false,
       "mtm_pnl_pct": -3.232,
-      "hold_days": 12
+      "hold_days": 13
     },
     {
-      "ticker": "GUBRF",
+      "ticker": "HALKB",
       "kind": "long",
       "signal_date": "2026-06-06",
-      "score": 70.6,
+      "score": 73.3,
       "is_golden_pick": false,
-      "mtm_pnl_pct": -3.811,
-      "hold_days": 12
+      "mtm_pnl_pct": -3.49,
+      "hold_days": 13
     },
     {
       "ticker": "ENKAI",
@@ -78,16 +78,16 @@
       "signal_date": "2026-06-06",
       "score": 70.1,
       "is_golden_pick": false,
-      "mtm_pnl_pct": -4.278,
-      "hold_days": 12
+      "mtm_pnl_pct": -3.848,
+      "hold_days": 13
     }
   ],
   "open_count": 9,
-  "open_avg_mtm_pct": 2.31,
+  "open_avg_mtm_pct": 2.17,
   "summary": {
-    "closed_count": 28,
-    "win_rate_pct": 28.6,
-    "avg_net_pct": -0.9,
-    "total_tl_per_10k": -2808.0
+    "closed_count": 29,
+    "win_rate_pct": 27.6,
+    "avg_net_pct": -0.94,
+    "total_tl_per_10k": -2889.0
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T17:02:28",
+  "generated_at": "2026-06-26T09:31:50",
   "summary": {
     "total": 1,
     "golden_picks": 0,
@@ -17,7 +17,7 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 60.0,
-      "foreign_ratio_pct": 47.28,
+      "foreign_ratio_pct": 47.39,
       "long_conviction": {
         "score": 54.6,
         "breakdown": {
@@ -31,24 +31,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -21.0,
+        "score": -21.1,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 9.0,
           "orb": -80.0,
-          "vwap": -31.8,
+          "vwap": -7.5,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": -25.0
         },
         "intraday": {
           "last_price": 375.5,
-          "stop_long": 351.12,
-          "stop_short": 397.88,
-          "target_long": 421.26,
-          "target_short": 327.74,
-          "atr_pct": 2.5
+          "stop_long": 350.25,
+          "stop_short": 400.75,
+          "target_long": 426.0,
+          "target_short": 325.0,
+          "atr_pct": 2.69
         }
       },
       "long_alarm": {
@@ -75,13 +75,12 @@
         "rev_yoy_pct": 11.4,
         "ni_yoy_pct": 4.0,
         "f_score": 4.0,
-        "dist_high_pct": -9.2
+        "dist_high_pct": -8.8
       },
       "is_shortable": true,
       "short_note": null,
       "explanation": "**BIMAS** (Retail) uzun vade skoru 55/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %47 (sağlıklı seviye); long-term katmanda yer alıyor.",
       "trade_plan": null
     }
-  ],
-  "price_refreshed_at": "2026-06-25T18:15:08"
+  ]
 }

@@ -1,12 +1,12 @@
 {
   "overall": {
     "total_signals": 54,
-    "evaluated_t1": 51,
-    "hits_t1": 23,
-    "win_rate_t1_pct": 45.1,
-    "evaluated_t3": 41,
-    "hits_t3": 19,
-    "win_rate_t3_pct": 46.3,
+    "evaluated_t1": 54,
+    "hits_t1": 25,
+    "win_rate_t1_pct": 46.3,
+    "evaluated_t3": 47,
+    "hits_t3": 22,
+    "win_rate_t3_pct": 46.8,
     "evaluated_t5": 41,
     "hits_t5": 19,
     "win_rate_t5_pct": 46.3,
@@ -16,13 +16,13 @@
   "by_layer": {
     "Swing": {
       "n": 46,
-      "win_rate_t3_pct": 47.1
+      "win_rate_t3_pct": 48.7
     }
   },
   "by_tier": {
     "ORTA": {
       "n": 38,
-      "win_rate_t3_pct": null
+      "win_rate_t3_pct": 45.5
     }
   },
   "top_sectors": [],
@@ -30,19 +30,19 @@
   "period": {
     "last_30d": {
       "n": 54,
-      "win_rate_t3_pct": 46.3
+      "win_rate_t3_pct": 46.8
     },
     "last_90d": {
       "n": 54,
-      "win_rate_t3_pct": 46.3
+      "win_rate_t3_pct": 46.8
     }
   },
-  "generated_at": "2026-06-25T14:02:43+00:00",
+  "generated_at": "2026-06-26T06:32:38+00:00",
   "total_signals": 54,
-  "win_rate_t1_pct": 45.1,
-  "win_rate_t3_pct": 46.3,
+  "win_rate_t1_pct": 46.3,
+  "win_rate_t3_pct": 46.8,
   "win_rate_t5_pct": 46.3,
-  "evaluated_t3": 41,
+  "evaluated_t3": 47,
   "insufficient_sample": false,
   "min_sample": 30
 }
