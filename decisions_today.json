@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T17:02:14",
+  "generated_at": "2026-06-29T09:32:19",
   "summary": {
     "total": 1,
     "golden_picks": 0,
@@ -17,7 +17,7 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 60.0,
-      "foreign_ratio_pct": 47.39,
+      "foreign_ratio_pct": 47.22,
       "long_conviction": {
         "score": 54.6,
         "breakdown": {
@@ -31,24 +31,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -24.3,
+        "score": -27.2,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": -4.1,
           "orb": -80.0,
-          "vwap": -31.8,
+          "vwap": -1.5,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": -50.0
         },
         "intraday": {
           "last_price": 373.0,
-          "stop_long": 343.75,
-          "stop_short": 395.75,
-          "target_long": 421.75,
-          "target_short": 317.75,
-          "atr_pct": 2.81
+          "stop_long": 346.5,
+          "stop_short": 399.5,
+          "target_long": 426.0,
+          "target_short": 320.0,
+          "atr_pct": 2.84
         }
       },
       "long_alarm": {
@@ -64,7 +64,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.4,
+      "estimated_potential_pct": 1.5,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 54.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
@@ -75,13 +75,12 @@
         "rev_yoy_pct": 11.4,
         "ni_yoy_pct": 4.0,
         "f_score": 4.0,
-        "dist_high_pct": -8.8
+        "dist_high_pct": -9.1
       },
       "is_shortable": true,
       "short_note": null,
       "explanation": "**BIMAS** (Retail) uzun vade skoru 55/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %47 (sağlıklı seviye); long-term katmanda yer alıyor.",
       "trade_plan": null
     }
-  ],
-  "price_refreshed_at": "2026-06-26T18:15:08"
+  ]
 }
