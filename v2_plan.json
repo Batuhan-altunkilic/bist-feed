@@ -1,23 +1,15 @@
 {
-  "date": "2026-06-26",
-  "ts": "2026-06-26T11:00:02",
-  "is_today": false,
+  "date": "2026-06-29",
+  "ts": "2026-06-29T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "SELEC",
-      "side": "SHORT",
-      "score": -5.55,
-      "entry": 204.4,
-      "rsi": 79.5,
-      "stop": 236.1
-    },
-    {
-      "ticker": "ECZYT",
-      "side": "SHORT",
-      "score": -4.5,
-      "entry": 317.0,
-      "rsi": 31.4,
-      "stop": 352.5
+      "ticker": "KRDMB",
+      "side": "LONG",
+      "score": 4.5,
+      "entry": 138.1,
+      "rsi": 77.9,
+      "stop": 125.45
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
