@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T17:02:15",
+  "generated_at": "2026-06-30T09:32:49",
   "summary": {
     "total": 1,
     "golden_picks": 0,
@@ -17,7 +17,7 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 60.0,
-      "foreign_ratio_pct": 47.22,
+      "foreign_ratio_pct": 47.31,
       "long_conviction": {
         "score": 54.6,
         "breakdown": {
@@ -31,23 +31,23 @@
         }
       },
       "day_trade_conviction": {
-        "score": -20.0,
+        "score": -26.9,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 0.0,
           "orb": -80.0,
-          "vwap": -9.9,
+          "vwap": -6.0,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": -50.0
         },
         "intraday": {
           "last_price": 370.75,
-          "stop_long": 344.12,
-          "stop_short": 396.87,
-          "target_long": 423.26,
-          "target_short": 317.76,
+          "stop_long": 344.38,
+          "stop_short": 397.12,
+          "target_long": 423.49,
+          "target_short": 318.01,
           "atr_pct": 2.85
         }
       },
@@ -64,7 +64,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.1,
+      "estimated_potential_pct": 1.5,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 54.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
@@ -75,13 +75,12 @@
         "rev_yoy_pct": 11.4,
         "ni_yoy_pct": 4.0,
         "f_score": 4.0,
-        "dist_high_pct": -9.1
+        "dist_high_pct": -9.9
       },
       "is_shortable": true,
       "short_note": null,
       "explanation": "**BIMAS** (Retail) uzun vade skoru 55/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %47 (sağlıklı seviye); long-term katmanda yer alıyor.",
       "trade_plan": null
     }
-  ],
-  "price_refreshed_at": "2026-06-29T18:15:12"
+  ]
 }

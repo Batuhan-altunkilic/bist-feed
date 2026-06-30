@@ -4,25 +4,25 @@
     "evaluated_t1": 54,
     "hits_t1": 25,
     "win_rate_t1_pct": 46.3,
-    "evaluated_t3": 51,
-    "hits_t3": 24,
-    "win_rate_t3_pct": 47.1,
-    "evaluated_t5": 41,
-    "hits_t5": 19,
-    "win_rate_t5_pct": 46.3,
+    "evaluated_t3": 54,
+    "hits_t3": 27,
+    "win_rate_t3_pct": 50.0,
+    "evaluated_t5": 54,
+    "hits_t5": 28,
+    "win_rate_t5_pct": 51.9,
     "insufficient_sample": false,
     "min_sample": 30
   },
   "by_layer": {
     "Swing": {
       "n": 46,
-      "win_rate_t3_pct": 48.8
+      "win_rate_t3_pct": 52.2
     }
   },
   "by_tier": {
     "ORTA": {
       "n": 38,
-      "win_rate_t3_pct": 47.2
+      "win_rate_t3_pct": 50.0
     }
   },
   "top_sectors": [],
@@ -30,19 +30,19 @@
   "period": {
     "last_30d": {
       "n": 54,
-      "win_rate_t3_pct": 47.1
+      "win_rate_t3_pct": 50.0
     },
     "last_90d": {
       "n": 54,
-      "win_rate_t3_pct": 47.1
+      "win_rate_t3_pct": 50.0
     }
   },
-  "generated_at": "2026-06-29T14:02:28+00:00",
+  "generated_at": "2026-06-30T06:33:42+00:00",
   "total_signals": 54,
   "win_rate_t1_pct": 46.3,
-  "win_rate_t3_pct": 47.1,
-  "win_rate_t5_pct": 46.3,
-  "evaluated_t3": 51,
+  "win_rate_t3_pct": 50.0,
+  "win_rate_t5_pct": 51.9,
+  "evaluated_t3": 54,
   "insufficient_sample": false,
   "min_sample": 30
 }
