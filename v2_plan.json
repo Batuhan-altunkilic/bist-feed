@@ -1,32 +1,7 @@
 {
-  "date": "2026-06-30",
-  "ts": "2026-06-30T11:00:03",
-  "is_today": false,
-  "picks": [
-    {
-      "ticker": "GUBRF",
-      "side": "SHORT",
-      "score": -4.5,
-      "entry": 444.5,
-      "rsi": 36.2,
-      "stop": 492.25
-    },
-    {
-      "ticker": "MAVI",
-      "side": "SHORT",
-      "score": -4.5,
-      "entry": 38.62,
-      "rsi": 32.3,
-      "stop": 40.67
-    },
-    {
-      "ticker": "KLMSN",
-      "side": "LONG",
-      "score": 4.54,
-      "entry": 35.58,
-      "rsi": 68.1,
-      "stop": 31.97
-    }
-  ],
+  "date": "2026-07-01",
+  "ts": "2026-07-01T11:00:02",
+  "is_today": true,
+  "picks": [],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
 }
