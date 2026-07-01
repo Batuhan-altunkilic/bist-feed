@@ -1,7 +1,7 @@
 {
   "date": "2026-06-30",
   "ts": "2026-06-30T11:00:03",
-  "is_today": true,
+  "is_today": false,
   "picks": [
     {
       "ticker": "GUBRF",
