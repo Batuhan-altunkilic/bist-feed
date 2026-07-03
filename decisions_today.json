@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T17:02:21",
+  "generated_at": "2026-07-03T09:32:17",
   "summary": {
     "total": 1,
     "golden_picks": 0,
@@ -17,7 +17,7 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 60.0,
-      "foreign_ratio_pct": 47.28,
+      "foreign_ratio_pct": 47.43,
       "long_conviction": {
         "score": 52.6,
         "breakdown": {
@@ -31,23 +31,23 @@
         }
       },
       "day_trade_conviction": {
-        "score": -20.5,
+        "score": -27.9,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 1.1,
           "orb": -80.0,
-          "vwap": -15.0,
+          "vwap": -14.1,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": -50.0
         },
         "intraday": {
           "last_price": 356.75,
-          "stop_long": 333.12,
-          "stop_short": 380.88,
-          "target_long": 404.76,
-          "target_short": 309.24,
+          "stop_long": 332.88,
+          "stop_short": 380.62,
+          "target_long": 404.49,
+          "target_short": 309.01,
           "atr_pct": 2.68
         }
       },
@@ -64,7 +64,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.1,
+      "estimated_potential_pct": 1.5,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 52.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
@@ -75,13 +75,12 @@
         "rev_yoy_pct": 11.4,
         "ni_yoy_pct": 4.0,
         "f_score": 4.0,
-        "dist_high_pct": -11.5
+        "dist_high_pct": -13.2
       },
       "is_shortable": true,
       "short_note": null,
       "explanation": "**BIMAS** (Retail) uzun vade skoru 53/100 (ORTA seviye). Skorun ana sürücüleri: yabancı oranı %47 (sağlıklı seviye); long-term katmanda yer alıyor; teknik görünüm pozitif (52w yüksekten makul mesafede).",
       "trade_plan": null
     }
-  ],
-  "price_refreshed_at": "2026-07-02T18:15:06"
+  ]
 }
