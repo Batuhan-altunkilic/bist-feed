@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T13:01:56",
+  "generated_at": "2026-07-03T17:02:02",
   "summary": {
     "total": 1,
     "golden_picks": 0,
@@ -31,24 +31,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -19.7,
+        "score": -0.8,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 8.4,
-          "orb": -80.0,
-          "vwap": -22.2,
+          "orb": 0.0,
+          "vwap": -2.4,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 358.75,
-          "stop_long": 332.75,
-          "stop_short": 380.25,
-          "target_long": 404.0,
-          "target_short": 309.0,
-          "atr_pct": 2.66
+          "last_price": 358.0,
+          "stop_long": 334.38,
+          "stop_short": 382.13,
+          "target_long": 405.99,
+          "target_short": 310.49,
+          "atr_pct": 2.67
         }
       },
       "long_alarm": {
@@ -64,7 +64,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.0,
+      "estimated_potential_pct": 0.0,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 52.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
@@ -83,5 +83,5 @@
       "trade_plan": null
     }
   ],
-  "price_refreshed_at": "2026-07-03T16:55:08"
+  "price_refreshed_at": "2026-07-03T17:05:06"
 }
