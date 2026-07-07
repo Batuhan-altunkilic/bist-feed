@@ -1,7 +1,56 @@
 {
-  "date": "2026-07-06",
-  "ts": "2026-07-06T11:00:02",
-  "is_today": false,
-  "picks": [],
+  "date": "2026-07-07",
+  "ts": "2026-07-07T11:00:02",
+  "is_today": true,
+  "picks": [
+    {
+      "ticker": "GLYHO",
+      "side": "SHORT",
+      "score": -6.81,
+      "entry": 17.85,
+      "rsi": 55.7,
+      "stop": 19.12
+    },
+    {
+      "ticker": "SELEC",
+      "side": "SHORT",
+      "score": -6.5,
+      "entry": 205.5,
+      "rsi": 65.0,
+      "stop": 242.45
+    },
+    {
+      "ticker": "PRKME",
+      "side": "SHORT",
+      "score": -6.5,
+      "entry": 21.02,
+      "rsi": 54.5,
+      "stop": 27.17
+    },
+    {
+      "ticker": "ECILC",
+      "side": "SHORT",
+      "score": -4.51,
+      "entry": 74.8,
+      "rsi": 35.0,
+      "stop": 79.05
+    },
+    {
+      "ticker": "HEKTS",
+      "side": "SHORT",
+      "score": -4.26,
+      "entry": 3.17,
+      "rsi": 34.0,
+      "stop": 3.47
+    },
+    {
+      "ticker": "THYAO",
+      "side": "LONG",
+      "score": 4.59,
+      "entry": 347.75,
+      "rsi": 74.2,
+      "stop": 332.75
+    }
+  ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
 }
