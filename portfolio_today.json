@@ -6,7 +6,7 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 60.0,
-      "foreign_ratio_pct": 47.48,
+      "foreign_ratio_pct": 47.59,
       "long_conviction": {
         "score": 52.6,
         "breakdown": {
@@ -20,23 +20,23 @@
         }
       },
       "day_trade_conviction": {
-        "score": 20.0,
+        "score": 34.2,
         "direction": "NEUTRAL",
         "breakdown": {
-          "gap": -4.1,
+          "gap": 54.6,
           "orb": 80.0,
-          "vwap": 16.8,
-          "rsi": 25.0,
+          "vwap": -3.0,
+          "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": 50.0
         },
         "intraday": {
-          "last_price": 375.25,
-          "stop_long": 351.12,
-          "stop_short": 399.38,
-          "target_long": 423.51,
-          "target_short": 326.99,
+          "last_price": 373.25,
+          "stop_long": 349.25,
+          "stop_short": 397.25,
+          "target_long": 421.25,
+          "target_short": 325.25,
           "atr_pct": 2.57
         }
       },
@@ -53,7 +53,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.0,
+      "estimated_potential_pct": 1.8,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 52.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
@@ -68,7 +68,7 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**BIMAS** (Retail) uzun vade skoru 53/100 (ORTA seviye). Skorun ana sürücüleri: yabancı oranı %47 (sağlıklı seviye); long-term katmanda yer alıyor; teknik görünüm pozitif (52w yüksekten makul mesafede).",
+      "explanation": "**BIMAS** (Retail) uzun vade skoru 53/100 (ORTA seviye). Skorun ana sürücüleri: yabancı oranı %48 (sağlıklı seviye); long-term katmanda yer alıyor; teknik görünüm pozitif (52w yüksekten makul mesafede). Gün içi sinyal nötr (skor +34). Gün içi destek: ORB long tetikleyicisi (açılış aralığı yukarı kırıldı); %3.6 yukarı gap ile açıldı.",
       "trade_plan": null
     }
   ],

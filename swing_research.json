@@ -1,9 +1,71 @@
 {
-  "generated_at": "2026-07-07T09:32:57",
-  "asof": "2026-07-03",
+  "generated_at": "2026-07-08T09:33:04",
+  "asof": "2026-07-06",
   "strategy": "swing-research (paper)",
-  "headline_new": [],
-  "breadth_new": [],
+  "headline_new": [
+    {
+      "ticker": "FROTO",
+      "tier": "B",
+      "signal_date": "2026-07-06",
+      "signal_close": 82.0,
+      "entry": 82.0,
+      "pending": true,
+      "target": 84.46,
+      "stop": 77.9,
+      "target_pct": 3.0,
+      "stop_pct": 5.0,
+      "rsi": 32.8,
+      "pctb": 0.04,
+      "adx": 33.1,
+      "ret5": -4.04,
+      "status": "PENDING",
+      "mtm_price": null,
+      "mtm_pnl_pct": null,
+      "sizing": {
+        "tier": "B",
+        "leverage": 3.0,
+        "notional_tl": 150000.0,
+        "risk_pct": 15.0,
+        "risk_tl": 7500.0,
+        "liquidation_move_pct": 33.33,
+        "stop_before_liq": true,
+        "ruin_warn": false,
+        "max_leverage": 5.0
+      }
+    }
+  ],
+  "breadth_new": [
+    {
+      "ticker": "SASA",
+      "tier": "C",
+      "signal_date": "2026-07-06",
+      "signal_close": 2.34,
+      "entry": 2.34,
+      "pending": true,
+      "target": 2.457,
+      "stop": 2.223,
+      "target_pct": 5.0,
+      "stop_pct": 5.0,
+      "rsi": 32.7,
+      "pctb": 0.08,
+      "adx": 21.7,
+      "ret5": -4.49,
+      "status": "PENDING",
+      "mtm_price": null,
+      "mtm_pnl_pct": null,
+      "sizing": {
+        "tier": "C",
+        "leverage": 1.0,
+        "notional_tl": 50000.0,
+        "risk_pct": 5.0,
+        "risk_tl": 2500.0,
+        "liquidation_move_pct": null,
+        "stop_before_liq": true,
+        "ruin_warn": false,
+        "max_leverage": 5.0
+      }
+    }
+  ],
   "open_positions": [
     {
       "ticker": "GOLTS",
@@ -21,8 +83,8 @@
       "adx": 25.9,
       "ret5": -2.79,
       "status": "OPEN",
-      "mtm_price": 332.0,
-      "mtm_pnl_pct": 2.95,
+      "mtm_price": 325.5,
+      "mtm_pnl_pct": 0.93,
       "entry_date": "2026-06-24",
       "sizing": {
         "tier": "C",
@@ -52,8 +114,8 @@
       "adx": 17.4,
       "ret5": -10.38,
       "status": "OPEN",
-      "mtm_price": 18.52,
-      "mtm_pnl_pct": -2.06,
+      "mtm_price": 18.04,
+      "mtm_pnl_pct": -4.6,
       "entry_date": "2026-06-25",
       "sizing": {
         "tier": "C",
@@ -83,8 +145,8 @@
       "adx": 50.7,
       "ret5": -8.15,
       "status": "OPEN",
-      "mtm_price": 100.1,
-      "mtm_pnl_pct": -2.05,
+      "mtm_price": 99.3,
+      "mtm_pnl_pct": -2.84,
       "entry_date": "2026-06-26",
       "sizing": {
         "tier": "B",
@@ -114,8 +176,8 @@
       "adx": 18.6,
       "ret5": -6.19,
       "status": "OPEN",
-      "mtm_price": 39.0,
-      "mtm_pnl_pct": -1.02,
+      "mtm_price": 39.26,
+      "mtm_pnl_pct": -0.36,
       "entry_date": "2026-06-26",
       "sizing": {
         "tier": "C",
@@ -145,8 +207,8 @@
       "adx": 21.6,
       "ret5": -3.56,
       "status": "OPEN",
-      "mtm_price": 100.2,
-      "mtm_pnl_pct": -0.0,
+      "mtm_price": 99.6,
+      "mtm_pnl_pct": -0.6,
       "entry_date": "2026-06-26",
       "sizing": {
         "tier": "C",
@@ -176,8 +238,8 @@
       "adx": 22.1,
       "ret5": -11.51,
       "status": "OPEN",
-      "mtm_price": 76.95,
-      "mtm_pnl_pct": 1.92,
+      "mtm_price": 74.65,
+      "mtm_pnl_pct": -1.13,
       "entry_date": "2026-06-30",
       "sizing": {
         "tier": "C",
@@ -207,8 +269,8 @@
       "adx": 16.8,
       "ret5": -6.1,
       "status": "OPEN",
-      "mtm_price": 25.6,
-      "mtm_pnl_pct": -1.08,
+      "mtm_price": 25.54,
+      "mtm_pnl_pct": -1.31,
       "entry_date": "2026-06-30",
       "sizing": {
         "tier": "C",
@@ -238,8 +300,8 @@
       "adx": 16.0,
       "ret5": -4.62,
       "status": "OPEN",
-      "mtm_price": 2.26,
-      "mtm_pnl_pct": -0.88,
+      "mtm_price": 2.24,
+      "mtm_pnl_pct": -1.75,
       "entry_date": "2026-06-30",
       "sizing": {
         "tier": "C",
@@ -269,39 +331,8 @@
       "adx": 21.1,
       "ret5": -3.36,
       "status": "OPEN",
-      "mtm_price": 11.79,
-      "mtm_pnl_pct": -0.17,
-      "entry_date": "2026-07-01",
-      "sizing": {
-        "tier": "C",
-        "leverage": 1.0,
-        "notional_tl": 50000.0,
-        "risk_pct": 5.0,
-        "risk_tl": 2500.0,
-        "liquidation_move_pct": null,
-        "stop_before_liq": true,
-        "ruin_warn": false,
-        "max_leverage": 5.0
-      }
-    },
-    {
-      "ticker": "CIMSA",
-      "tier": "C",
-      "signal_date": "2026-06-30",
-      "signal_close": 47.1,
-      "entry": 46.96,
-      "pending": false,
-      "target": 49.308,
-      "stop": 44.612,
-      "target_pct": 5.0,
-      "stop_pct": 5.0,
-      "rsi": 34.7,
-      "pctb": -0.05,
-      "adx": 16.1,
-      "ret5": -5.57,
-      "status": "OPEN",
-      "mtm_price": 48.62,
-      "mtm_pnl_pct": 3.53,
+      "mtm_price": 11.68,
+      "mtm_pnl_pct": -1.1,
       "entry_date": "2026-07-01",
       "sizing": {
         "tier": "C",
@@ -331,8 +362,8 @@
       "adx": 21.4,
       "ret5": -11.45,
       "status": "OPEN",
-      "mtm_price": 36.44,
-      "mtm_pnl_pct": -2.04,
+      "mtm_price": 36.26,
+      "mtm_pnl_pct": -2.53,
       "entry_date": "2026-07-02",
       "sizing": {
         "tier": "A",
@@ -362,8 +393,8 @@
       "adx": 14.3,
       "ret5": -2.36,
       "status": "OPEN",
-      "mtm_price": 18.93,
-      "mtm_pnl_pct": -0.42,
+      "mtm_price": 18.84,
+      "mtm_pnl_pct": -0.89,
       "entry_date": "2026-07-02",
       "sizing": {
         "tier": "C",
@@ -393,8 +424,8 @@
       "adx": 14.2,
       "ret5": -9.29,
       "status": "OPEN",
-      "mtm_price": 632.5,
-      "mtm_pnl_pct": 0.0,
+      "mtm_price": 639.0,
+      "mtm_pnl_pct": 1.03,
       "entry_date": "2026-07-03",
       "sizing": {
         "tier": "C",
@@ -424,8 +455,8 @@
       "adx": 23.6,
       "ret5": -6.12,
       "status": "OPEN",
-      "mtm_price": 3.29,
-      "mtm_pnl_pct": 1.54,
+      "mtm_price": 3.17,
+      "mtm_pnl_pct": -2.16,
       "entry_date": "2026-07-03",
       "sizing": {
         "tier": "C",
@@ -440,16 +471,42 @@
       }
     }
   ],
-  "closed_today": [],
+  "closed_today": [
+    {
+      "ticker": "CIMSA",
+      "tier": "C",
+      "signal_date": "2026-06-30",
+      "signal_close": 47.1,
+      "entry": 46.96,
+      "pending": false,
+      "target": 49.308,
+      "stop": 44.612,
+      "target_pct": 5.0,
+      "stop_pct": 5.0,
+      "rsi": 34.7,
+      "pctb": -0.05,
+      "adx": 16.1,
+      "ret5": -5.57,
+      "status": "CLOSED",
+      "mtm_price": 48.62,
+      "mtm_pnl_pct": 3.53,
+      "entry_date": "2026-07-01",
+      "exit_price": 49.308,
+      "exit_reason": "target",
+      "exit_date": "2026-07-06",
+      "net_pnl_pct": 4.7,
+      "pnl_tl": 470.0
+    }
+  ],
   "open_book": {
-    "n": 14,
-    "avg_mtm_pct": 0.02,
-    "tl": 22.0
+    "n": 13,
+    "avg_mtm_pct": -1.33,
+    "tl": -1731.0
   },
   "open_book_AB": {
     "n": 2,
-    "avg_mtm_pct": -2.04,
-    "tl": -409.0
+    "avg_mtm_pct": -2.68,
+    "tl": -537.0
   },
   "disclaimer": "Win-rate yalnızca bugün kote ~100 hissede ölçüldü; delist/iflas isimler hariç → mean-reversion-LONG'da yukarı saplı (survivorship). Temkinli tahmin ~%70-77 (taban %81)."
 }
