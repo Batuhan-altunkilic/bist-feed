@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T09:31:42",
+  "generated_at": "2026-07-08T13:01:54",
   "summary": {
     "total": 1,
     "golden_picks": 0,
@@ -31,24 +31,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 34.2,
+        "score": -0.5,
         "direction": "NEUTRAL",
         "breakdown": {
-          "gap": 54.6,
-          "orb": 80.0,
-          "vwap": -3.0,
+          "gap": 1.1,
+          "orb": 0.0,
+          "vwap": 11.7,
           "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 50.0
+          "volume": 0.0
         },
         "intraday": {
-          "last_price": 372.75,
-          "stop_long": 349.25,
-          "stop_short": 397.25,
-          "target_long": 421.25,
-          "target_short": 325.25,
-          "atr_pct": 2.57
+          "last_price": 372.0,
+          "stop_long": 346.62,
+          "stop_short": 397.37,
+          "target_long": 422.76,
+          "target_short": 321.26,
+          "atr_pct": 2.73
         }
       },
       "long_alarm": {
@@ -64,7 +64,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.8,
+      "estimated_potential_pct": 0.0,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 52.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
@@ -79,9 +79,9 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**BIMAS** (Retail) uzun vade skoru 53/100 (ORTA seviye). Skorun ana sürücüleri: yabancı oranı %48 (sağlıklı seviye); long-term katmanda yer alıyor; teknik görünüm pozitif (52w yüksekten makul mesafede). Gün içi sinyal nötr (skor +34). Gün içi destek: ORB long tetikleyicisi (açılış aralığı yukarı kırıldı); %3.6 yukarı gap ile açıldı.",
+      "explanation": "**BIMAS** (Retail) uzun vade skoru 53/100 (ORTA seviye). Skorun ana sürücüleri: yabancı oranı %48 (sağlıklı seviye); long-term katmanda yer alıyor; teknik görünüm pozitif (52w yüksekten makul mesafede).",
       "trade_plan": null
     }
   ],
-  "price_refreshed_at": "2026-07-08T12:55:06"
+  "price_refreshed_at": "2026-07-08T13:05:06"
 }
