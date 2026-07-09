@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T17:02:05",
+  "generated_at": "2026-07-09T09:32:01",
   "summary": {
     "total": 1,
     "golden_picks": 0,
@@ -17,7 +17,7 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 60.0,
-      "foreign_ratio_pct": 47.59,
+      "foreign_ratio_pct": 47.67,
       "long_conviction": {
         "score": 52.6,
         "breakdown": {
@@ -31,24 +31,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 22.7,
+        "score": 24.2,
         "direction": "NEUTRAL",
         "breakdown": {
-          "gap": 1.1,
+          "gap": 14.1,
           "orb": 80.0,
-          "vwap": 26.4,
-          "rsi": 25.0,
+          "vwap": 23.1,
+          "rsi": -25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": 25.0
         },
         "intraday": {
-          "last_price": 374.75,
-          "stop_long": 349.12,
-          "stop_short": 401.38,
-          "target_long": 427.51,
-          "target_short": 322.99,
-          "atr_pct": 2.78
+          "last_price": 375.5,
+          "stop_long": 351.12,
+          "stop_short": 399.88,
+          "target_long": 424.26,
+          "target_short": 326.74,
+          "atr_pct": 2.6
         }
       },
       "long_alarm": {
@@ -82,6 +82,5 @@
       "explanation": "**BIMAS** (Retail) uzun vade skoru 53/100 (ORTA seviye). Skorun ana sürücüleri: yabancı oranı %48 (sağlıklı seviye); long-term katmanda yer alıyor; teknik görünüm pozitif (52w yüksekten makul mesafede).",
       "trade_plan": null
     }
-  ],
-  "price_refreshed_at": "2026-07-08T18:15:09"
+  ]
 }

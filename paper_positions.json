@@ -3,9 +3,9 @@
   "open_count": 0,
   "open_avg_mtm_pct": null,
   "summary": {
-    "closed_count": 38,
-    "win_rate_pct": 34.2,
-    "avg_net_pct": -0.22,
-    "total_tl_per_10k": -977.0
+    "closed_count": 47,
+    "win_rate_pct": 38.3,
+    "avg_net_pct": -0.12,
+    "total_tl_per_10k": -726.0
   }
 }
