@@ -1,55 +1,23 @@
 {
-  "date": "2026-07-09",
-  "ts": "2026-07-09T11:00:02",
-  "is_today": false,
+  "date": "2026-07-10",
+  "ts": "2026-07-10T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "ARENA",
+      "ticker": "OTKAR",
       "side": "SHORT",
-      "score": -6.5,
-      "entry": 27.0,
-      "rsi": 44.0,
-      "stop": 29.4
+      "score": -5.5,
+      "entry": 335.75,
+      "rsi": 35.6,
+      "stop": 374.0
     },
     {
-      "ticker": "KARTN",
+      "ticker": "MGROS",
       "side": "SHORT",
-      "score": -6.5,
-      "entry": 160.9,
-      "rsi": 62.2,
-      "stop": 198.8
-    },
-    {
-      "ticker": "MAVI",
-      "side": "SHORT",
-      "score": -6.0,
-      "entry": 37.84,
-      "rsi": 34.9,
-      "stop": 39.6
-    },
-    {
-      "ticker": "SASA",
-      "side": "SHORT",
-      "score": -5.1,
-      "entry": 2.23,
-      "rsi": 26.2,
-      "stop": 2.41
-    },
-    {
-      "ticker": "KAREL",
-      "side": "SHORT",
-      "score": -5.0,
-      "entry": 10.06,
-      "rsi": 38.6,
-      "stop": 11.3
-    },
-    {
-      "ticker": "IZMDC",
-      "side": "LONG",
-      "score": 5.0,
-      "entry": 9.62,
-      "rsi": 67.2,
-      "stop": 8.43
+      "score": -4.11,
+      "entry": 621.5,
+      "rsi": 34.8,
+      "stop": 654.25
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
