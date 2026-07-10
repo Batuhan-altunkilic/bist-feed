@@ -15,9 +15,9 @@
     "validation_note": "Val. dönemi (13 May sonrası): +0.51%/işlem — ileri-test sürüyor"
   },
   "learning": {
-    "n_samples": 128,
+    "n_samples": 129,
     "status": "ok",
-    "generated_at": "2026-07-09 09:32",
+    "generated_at": "2026-07-10 09:34",
     "top_component": "fundamental"
   }
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-07-09",
   "ts": "2026-07-09T11:00:02",
-  "is_today": true,
+  "is_today": false,
   "picks": [
     {
       "ticker": "ARENA",
