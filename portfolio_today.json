@@ -1,12 +1,12 @@
 {
-  "raw_md": "# Bugünün Multi-Horizon Portföy Önerisi (PIT + Regime Aware)\n\n**Üretim tarihi:** 2026-07-10  \n**Veri son tarihi:** 2026-07-08  \n**Universe:** BIST 100\n\n**Veri kaynakları:** İsyatırım çeyreklik mali tablolar (TTM, PIT) + yfinance fiyat + USDTRY makro\n\n## Rejim Durumu\n\n- **Rejim:** **NORMAL**\n- **Exposure çarpanı:** **1.00x**\n- USDTRY: 42.94, 30g vol: 1.2% ann, 3M mom: 3.3%\n- ✓ Normal exposure (1.0x) — sermayeyi olduğu gibi koy.\n\n## Allocation Yapısı\n\n- **Long-Term Core (60%):** 1 hisse, PIT fundamental composite (Quality 50% + Value 25% + Growth 25%), 1-3 yıl tut, çeyreklik rebalance\n- **Swing Momentum (35%):** 0 hisse, momentum top-25 + sektör cap, aylık rebalance\n- **Cash Buffer (5%)**\n\n**Overlap (en güçlü sinyaller):** 0 hisse hem Long hem Swing'de\n\n## Pozisyon Tablosu\n\n| # | Ticker | Layer | Sektör | Ağırlık % | Fund | Mom | ROE TTM % | OpMargin % | Debt/Eq | Rev YoY % | NI YoY % | F | Dist High % |\n|---|--------|-------|--------|-----------|------|-----|-----------|------------|---------|-----------|----------|---|-------------|\n| 1 | BIMAS.IS | Long | Retail | 60.00 | 0.455 | - | 12.4 | 2.7 | 0.31 | 11.4 | 4.0 | 4 | -8.8 |\n\n**Toplam pozisyon ağırlığı:** 60.00% (kalan 40.00% = cash)\n\n## Sektör Dağılımı\n\n| Sektör | Toplam % |\n|---|---|\n| Retail | 60.00 |\n\n## Layer Bazlı Özet\n\n| Layer | Hedef % | Gerçekleşen % |\n|---|---|---|\n| Long-Term Core | 60.00 | 60.00 |\n| Swing Momentum | 35.00 | 0.00 |\n| Cash | 5.00 | 40.00 |\n\n## Uygulama Notları\n\n- $1K sermaye için minimum lot maliyeti yüzünden 5-8 pozisyona indirgemek gerekebilir; en yüksek ağırlıklı 5'i seç.\n- $5K+ sermaye için tablo doğrudan uygulanabilir.\n- Long pozisyonlar 3 ay tut; swing pozisyonlar 4-8 hafta.\n- Komisyon: BIST tipik %0.10-0.20 + spread. Algolab veya BIM borsa hesabı önerilir.\n- Vergi: %10 stopaj brüt × 0.90 net mantığıyla hesapla.\n\n## Limitations\n\n- Fundamental data İsyatırım'dan, point-in-time announce_date approximation: period_end + 50/70 gün.\n- Bu liste algoritmik analitik çıktısıdır, **yatırım tavsiyesi değildir**.\n- Survivorship bias mevcut (delisted hisseler dışında).\n- Reaktif risk overlay BIST'te çalışmadı (v3 testi); rejim-tabanlı overlay sıradaki adım.\n- Takas/yabancı oranı analizi henüz dahil değil (Yol 1'de eklenecek).\n",
+  "raw_md": "# Bugünün Multi-Horizon Portföy Önerisi (PIT + Regime Aware)\n\n**Üretim tarihi:** 2026-07-13  \n**Veri son tarihi:** 2026-07-10  \n**Universe:** BIST 100\n\n**Veri kaynakları:** İsyatırım çeyreklik mali tablolar (TTM, PIT) + yfinance fiyat + USDTRY makro\n\n## Rejim Durumu\n\n- **Rejim:** **NORMAL**\n- **Exposure çarpanı:** **1.00x**\n- USDTRY: 42.94, 30g vol: 1.2% ann, 3M mom: 3.3%\n- ✓ Normal exposure (1.0x) — sermayeyi olduğu gibi koy.\n\n## Allocation Yapısı\n\n- **Long-Term Core (60%):** 1 hisse, PIT fundamental composite (Quality 50% + Value 25% + Growth 25%), 1-3 yıl tut, çeyreklik rebalance\n- **Swing Momentum (35%):** 0 hisse, momentum top-25 + sektör cap, aylık rebalance\n- **Cash Buffer (5%)**\n\n**Overlap (en güçlü sinyaller):** 0 hisse hem Long hem Swing'de\n\n## Pozisyon Tablosu\n\n| # | Ticker | Layer | Sektör | Ağırlık % | Fund | Mom | ROE TTM % | OpMargin % | Debt/Eq | Rev YoY % | NI YoY % | F | Dist High % |\n|---|--------|-------|--------|-----------|------|-----|-----------|------------|---------|-----------|----------|---|-------------|\n| 1 | BIMAS.IS | Long | Retail | 60.00 | 0.455 | - | 12.4 | 2.7 | 0.31 | 11.4 | 4.0 | 4 | -9.6 |\n\n**Toplam pozisyon ağırlığı:** 60.00% (kalan 40.00% = cash)\n\n## Sektör Dağılımı\n\n| Sektör | Toplam % |\n|---|---|\n| Retail | 60.00 |\n\n## Layer Bazlı Özet\n\n| Layer | Hedef % | Gerçekleşen % |\n|---|---|---|\n| Long-Term Core | 60.00 | 60.00 |\n| Swing Momentum | 35.00 | 0.00 |\n| Cash | 5.00 | 40.00 |\n\n## Uygulama Notları\n\n- $1K sermaye için minimum lot maliyeti yüzünden 5-8 pozisyona indirgemek gerekebilir; en yüksek ağırlıklı 5'i seç.\n- $5K+ sermaye için tablo doğrudan uygulanabilir.\n- Long pozisyonlar 3 ay tut; swing pozisyonlar 4-8 hafta.\n- Komisyon: BIST tipik %0.10-0.20 + spread. Algolab veya BIM borsa hesabı önerilir.\n- Vergi: %10 stopaj brüt × 0.90 net mantığıyla hesapla.\n\n## Limitations\n\n- Fundamental data İsyatırım'dan, point-in-time announce_date approximation: period_end + 50/70 gün.\n- Bu liste algoritmik analitik çıktısıdır, **yatırım tavsiyesi değildir**.\n- Survivorship bias mevcut (delisted hisseler dışında).\n- Reaktif risk overlay BIST'te çalışmadı (v3 testi); rejim-tabanlı overlay sıradaki adım.\n- Takas/yabancı oranı analizi henüz dahil değil (Yol 1'de eklenecek).\n",
   "positions": [
     {
       "ticker": "BIMAS",
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 60.0,
-      "foreign_ratio_pct": 47.88,
+      "foreign_ratio_pct": 48.04,
       "long_conviction": {
         "score": 54.6,
         "breakdown": {
@@ -20,24 +20,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 2.4,
+        "score": 10.9,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 8.2,
           "orb": 0.0,
-          "vwap": 18.6,
-          "rsi": -25.0,
+          "vwap": 17.4,
+          "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": 25.0
         },
         "intraday": {
-          "last_price": 373.0,
-          "stop_long": 345.88,
-          "stop_short": 400.12,
-          "target_long": 427.24,
-          "target_short": 318.76,
-          "atr_pct": 2.91
+          "last_price": 373.5,
+          "stop_long": 345.75,
+          "stop_short": 401.25,
+          "target_long": 429.0,
+          "target_short": 318.0,
+          "atr_pct": 2.97
         }
       },
       "long_alarm": {
@@ -53,7 +53,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 0.1,
+      "estimated_potential_pct": 0.6,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 54.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
@@ -64,7 +64,7 @@
         "rev_yoy_pct": 11.4,
         "ni_yoy_pct": 4.0,
         "f_score": 4.0,
-        "dist_high_pct": -8.8
+        "dist_high_pct": -9.6
       },
       "is_shortable": true,
       "short_note": null,
@@ -72,5 +72,5 @@
       "trade_plan": null
     }
   ],
-  "generated_at": "2026-07-10T06:33:52+00:00"
+  "generated_at": "2026-07-13T06:31:38+00:00"
 }

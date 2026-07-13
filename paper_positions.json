@@ -1,7 +1,89 @@
 {
-  "open": [],
-  "open_count": 0,
-  "open_avg_mtm_pct": null,
+  "open": [
+    {
+      "ticker": "TRGYO",
+      "kind": "long",
+      "signal_date": "2026-06-13",
+      "score": 69.1,
+      "is_golden_pick": false,
+      "mtm_pnl_pct": 1.051,
+      "hold_days": 19
+    },
+    {
+      "ticker": "EKGYO",
+      "kind": "long",
+      "signal_date": "2026-06-13",
+      "score": 73.0,
+      "is_golden_pick": false,
+      "mtm_pnl_pct": 0.595,
+      "hold_days": 19
+    },
+    {
+      "ticker": "ASELS",
+      "kind": "long",
+      "signal_date": "2026-06-13",
+      "score": 73.8,
+      "is_golden_pick": false,
+      "mtm_pnl_pct": -0.838,
+      "hold_days": 19
+    },
+    {
+      "ticker": "ENKAI",
+      "kind": "long",
+      "signal_date": "2026-06-13",
+      "score": 70.1,
+      "is_golden_pick": false,
+      "mtm_pnl_pct": -5.745,
+      "hold_days": 19
+    },
+    {
+      "ticker": "LOGO",
+      "kind": "long",
+      "signal_date": "2026-06-13",
+      "score": 70.1,
+      "is_golden_pick": false,
+      "mtm_pnl_pct": -6.747,
+      "hold_days": 19
+    },
+    {
+      "ticker": "VAKBN",
+      "kind": "long",
+      "signal_date": "2026-06-13",
+      "score": 70.4,
+      "is_golden_pick": false,
+      "mtm_pnl_pct": -9.818,
+      "hold_days": 19
+    },
+    {
+      "ticker": "GARAN",
+      "kind": "long",
+      "signal_date": "2026-06-13",
+      "score": 67.0,
+      "is_golden_pick": false,
+      "mtm_pnl_pct": -10.717,
+      "hold_days": 19
+    },
+    {
+      "ticker": "GUBRF",
+      "kind": "long",
+      "signal_date": "2026-06-13",
+      "score": 70.6,
+      "is_golden_pick": false,
+      "mtm_pnl_pct": -11.241,
+      "hold_days": 19
+    },
+    {
+      "ticker": "HALKB",
+      "kind": "long",
+      "signal_date": "2026-06-13",
+      "score": 73.3,
+      "is_golden_pick": false,
+      "mtm_pnl_pct": -14.995,
+      "hold_days": 19
+    }
+  ],
+  "open_count": 9,
+  "open_avg_mtm_pct": -6.5,
   "summary": {
     "closed_count": 56,
     "win_rate_pct": 37.5,
