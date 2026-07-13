@@ -1,24 +1,7 @@
 {
-  "date": "2026-07-10",
-  "ts": "2026-07-10T11:00:01",
-  "is_today": false,
-  "picks": [
-    {
-      "ticker": "OTKAR",
-      "side": "SHORT",
-      "score": -5.5,
-      "entry": 335.75,
-      "rsi": 35.6,
-      "stop": 374.0
-    },
-    {
-      "ticker": "MGROS",
-      "side": "SHORT",
-      "score": -4.11,
-      "entry": 621.5,
-      "rsi": 34.8,
-      "stop": 654.25
-    }
-  ],
+  "date": "2026-07-13",
+  "ts": "2026-07-13T11:00:00",
+  "is_today": true,
+  "picks": [],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
 }
