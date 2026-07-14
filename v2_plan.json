@@ -1,7 +1,7 @@
 {
   "date": "2026-07-13",
   "ts": "2026-07-13T11:00:00",
-  "is_today": true,
+  "is_today": false,
   "picks": [],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
 }
