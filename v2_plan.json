@@ -1,7 +1,56 @@
 {
-  "date": "2026-07-13",
-  "ts": "2026-07-13T11:00:00",
-  "is_today": false,
-  "picks": [],
+  "date": "2026-07-14",
+  "ts": "2026-07-14T11:00:00",
+  "is_today": true,
+  "picks": [
+    {
+      "ticker": "KARSN",
+      "side": "SHORT",
+      "score": -5.0,
+      "entry": 11.09,
+      "rsi": 32.1,
+      "stop": 12.16
+    },
+    {
+      "ticker": "GUBRF",
+      "side": "SHORT",
+      "score": -5.0,
+      "entry": 414.5,
+      "rsi": 33.3,
+      "stop": 456.25
+    },
+    {
+      "ticker": "ECILC",
+      "side": "SHORT",
+      "score": -4.95,
+      "entry": 72.9,
+      "rsi": 40.0,
+      "stop": 78.88
+    },
+    {
+      "ticker": "ECZYT",
+      "side": "SHORT",
+      "score": -4.71,
+      "entry": 307.5,
+      "rsi": 39.3,
+      "stop": 332.62
+    },
+    {
+      "ticker": "ASELS",
+      "side": "SHORT",
+      "score": -4.66,
+      "entry": 350.75,
+      "rsi": 40.8,
+      "stop": 396.37
+    },
+    {
+      "ticker": "IZMDC",
+      "side": "LONG",
+      "score": 4.37,
+      "entry": 10.18,
+      "rsi": 72.6,
+      "stop": 8.85
+    }
+  ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
 }
