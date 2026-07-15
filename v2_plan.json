@@ -1,7 +1,7 @@
 {
   "date": "2026-07-14",
   "ts": "2026-07-14T11:00:00",
-  "is_today": true,
+  "is_today": false,
   "picks": [
     {
       "ticker": "KARSN",
