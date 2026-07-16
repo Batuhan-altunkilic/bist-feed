@@ -1,71 +1,23 @@
 {
-  "date": "2026-07-15",
-  "ts": "2026-07-15T11:00:00",
-  "is_today": false,
+  "date": "2026-07-16",
+  "ts": "2026-07-16T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "KARSN",
-      "side": "SHORT",
-      "score": -11.0,
-      "entry": 10.83,
-      "rsi": 32.4,
-      "stop": 12.17
-    },
-    {
-      "ticker": "ECZYT",
-      "side": "SHORT",
-      "score": -6.21,
-      "entry": 310.0,
-      "rsi": 39.8,
-      "stop": 339.62
-    },
-    {
-      "ticker": "MGROS",
-      "side": "SHORT",
-      "score": -6.0,
-      "entry": 607.0,
-      "rsi": 35.5,
-      "stop": 648.75
-    },
-    {
-      "ticker": "GUBRF",
-      "side": "SHORT",
-      "score": -6.0,
-      "entry": 413.25,
-      "rsi": 32.3,
-      "stop": 462.25
-    },
-    {
-      "ticker": "TOASO",
+      "ticker": "EGEPO",
       "side": "SHORT",
       "score": -5.0,
-      "entry": 294.75,
-      "rsi": 45.3,
-      "stop": 316.25
+      "entry": 18.41,
+      "rsi": 46.8,
+      "stop": 20.12
     },
     {
-      "ticker": "IZMDC",
-      "side": "LONG",
-      "score": 10.37,
-      "entry": 10.34,
-      "rsi": 72.6,
-      "stop": 8.72
-    },
-    {
-      "ticker": "KARTN",
-      "side": "LONG",
-      "score": 8.83,
-      "entry": 202.9,
-      "rsi": 70.5,
-      "stop": 162.4
-    },
-    {
-      "ticker": "AKSEN",
+      "ticker": "SELEC",
       "side": "LONG",
       "score": 4.5,
-      "entry": 95.35,
-      "rsi": 69.1,
-      "stop": 86.4
+      "entry": 239.0,
+      "rsi": 73.8,
+      "stop": 202.35
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
