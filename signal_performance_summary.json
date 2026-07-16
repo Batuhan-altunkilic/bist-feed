@@ -29,15 +29,15 @@
   "bottom_sectors": [],
   "period": {
     "last_30d": {
-      "n": 52,
-      "win_rate_t3_pct": 48.1
+      "n": 40,
+      "win_rate_t3_pct": 45.0
     },
     "last_90d": {
       "n": 54,
       "win_rate_t3_pct": 50.0
     }
   },
-  "generated_at": "2026-07-15T06:32:30+00:00",
+  "generated_at": "2026-07-16T06:32:46+00:00",
   "total_signals": 54,
   "win_rate_t1_pct": 46.3,
   "win_rate_t3_pct": 50.0,

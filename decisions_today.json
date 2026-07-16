@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T09:31:47",
+  "generated_at": "2026-07-16T09:32:02",
   "summary": {
     "total": 1,
     "golden_picks": 0,
@@ -31,10 +31,10 @@
         }
       },
       "day_trade_conviction": {
-        "score": 23.6,
+        "score": 21.8,
         "direction": "NEUTRAL",
         "breakdown": {
-          "gap": 7.0,
+          "gap": 0.0,
           "orb": 80.0,
           "vwap": 22.2,
           "rsi": 25.0,
@@ -44,11 +44,11 @@
         },
         "intraday": {
           "last_price": 384.0,
-          "stop_long": 356.88,
-          "stop_short": 411.12,
-          "target_long": 438.24,
-          "target_short": 329.76,
-          "atr_pct": 2.83
+          "stop_long": 356.38,
+          "stop_short": 411.62,
+          "target_long": 439.24,
+          "target_short": 328.76,
+          "atr_pct": 2.88
         }
       },
       "long_alarm": {
@@ -75,7 +75,7 @@
         "rev_yoy_pct": 11.4,
         "ni_yoy_pct": 4.0,
         "f_score": 4.0,
-        "dist_high_pct": -9.6
+        "dist_high_pct": -6.6
       },
       "is_shortable": true,
       "short_note": null,

@@ -1,55 +1,71 @@
 {
-  "date": "2026-07-14",
-  "ts": "2026-07-14T11:00:00",
+  "date": "2026-07-15",
+  "ts": "2026-07-15T11:00:00",
   "is_today": false,
   "picks": [
     {
       "ticker": "KARSN",
       "side": "SHORT",
-      "score": -5.0,
-      "entry": 11.09,
-      "rsi": 32.1,
-      "stop": 12.16
-    },
-    {
-      "ticker": "GUBRF",
-      "side": "SHORT",
-      "score": -5.0,
-      "entry": 414.5,
-      "rsi": 33.3,
-      "stop": 456.25
-    },
-    {
-      "ticker": "ECILC",
-      "side": "SHORT",
-      "score": -4.95,
-      "entry": 72.9,
-      "rsi": 40.0,
-      "stop": 78.88
+      "score": -11.0,
+      "entry": 10.83,
+      "rsi": 32.4,
+      "stop": 12.17
     },
     {
       "ticker": "ECZYT",
       "side": "SHORT",
-      "score": -4.71,
-      "entry": 307.5,
-      "rsi": 39.3,
-      "stop": 332.62
+      "score": -6.21,
+      "entry": 310.0,
+      "rsi": 39.8,
+      "stop": 339.62
     },
     {
-      "ticker": "ASELS",
+      "ticker": "MGROS",
       "side": "SHORT",
-      "score": -4.66,
-      "entry": 350.75,
-      "rsi": 40.8,
-      "stop": 396.37
+      "score": -6.0,
+      "entry": 607.0,
+      "rsi": 35.5,
+      "stop": 648.75
+    },
+    {
+      "ticker": "GUBRF",
+      "side": "SHORT",
+      "score": -6.0,
+      "entry": 413.25,
+      "rsi": 32.3,
+      "stop": 462.25
+    },
+    {
+      "ticker": "TOASO",
+      "side": "SHORT",
+      "score": -5.0,
+      "entry": 294.75,
+      "rsi": 45.3,
+      "stop": 316.25
     },
     {
       "ticker": "IZMDC",
       "side": "LONG",
-      "score": 4.37,
-      "entry": 10.18,
+      "score": 10.37,
+      "entry": 10.34,
       "rsi": 72.6,
-      "stop": 8.85
+      "stop": 8.72
+    },
+    {
+      "ticker": "KARTN",
+      "side": "LONG",
+      "score": 8.83,
+      "entry": 202.9,
+      "rsi": 70.5,
+      "stop": 162.4
+    },
+    {
+      "ticker": "AKSEN",
+      "side": "LONG",
+      "score": 4.5,
+      "entry": 95.35,
+      "rsi": 69.1,
+      "stop": 86.4
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
