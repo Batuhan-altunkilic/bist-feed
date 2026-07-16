@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T09:33:56",
+  "generated_at": "2026-07-16T09:34:19",
   "asof": "2026-07-14",
   "strategy": "fund-manager karne (tavsiye katmanı)",
   "persona": "Kıdemli fon yöneticisi disiplini: gürültü yok, momentum kalabalığı yok; sadece asimetrik risk/getiri. Her tez veriyle kurulur, çürütme koşuluyla teslim edilir.",
@@ -7,247 +7,19 @@
   "analyzed_n": 100,
   "buys": [
     {
-      "ticker": "KRDMA",
-      "close": 40.7400016784668,
+      "ticker": "PETKM",
+      "close": 19.600000381469727,
       "sector": "Basic Materials",
-      "composite": 53.0,
-      "confidence": 8.2,
+      "composite": 50.0,
+      "confidence": 7.7,
       "risk": 4.5,
       "scores": {
-        "fundamental": 26.0,
-        "technical": 19.0,
-        "flow": 8.0,
-        "catalyst": 0.0
-      },
-      "thesis": "Temel: FCF pozitif, FCF büyümesi %+190 YoY, net marj +6.4pp genişledi (YoY), D/E 0.09 (düşük borç). Teknik: 200G ortalama ÜSTÜnde, 50G üstünde, 200G eğim yukarı, taze golden cross (50>200). Algı: yabancı oranı 20G'de +1.2pp (kurumsal GİRİŞ).",
-      "fundamental": {
-        "fcf_ttm": 728237422.0,
-        "fcf_yoy": 189.9,
-        "fcf_yield": -3.0,
-        "net_margin": 0.164307379013293,
-        "margin_change_pp": 6.43,
-        "debt_to_equity": 0.09,
-        "revenue_yoy": -7.798938884831951,
-        "net_income_yoy": -102.41860876423318,
-        "f_score": 5,
-        "roe": 0.12317819639220422,
-        "pe": 158.1,
-        "cash_to_mcap": 9.7,
-        "is_bank": false,
-        "period_end": "2026-03-31 00:00:00"
-      },
-      "technical": {
-        "sma50": 39.38000022888183,
-        "sma200": 31.12600001335144,
-        "above50": true,
-        "above200": true,
-        "dist200_pct": 30.9,
-        "slope200_up": true,
-        "golden_cross_60d": true,
-        "vol_breakout_5d": false,
-        "rsi": 58.2,
-        "rsi_div": "none",
-        "macd_div": "none",
-        "macd_cross_up_10d": false,
-        "atr_pct": 2.87,
-        "ret20_pct": -1.6,
-        "avg_vol_tl_m": 358.9
-      },
-      "flow": {
-        "foreign_pct": 10.57,
-        "foreign_chg20": 1.25,
-        "free_float_pct": 99.6,
-        "shortable_viop": false,
-        "stale": false
-      },
-      "catalysts": [],
-      "levels": {
-        "entry_low": 40.04,
-        "entry_high": 40.94,
-        "entry_mid": 40.49,
-        "stop": 37.23,
-        "stop_pct": 8.0,
-        "target": 47.66,
-        "target_pct": 17.7,
-        "rr": 2.2
-      },
-      "sizing": {
-        "mode": "KLASIK",
-        "risk_pct": 2.0,
-        "risk_tl": 1000.0,
-        "notional_tl": 12500.0,
-        "leverage": 1.0,
-        "liquidation_move_pct": null,
-        "stop_before_liq": true,
-        "ev_tl": 1152.0
-      },
-      "sizing_convex": {
-        "mode": "KONVEKS",
-        "bucket_pct": 10.0,
-        "bucket_tl": 5000.0,
-        "leverage": 10.0,
-        "notional_tl": 50000.0,
-        "liquidation_move_pct": 10.0,
-        "max_loss_tl": 5000.0,
-        "payoff_at_target_pct": 177.0,
-        "p_pessimistic": 0.67,
-        "ev_bucket_pct": 86.0,
-        "max_concurrent": 2,
-        "gap_warning": "VİOP vadelisinde sert gap kaybı kasanın üstüne taşıyabilir; varant benzeri enstrümanda kayıp primle sınırlı kalır.",
-        "ev_tl": 4300.0
-      },
-      "sizing_recommended": "KONVEKS",
-      "kill_conditions": [
-        "Günlük kapanış 37.23 altı → pozisyonu TAMAMEN kapat, tartışma yok (-%8.0)",
-        "Haftalık kapanış 200 günlük ortalamanın altı → trend tezi bozuldu, çık",
-        "İki çeyrek üst üste net marj daralması → temel tez çürüdü, haber bekleme",
-        "Yabancı takas oranı 20 günde >1.5pp düşerse → kurumsal çıkış; pozisyonu yarıya indir",
-        "Hedef 47.66 → yarısını realize et, kalan stop'u girişe çek (bedava pozisyon)"
-      ],
-      "rank": 1
-    }
-  ],
-  "watch": [
-    {
-      "ticker": "BIMAS",
-      "close": NaN,
-      "sector": "Consumer Defensive",
-      "composite": 47.0,
-      "confidence": 7.2,
-      "risk": 6.0,
-      "scores": {
-        "fundamental": 14.0,
-        "technical": 6.0,
-        "flow": 12.0,
-        "catalyst": 15.0
-      },
-      "thesis": "Temel: FCF pozitif, D/E 0.31 (düşük borç), borçluluk trendi aşağı. Teknik: RSI 51 sağlıklı bölge, taze MACD al kesişimi. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı 20G'de +1.5pp (kurumsal GİRİŞ). Katalizör: hisse geri alım programı — BIMAS 13 Temmuz'da 260 bin pay geri aldı - Borsatek (2026-07-13).",
-      "fundamental": {
-        "fcf_ttm": 5302816000.0,
-        "fcf_yoy": -55.4,
-        "fcf_yield": 2.0,
-        "net_margin": 2.8811384267016185,
-        "margin_change_pp": -0.2,
-        "debt_to_equity": 0.31,
-        "revenue_yoy": 11.35763825298659,
-        "net_income_yoy": 4.044453717331242,
-        "f_score": 4,
-        "roe": 12.395038074452316,
-        "pe": 20.8,
-        "cash_to_mcap": 6.8,
-        "is_bank": false,
-        "period_end": "2026-03-31 00:00:00"
-      },
-      "technical": {
-        "sma50": NaN,
-        "sma200": NaN,
-        "above50": false,
-        "above200": false,
-        "dist200_pct": 0.0,
-        "slope200_up": false,
-        "golden_cross_60d": false,
-        "vol_breakout_5d": false,
-        "rsi": 50.7,
-        "rsi_div": "none",
-        "macd_div": "none",
-        "macd_cross_up_10d": true,
-        "atr_pct": 3.0,
-        "ret20_pct": NaN,
-        "avg_vol_tl_m": NaN
-      },
-      "flow": {
-        "foreign_pct": 48.01,
-        "foreign_chg20": 1.53,
-        "free_float_pct": 68.8,
-        "shortable_viop": true,
-        "stale": false
-      },
-      "catalysts": [
-        "hisse geri alım programı — BIMAS 13 Temmuz'da 260 bin pay geri aldı - Borsatek (2026-07-13)",
-        "hisse geri alım programı — BİM Birleşik Mağazalar’dan (BIMAS) geri alım açıklaması - Rota Borsa (2026-07-10)",
-        "hisse geri alım programı — BIMAS 10 Temmuz'da 20.647 adet pay geri aldı - Borsatek (2026-07-10)",
-        "hisse geri alım programı — BİM'den (BIMAS) 1 milyar TL'lik Pay Geri Alım Kararı - Paranın Yönü (2026-07-06)"
-      ],
-      "watch_reason": "R/G yetersiz"
-    },
-    {
-      "ticker": "ASTOR",
-      "close": NaN,
-      "sector": "Industrials",
-      "composite": 44.0,
-      "confidence": 6.8,
-      "risk": 6.0,
-      "scores": {
-        "fundamental": 11.0,
-        "technical": 6.0,
-        "flow": 12.0,
-        "catalyst": 15.0
-      },
-      "thesis": "Temel: net marj +2.8pp, D/E 0.17 (düşük borç). Teknik: RSI 55 sağlıklı bölge, taze MACD al kesişimi. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı 20G'de +1.1pp (kurumsal GİRİŞ). Katalizör: yeni sözleşme — Astor Enerji, ABD’li firma ile 31,7 milyon dolarlık sözleşme imzaladı  (2026-07-13).",
-      "fundamental": {
-        "fcf_ttm": -883168730.0,
-        "fcf_yoy": -642.6,
-        "fcf_yield": -1.0,
-        "net_margin": 22.711864738524067,
-        "margin_change_pp": 2.81,
-        "debt_to_equity": 0.17,
-        "revenue_yoy": 13.853451239060721,
-        "net_income_yoy": 29.936031688935284,
-        "f_score": 3,
-        "roe": 23.599892084969106,
-        "pe": 39.2,
-        "cash_to_mcap": 4.6,
-        "is_bank": false,
-        "period_end": "2026-03-31 00:00:00"
-      },
-      "technical": {
-        "sma50": NaN,
-        "sma200": NaN,
-        "above50": false,
-        "above200": false,
-        "dist200_pct": 0.0,
-        "slope200_up": false,
-        "golden_cross_60d": false,
-        "vol_breakout_5d": false,
-        "rsi": 54.6,
-        "rsi_div": "none",
-        "macd_div": "none",
-        "macd_cross_up_10d": true,
-        "atr_pct": 3.0,
-        "ret20_pct": NaN,
-        "avg_vol_tl_m": NaN
-      },
-      "flow": {
-        "foreign_pct": 71.54,
-        "foreign_chg20": 1.07,
-        "free_float_pct": 42.7,
-        "shortable_viop": true,
-        "stale": false
-      },
-      "catalysts": [
-        "yeni sözleşme — Astor Enerji, ABD’li firma ile 31,7 milyon dolarlık sözleşme imzaladı  (2026-07-13)",
-        "yeni sözleşme — Astor Enerji ABD’de Yeni Sözleşme İmzaladı - RayHaber (2026-07-13)",
-        "yeni sözleşme — Astor Enerji'den ABD'de 31,7 milyon dolarlık anlaşma - Borsamatik (2026-07-13)",
-        "yeni sözleşme — Astor Enerji, ABD’li müşteriyle 31,7 milyon dolarlık sözleşme imzaladı (2026-07-13)",
-        "yeni sipariş — Astor Enerji Amerika'dan Sipariş Aldı - Analiz Gazetesi (2026-07-10)",
-        "yeni sözleşme — Astor Enerji ABD pazarında yüksek tutarlı sözleşme imzaladı - Dünya Ga (2026-07-08)"
-      ],
-      "watch_reason": "R/G yetersiz"
-    },
-    {
-      "ticker": "PETKM",
-      "close": NaN,
-      "sector": "Basic Materials",
-      "composite": 41.0,
-      "confidence": 6.3,
-      "risk": 6.0,
-      "scores": {
         "fundamental": 23.0,
-        "technical": 6.0,
+        "technical": 15.0,
         "flow": 12.0,
         "catalyst": 0.0
       },
-      "thesis": "Temel: FCF pozitif, FCF büyümesi %+116 YoY, net marj +5.2pp genişledi (YoY), D/E 0.77. Teknik: RSI 48 sağlıklı bölge, taze MACD al kesişimi. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı 20G'de +4.1pp (kurumsal GİRİŞ).",
+      "thesis": "Temel: FCF pozitif, FCF büyümesi %+116 YoY, net marj +5.2pp genişledi (YoY), D/E 0.77. Teknik: 200G ortalama ÜSTÜnde, 200G eğim yukarı, RSI 46 sağlıklı bölge, taze MACD al kesişimi. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı 20G'de +4.0pp (kurumsal GİRİŞ).",
       "fundamental": {
         "fcf_ttm": 1729865000.0,
         "fcf_yoy": 115.7,
@@ -265,222 +37,189 @@
         "period_end": "2026-03-31 00:00:00"
       },
       "technical": {
-        "sma50": NaN,
-        "sma200": NaN,
+        "sma50": 21.503400077819823,
+        "sma200": 19.242499933242797,
         "above50": false,
-        "above200": false,
-        "dist200_pct": 0.0,
-        "slope200_up": false,
+        "above200": true,
+        "dist200_pct": 1.9,
+        "slope200_up": true,
         "golden_cross_60d": false,
         "vol_breakout_5d": false,
-        "rsi": 48.4,
+        "rsi": 46.0,
         "rsi_div": "bullish",
         "macd_div": "bullish",
         "macd_cross_up_10d": true,
-        "atr_pct": 3.0,
-        "ret20_pct": NaN,
-        "avg_vol_tl_m": NaN
+        "atr_pct": 3.37,
+        "ret20_pct": -0.8,
+        "avg_vol_tl_m": 1348.9
       },
       "flow": {
         "foreign_pct": 17.93,
-        "foreign_chg20": 4.12,
+        "foreign_chg20": 3.96,
         "free_float_pct": 48.0,
         "shortable_viop": true,
         "stale": false
       },
       "catalysts": [],
-      "watch_reason": "R/G yetersiz"
-    },
-    {
-      "ticker": "MAGEN",
-      "close": 34.29999923706055,
-      "sector": "Utilities",
-      "composite": 41.0,
-      "confidence": 6.3,
-      "risk": 7.0,
-      "scores": {
-        "fundamental": 19.0,
-        "technical": 12.0,
-        "flow": 0.0,
-        "catalyst": 10.0
+      "levels": {
+        "entry_low": 19.47,
+        "entry_high": 19.7,
+        "entry_mid": 19.59,
+        "stop": 18.13,
+        "stop_pct": 7.4,
+        "target": 27.14,
+        "target_pct": 38.6,
+        "rr": 5.2
       },
-      "thesis": "Temel: FCF pozitif, FCF büyümesi %+389 YoY, net marj +48.6pp genişledi (YoY), D/E 0.53. Teknik: 200G eğim yukarı, RSI pozitif uyumsuzluk (dipte güç birikimi), taze MACD al kesişimi. Algı: yabancı oranı -5.4pp (kurumsal ÇIKIŞ −), yabancı takas %18 (kurumsal radar). Katalizör: hisse geri alım programı — MAGEN 8 Temmuz'da 488 bin TL nominal pay geri aldı - Borsatek (2026-07-09).",
-      "fundamental": {
-        "fcf_ttm": 240617618.0,
-        "fcf_yoy": 389.4,
-        "fcf_yield": 0.4,
-        "net_margin": -49.210711067667006,
-        "margin_change_pp": 48.62,
-        "debt_to_equity": 0.53,
-        "revenue_yoy": 1.904439320488871,
-        "net_income_yoy": -48.739503317798324,
-        "f_score": 1,
-        "roe": -5.163751125182095,
-        "pe": null,
-        "cash_to_mcap": 0.2,
-        "is_bank": false,
-        "period_end": "2026-03-31 00:00:00"
+      "sizing": {
+        "mode": "KLASIK",
+        "risk_pct": 1.5,
+        "risk_tl": 750.0,
+        "notional_tl": 10135.0,
+        "leverage": 1.0,
+        "liquidation_move_pct": null,
+        "stop_before_liq": true,
+        "ev_tl": 2141.0
       },
-      "technical": {
-        "sma50": 47.938000183105466,
-        "sma200": 42.52940019607544,
-        "above50": false,
-        "above200": false,
-        "dist200_pct": -19.3,
-        "slope200_up": true,
-        "golden_cross_60d": false,
-        "vol_breakout_5d": false,
-        "rsi": 39.3,
-        "rsi_div": "bullish",
-        "macd_div": "none",
-        "macd_cross_up_10d": true,
-        "atr_pct": 7.04,
-        "ret20_pct": -1.3,
-        "avg_vol_tl_m": 671.4
+      "sizing_convex": {
+        "mode": "KONVEKS",
+        "bucket_pct": 5.0,
+        "bucket_tl": 2500.0,
+        "leverage": 10.0,
+        "notional_tl": 25000.0,
+        "liquidation_move_pct": 10.0,
+        "max_loss_tl": 2500.0,
+        "payoff_at_target_pct": 386.0,
+        "p_pessimistic": 0.62,
+        "ev_bucket_pct": 201.0,
+        "max_concurrent": 2,
+        "gap_warning": "VİOP vadelisinde sert gap kaybı kasanın üstüne taşıyabilir; varant benzeri enstrümanda kayıp primle sınırlı kalır.",
+        "ev_tl": 5025.0
       },
-      "flow": {
-        "foreign_pct": 18.02,
-        "foreign_chg20": -5.39,
-        "free_float_pct": 11.8,
-        "shortable_viop": false,
-        "stale": false
-      },
-      "catalysts": [
-        "hisse geri alım programı — MAGEN 8 Temmuz'da 488 bin TL nominal pay geri aldı - Borsatek (2026-07-09)",
-        "hisse geri alım programı — Margün Enerji Gözünü Kararttı: 25 Milyonluk Hisse Alım Hedefinin Yarıs (2026-07-05)"
+      "sizing_recommended": "KONVEKS",
+      "kill_conditions": [
+        "Günlük kapanış 18.13 altı → pozisyonu TAMAMEN kapat, tartışma yok (-%7.4)",
+        "Haftalık kapanış 200 günlük ortalamanın altı → trend tezi bozuldu, çık",
+        "İki çeyrek üst üste net marj daralması → temel tez çürüdü, haber bekleme",
+        "Yabancı takas oranı 20 günde >1.5pp düşerse → kurumsal çıkış; pozisyonu yarıya indir",
+        "Hedef 27.14 → yarısını realize et, kalan stop'u girişe çek (bedava pozisyon)"
       ],
-      "watch_reason": "R/G yetersiz"
+      "rank": 1
     },
     {
-      "ticker": "DOHOL",
-      "close": NaN,
-      "sector": "Industrials",
-      "composite": 40.0,
-      "confidence": 6.2,
-      "risk": 6.0,
+      "ticker": "KRDMA",
+      "close": 41.02000045776367,
+      "sector": "Basic Materials",
+      "composite": 56.0,
+      "confidence": 8.6,
+      "risk": 4.5,
       "scores": {
-        "fundamental": 20.0,
-        "technical": 6.0,
-        "flow": 11.0,
-        "catalyst": 3.0
+        "fundamental": 26.0,
+        "technical": 22.0,
+        "flow": 8.0,
+        "catalyst": 0.0
       },
-      "thesis": "Temel: FCF pozitif, FCF büyümesi %+131 YoY, FCF verimi %9.7 (ucuz), D/E 0.44 (düşük borç). Teknik: RSI 50 sağlıklı bölge, taze MACD al kesişimi. Algı: yabancı oranı 20G'de +1.0pp (kurumsal GİRİŞ), yabancı takas %28 (kurumsal radar). Katalizör: kasa/piyasa değeri %149 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon).",
+      "thesis": "Temel: FCF pozitif, FCF büyümesi %+190 YoY, net marj +6.4pp genişledi (YoY), D/E 0.09 (düşük borç). Teknik: 200G ortalama ÜSTÜnde, 50G üstünde, 200G eğim yukarı, taze golden cross (50>200). Algı: yabancı oranı 20G'de +1.6pp (kurumsal GİRİŞ).",
       "fundamental": {
-        "fcf_ttm": 394094000.0,
-        "fcf_yoy": 131.1,
-        "fcf_yield": 9.7,
-        "net_margin": 4.79520781446697,
-        "margin_change_pp": -0.2,
-        "debt_to_equity": 0.44,
-        "revenue_yoy": -14.895584010436725,
-        "net_income_yoy": -18.380076988460104,
-        "f_score": 4,
-        "roe": 3.2975483940890524,
-        "pe": 19.4,
-        "cash_to_mcap": 149.4,
+        "fcf_ttm": 728237422.0,
+        "fcf_yoy": 189.9,
+        "fcf_yield": -3.0,
+        "net_margin": 0.164307379013293,
+        "margin_change_pp": 6.43,
+        "debt_to_equity": 0.09,
+        "revenue_yoy": -7.798938884831951,
+        "net_income_yoy": -102.41860876423318,
+        "f_score": 5,
+        "roe": 0.12317819639220422,
+        "pe": 158.1,
+        "cash_to_mcap": 9.7,
         "is_bank": false,
         "period_end": "2026-03-31 00:00:00"
       },
       "technical": {
-        "sma50": NaN,
-        "sma200": NaN,
-        "above50": false,
-        "above200": false,
-        "dist200_pct": 0.0,
-        "slope200_up": false,
-        "golden_cross_60d": false,
+        "sma50": 39.42160026550293,
+        "sma200": 31.170400018692018,
+        "above50": true,
+        "above200": true,
+        "dist200_pct": 31.6,
+        "slope200_up": true,
+        "golden_cross_60d": true,
         "vol_breakout_5d": false,
-        "rsi": 49.5,
+        "rsi": 59.5,
         "rsi_div": "none",
         "macd_div": "none",
         "macd_cross_up_10d": true,
-        "atr_pct": 3.0,
-        "ret20_pct": NaN,
-        "avg_vol_tl_m": NaN
+        "atr_pct": 2.86,
+        "ret20_pct": -1.0,
+        "avg_vol_tl_m": 383.7
       },
       "flow": {
-        "foreign_pct": 28.22,
-        "foreign_chg20": 1.04,
-        "free_float_pct": 35.7,
+        "foreign_pct": 10.57,
+        "foreign_chg20": 1.61,
+        "free_float_pct": 99.6,
         "shortable_viop": false,
         "stale": false
       },
-      "catalysts": [
-        "kasa/piyasa değeri %149 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon)"
-      ],
-      "watch_reason": "R/G yetersiz"
-    },
-    {
-      "ticker": "KRDMD",
-      "close": NaN,
-      "sector": "Basic Materials",
-      "composite": 38.0,
-      "confidence": 5.8,
-      "risk": 6.0,
-      "scores": {
-        "fundamental": 26.0,
-        "technical": 0.0,
-        "flow": 12.0,
-        "catalyst": 0.0
-      },
-      "thesis": "Temel: FCF pozitif, FCF büyümesi %+190 YoY, net marj +6.4pp genişledi (YoY), D/E 0.09 (düşük borç). Teknik: RSI 46 sağlıklı bölge, NEGATİF uyumsuzluk (tepe zayıflığı −). Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı 20G'de +3.0pp (kurumsal GİRİŞ).",
-      "fundamental": {
-        "fcf_ttm": 2364465878.0,
-        "fcf_yoy": 189.9,
-        "fcf_yield": -3.2,
-        "net_margin": 0.1643073831043969,
-        "margin_change_pp": 6.43,
-        "debt_to_equity": 0.09,
-        "revenue_yoy": -7.7989388921623215,
-        "net_income_yoy": -102.41860882199616,
-        "f_score": 5,
-        "roe": 0.12317819945222644,
-        "pe": 151.1,
-        "cash_to_mcap": 10.5,
-        "is_bank": false,
-        "period_end": "2026-03-31 00:00:00"
-      },
-      "technical": {
-        "sma50": NaN,
-        "sma200": NaN,
-        "above50": false,
-        "above200": false,
-        "dist200_pct": 0.0,
-        "slope200_up": false,
-        "golden_cross_60d": false,
-        "vol_breakout_5d": false,
-        "rsi": 46.4,
-        "rsi_div": "bearish",
-        "macd_div": "bearish",
-        "macd_cross_up_10d": false,
-        "atr_pct": 3.0,
-        "ret20_pct": NaN,
-        "avg_vol_tl_m": NaN
-      },
-      "flow": {
-        "foreign_pct": 18.43,
-        "foreign_chg20": 2.95,
-        "free_float_pct": 93.0,
-        "shortable_viop": true,
-        "stale": false
-      },
       "catalysts": [],
-      "watch_reason": "R/G yetersiz"
+      "levels": {
+        "entry_low": 40.32,
+        "entry_high": 41.23,
+        "entry_mid": 40.77,
+        "stop": 37.23,
+        "stop_pct": 8.7,
+        "target": 48.57,
+        "target_pct": 19.1,
+        "rr": 2.2
+      },
+      "sizing": {
+        "mode": "KLASIK",
+        "risk_pct": 2.0,
+        "risk_tl": 1000.0,
+        "notional_tl": 11494.0,
+        "leverage": 1.0,
+        "liquidation_move_pct": null,
+        "stop_before_liq": true,
+        "ev_tl": 1269.0
+      },
+      "sizing_convex": {
+        "mode": "KONVEKS",
+        "bucket_pct": 10.0,
+        "bucket_tl": 5000.0,
+        "leverage": 9.5,
+        "notional_tl": 47500.0,
+        "liquidation_move_pct": 10.5,
+        "max_loss_tl": 5000.0,
+        "payoff_at_target_pct": 181.0,
+        "p_pessimistic": 0.71,
+        "ev_bucket_pct": 100.0,
+        "max_concurrent": 2,
+        "gap_warning": "VİOP vadelisinde sert gap kaybı kasanın üstüne taşıyabilir; varant benzeri enstrümanda kayıp primle sınırlı kalır.",
+        "ev_tl": 5000.0
+      },
+      "sizing_recommended": "KONVEKS",
+      "kill_conditions": [
+        "Günlük kapanış 37.23 altı → pozisyonu TAMAMEN kapat, tartışma yok (-%8.7)",
+        "Haftalık kapanış 200 günlük ortalamanın altı → trend tezi bozuldu, çık",
+        "İki çeyrek üst üste net marj daralması → temel tez çürüdü, haber bekleme",
+        "Yabancı takas oranı 20 günde >1.5pp düşerse → kurumsal çıkış; pozisyonu yarıya indir",
+        "Hedef 48.57 → yarısını realize et, kalan stop'u girişe çek (bedava pozisyon)"
+      ],
+      "rank": 2
     },
     {
       "ticker": "ALARK",
-      "close": NaN,
+      "close": 99.75,
       "sector": "Industrials",
-      "composite": 38.0,
-      "confidence": 5.8,
-      "risk": 6.0,
+      "composite": 54.0,
+      "confidence": 8.3,
+      "risk": 4.5,
       "scores": {
         "fundamental": 27.0,
-        "technical": 0.0,
+        "technical": 16.0,
         "flow": 8.0,
         "catalyst": 3.0
       },
-      "thesis": "Temel: FCF pozitif, FCF büyümesi %+201 YoY, net marj +4.1pp genişledi (YoY), D/E 0.35 (düşük borç). Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı +0.2pp. Katalizör: kasa/piyasa değeri %37 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon).",
+      "thesis": "Temel: FCF pozitif, FCF büyümesi %+201 YoY, net marj +4.1pp genişledi (YoY), D/E 0.35 (düşük borç). Teknik: 200G ortalama ÜSTÜnde, 200G eğim yukarı, taze golden cross (50>200), RSI 45 sağlıklı bölge. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı +0.0pp. Katalizör: kasa/piyasa değeri %37 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon).",
       "fundamental": {
         "fcf_ttm": 3666421000.0,
         "fcf_yoy": 201.4,
@@ -498,25 +237,25 @@
         "period_end": "2026-03-31 00:00:00"
       },
       "technical": {
-        "sma50": NaN,
-        "sma200": NaN,
+        "sma50": 100.665,
+        "sma200": 96.5620000076294,
         "above50": false,
-        "above200": false,
-        "dist200_pct": 0.0,
-        "slope200_up": false,
-        "golden_cross_60d": false,
+        "above200": true,
+        "dist200_pct": 3.3,
+        "slope200_up": true,
+        "golden_cross_60d": true,
         "vol_breakout_5d": false,
-        "rsi": 43.7,
+        "rsi": 45.4,
         "rsi_div": "none",
         "macd_div": "none",
         "macd_cross_up_10d": false,
-        "atr_pct": 3.0,
-        "ret20_pct": NaN,
-        "avg_vol_tl_m": NaN
+        "atr_pct": 3.46,
+        "ret20_pct": -3.9,
+        "avg_vol_tl_m": 422.4
       },
       "flow": {
         "foreign_pct": 15.83,
-        "foreign_chg20": 0.16,
+        "foreign_chg20": 0.04,
         "free_float_pct": 34.3,
         "shortable_viop": true,
         "stale": false
@@ -524,82 +263,65 @@
       "catalysts": [
         "kasa/piyasa değeri %37 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon)"
       ],
-      "watch_reason": "R/G yetersiz"
-    },
-    {
-      "ticker": "ODAS",
-      "close": NaN,
-      "sector": "Utilities",
-      "composite": 38.0,
-      "confidence": 5.8,
-      "risk": 6.0,
-      "scores": {
-        "fundamental": 27.0,
-        "technical": 3.0,
-        "flow": 1.0,
-        "catalyst": 7.0
+      "levels": {
+        "entry_low": 98.25,
+        "entry_high": 100.25,
+        "entry_mid": 99.25,
+        "stop": 91.66,
+        "stop_pct": 7.6,
+        "target": 115.8,
+        "target_pct": 16.7,
+        "rr": 2.18
       },
-      "thesis": "Temel: FCF pozitif, FCF büyümesi %+225 YoY, FCF verimi %62.8 (ucuz), net marj +51.1pp genişledi (YoY). Teknik: RSI 53 sağlıklı bölge. Algı: VIOP'ta short açılabilir (çift yönlü likit). Katalizör: ihale kazanımı (2026-07-03, haber taraması).",
-      "fundamental": {
-        "fcf_ttm": 1646610033.0,
-        "fcf_yoy": 225.2,
-        "fcf_yield": 62.8,
-        "net_margin": 3.2350322293927083,
-        "margin_change_pp": 51.07,
-        "debt_to_equity": 0.11,
-        "revenue_yoy": 4.919001941902157,
-        "net_income_yoy": -107.09595201819295,
-        "f_score": 4,
-        "roe": 2.1347271656550713,
-        "pe": 39.5,
-        "cash_to_mcap": 28.8,
-        "is_bank": false,
-        "period_end": "2026-03-31 00:00:00"
+      "sizing": {
+        "mode": "KLASIK",
+        "risk_pct": 2.0,
+        "risk_tl": 1000.0,
+        "notional_tl": 13158.0,
+        "leverage": 1.0,
+        "liquidation_move_pct": null,
+        "stop_before_liq": true,
+        "ev_tl": 1174.0
       },
-      "technical": {
-        "sma50": NaN,
-        "sma200": NaN,
-        "above50": false,
-        "above200": false,
-        "dist200_pct": 0.0,
-        "slope200_up": false,
-        "golden_cross_60d": false,
-        "vol_breakout_5d": false,
-        "rsi": 52.6,
-        "rsi_div": "none",
-        "macd_div": "none",
-        "macd_cross_up_10d": false,
-        "atr_pct": 3.0,
-        "ret20_pct": NaN,
-        "avg_vol_tl_m": NaN
+      "sizing_convex": {
+        "mode": "KONVEKS",
+        "bucket_pct": 10.0,
+        "bucket_tl": 5000.0,
+        "leverage": 10.0,
+        "notional_tl": 50000.0,
+        "liquidation_move_pct": 10.0,
+        "max_loss_tl": 5000.0,
+        "payoff_at_target_pct": 167.0,
+        "p_pessimistic": 0.68,
+        "ev_bucket_pct": 82.0,
+        "max_concurrent": 2,
+        "gap_warning": "VİOP vadelisinde sert gap kaybı kasanın üstüne taşıyabilir; varant benzeri enstrümanda kayıp primle sınırlı kalır.",
+        "ev_tl": 4100.0
       },
-      "flow": {
-        "foreign_pct": 8.94,
-        "foreign_chg20": -0.47,
-        "free_float_pct": 77.7,
-        "shortable_viop": true,
-        "stale": false
-      },
-      "catalysts": [
-        "ihale kazanımı (2026-07-03, haber taraması)",
-        "kasa/piyasa değeri %29 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon)"
+      "sizing_recommended": "KONVEKS",
+      "kill_conditions": [
+        "Günlük kapanış 91.66 altı → pozisyonu TAMAMEN kapat, tartışma yok (-%7.6)",
+        "Haftalık kapanış 200 günlük ortalamanın altı → trend tezi bozuldu, çık",
+        "İki çeyrek üst üste net marj daralması → temel tez çürüdü, haber bekleme",
+        "Yabancı takas oranı 20 günde >1.5pp düşerse → kurumsal çıkış; pozisyonu yarıya indir",
+        "Hedef 115.80 → yarısını realize et, kalan stop'u girişe çek (bedava pozisyon)"
       ],
-      "watch_reason": "R/G yetersiz"
+      "rank": 3
     },
     {
       "ticker": "KCHOL",
-      "close": NaN,
+      "close": 191.10000610351562,
       "sector": "Industrials",
-      "composite": 37.0,
-      "confidence": 5.7,
-      "risk": 7.5,
+      "composite": 51.0,
+      "confidence": 7.8,
+      "risk": 6.0,
       "scores": {
         "fundamental": 19.0,
-        "technical": 3.0,
+        "technical": 12.0,
         "flow": 12.0,
-        "catalyst": 3.0
+        "catalyst": 8.0
       },
-      "thesis": "Temel: FCF pozitif, FCF büyümesi %+478 YoY, FCF verimi %41.0 (ucuz), net marj +1.4pp. Teknik: RSI 49 sağlıklı bölge. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı 20G'de +3.2pp (kurumsal GİRİŞ). Katalizör: kasa/piyasa değeri %106 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon).",
+      "thesis": "Temel: FCF pozitif, FCF büyümesi %+478 YoY, FCF verimi %41.0 (ucuz), net marj +1.4pp. Teknik: 200G ortalama ÜSTÜnde, 200G eğim yukarı, RSI 49 sağlıklı bölge. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı 20G'de +2.6pp (kurumsal GİRİŞ). Katalizör: bedelsiz sermaye artırımı — Koç Holding (KCHOL) 13 bedelsiz sermaye artırımı yaptı - Rota Borsa (2026-07-15).",
       "fundamental": {
         "fcf_ttm": 35079000000.0,
         "fcf_yoy": 478.0,
@@ -617,48 +339,730 @@
         "period_end": "2026-03-31 00:00:00"
       },
       "technical": {
-        "sma50": NaN,
-        "sma200": NaN,
+        "sma50": 194.13200042724608,
+        "sma200": 183.83500885009767,
         "above50": false,
-        "above200": false,
-        "dist200_pct": 0.0,
-        "slope200_up": false,
+        "above200": true,
+        "dist200_pct": 4.0,
+        "slope200_up": true,
         "golden_cross_60d": false,
         "vol_breakout_5d": false,
-        "rsi": 49.3,
+        "rsi": 48.9,
         "rsi_div": "none",
         "macd_div": "none",
         "macd_cross_up_10d": false,
-        "atr_pct": 3.0,
-        "ret20_pct": NaN,
-        "avg_vol_tl_m": NaN
+        "atr_pct": 2.68,
+        "ret20_pct": -4.5,
+        "avg_vol_tl_m": 3841.2
       },
       "flow": {
         "foreign_pct": 51.15,
-        "foreign_chg20": 3.21,
+        "foreign_chg20": 2.59,
         "free_float_pct": 26.3,
         "shortable_viop": true,
         "stale": false
       },
       "catalysts": [
+        "bedelsiz sermaye artırımı — Koç Holding (KCHOL) 13 bedelsiz sermaye artırımı yaptı - Rota Borsa (2026-07-15)",
         "kasa/piyasa değeri %106 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon)"
+      ],
+      "levels": {
+        "entry_low": 188.23,
+        "entry_high": 192.06,
+        "entry_mid": 190.14,
+        "stop": 178.86,
+        "stop_pct": 5.9,
+        "target": 215.93,
+        "target_pct": 13.6,
+        "rr": 2.28
+      },
+      "sizing": {
+        "mode": "KLASIK",
+        "risk_pct": 1.5,
+        "risk_tl": 750.0,
+        "notional_tl": 12712.0,
+        "leverage": 1.0,
+        "liquidation_move_pct": null,
+        "stop_before_liq": true,
+        "ev_tl": 812.0
+      },
+      "sizing_convex": {
+        "mode": "KONVEKS",
+        "bucket_pct": 5.0,
+        "bucket_tl": 2500.0,
+        "leverage": 10.0,
+        "notional_tl": 25000.0,
+        "liquidation_move_pct": 10.0,
+        "max_loss_tl": 2500.0,
+        "payoff_at_target_pct": 136.0,
+        "p_pessimistic": 0.63,
+        "ev_bucket_pct": 49.0,
+        "max_concurrent": 2,
+        "gap_warning": "VİOP vadelisinde sert gap kaybı kasanın üstüne taşıyabilir; varant benzeri enstrümanda kayıp primle sınırlı kalır.",
+        "ev_tl": 1225.0
+      },
+      "sizing_recommended": "KONVEKS",
+      "kill_conditions": [
+        "Günlük kapanış 178.86 altı → pozisyonu TAMAMEN kapat, tartışma yok (-%5.9)",
+        "Haftalık kapanış 200 günlük ortalamanın altı → trend tezi bozuldu, çık",
+        "İki çeyrek üst üste net marj daralması → temel tez çürüdü, haber bekleme",
+        "Yabancı takas oranı 20 günde >1.5pp düşerse → kurumsal çıkış; pozisyonu yarıya indir",
+        "D/E 1.9: TL'de sert faiz artışı/kur şoku bilançoyu bozar → makro kırılırsa çık",
+        "Hedef 215.93 → yarısını realize et, kalan stop'u girişe çek (bedava pozisyon)"
+      ],
+      "rank": 4
+    },
+    {
+      "ticker": "DOHOL",
+      "close": 21.360000610351562,
+      "sector": "Industrials",
+      "composite": 49.0,
+      "confidence": 7.5,
+      "risk": 4.5,
+      "scores": {
+        "fundamental": 20.0,
+        "technical": 15.0,
+        "flow": 11.0,
+        "catalyst": 3.0
+      },
+      "thesis": "Temel: FCF pozitif, FCF büyümesi %+131 YoY, FCF verimi %9.7 (ucuz), D/E 0.44 (düşük borç). Teknik: 200G ortalama ÜSTÜnde, 200G eğim yukarı, RSI 51 sağlıklı bölge, taze MACD al kesişimi. Algı: yabancı oranı 20G'de +0.7pp (kurumsal GİRİŞ), yabancı takas %28 (kurumsal radar). Katalizör: kasa/piyasa değeri %149 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon).",
+      "fundamental": {
+        "fcf_ttm": 394094000.0,
+        "fcf_yoy": 131.1,
+        "fcf_yield": 9.7,
+        "net_margin": 4.79520781446697,
+        "margin_change_pp": -0.2,
+        "debt_to_equity": 0.44,
+        "revenue_yoy": -14.895584010436725,
+        "net_income_yoy": -18.380076988460104,
+        "f_score": 4,
+        "roe": 3.2975483940890524,
+        "pe": 19.4,
+        "cash_to_mcap": 149.4,
+        "is_bank": false,
+        "period_end": "2026-03-31 00:00:00"
+      },
+      "technical": {
+        "sma50": 22.26680004119873,
+        "sma200": 20.033799991607665,
+        "above50": false,
+        "above200": true,
+        "dist200_pct": 6.6,
+        "slope200_up": true,
+        "golden_cross_60d": false,
+        "vol_breakout_5d": false,
+        "rsi": 50.9,
+        "rsi_div": "none",
+        "macd_div": "none",
+        "macd_cross_up_10d": true,
+        "atr_pct": 3.25,
+        "ret20_pct": -6.5,
+        "avg_vol_tl_m": 248.2
+      },
+      "flow": {
+        "foreign_pct": 28.22,
+        "foreign_chg20": 0.74,
+        "free_float_pct": 35.7,
+        "shortable_viop": false,
+        "stale": false
+      },
+      "catalysts": [
+        "kasa/piyasa değeri %149 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon)"
+      ],
+      "levels": {
+        "entry_low": 20.99,
+        "entry_high": 21.47,
+        "entry_mid": 21.23,
+        "stop": 19.7,
+        "stop_pct": 7.2,
+        "target": 24.64,
+        "target_pct": 16.1,
+        "rr": 2.23
+      },
+      "sizing": {
+        "mode": "KLASIK",
+        "risk_pct": 1.5,
+        "risk_tl": 750.0,
+        "notional_tl": 10417.0,
+        "leverage": 1.0,
+        "liquidation_move_pct": null,
+        "stop_before_liq": true,
+        "ev_tl": 706.0
+      },
+      "sizing_convex": {
+        "mode": "KONVEKS",
+        "bucket_pct": 5.0,
+        "bucket_tl": 2500.0,
+        "leverage": 10.0,
+        "notional_tl": 25000.0,
+        "liquidation_move_pct": 10.0,
+        "max_loss_tl": 2500.0,
+        "payoff_at_target_pct": 161.0,
+        "p_pessimistic": 0.6,
+        "ev_bucket_pct": 57.0,
+        "max_concurrent": 2,
+        "gap_warning": "VİOP vadelisinde sert gap kaybı kasanın üstüne taşıyabilir; varant benzeri enstrümanda kayıp primle sınırlı kalır.",
+        "ev_tl": 1425.0
+      },
+      "sizing_recommended": "KONVEKS",
+      "kill_conditions": [
+        "Günlük kapanış 19.70 altı → pozisyonu TAMAMEN kapat, tartışma yok (-%7.2)",
+        "Haftalık kapanış 200 günlük ortalamanın altı → trend tezi bozuldu, çık",
+        "İki çeyrek üst üste net marj daralması → temel tez çürüdü, haber bekleme",
+        "Yabancı takas oranı 20 günde >1.5pp düşerse → kurumsal çıkış; pozisyonu yarıya indir",
+        "Hedef 24.64 → yarısını realize et, kalan stop'u girişe çek (bedava pozisyon)"
+      ],
+      "rank": 5
+    }
+  ],
+  "watch": [
+    {
+      "ticker": "BIMAS",
+      "close": 384.5,
+      "sector": "Consumer Defensive",
+      "composite": 59.0,
+      "confidence": 9.1,
+      "risk": 4.5,
+      "scores": {
+        "fundamental": 14.0,
+        "technical": 18.0,
+        "flow": 12.0,
+        "catalyst": 15.0
+      },
+      "thesis": "Temel: FCF pozitif, D/E 0.31 (düşük borç), borçluluk trendi aşağı. Teknik: 200G ortalama ÜSTÜnde, 50G üstünde, 200G eğim yukarı, RSI 57 sağlıklı bölge. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı 20G'de +1.1pp (kurumsal GİRİŞ). Katalizör: hisse geri alım programı — BIMAS 13 Temmuz'da 260 bin pay geri aldı - Borsatek (2026-07-13).",
+      "fundamental": {
+        "fcf_ttm": 5302816000.0,
+        "fcf_yoy": -55.4,
+        "fcf_yield": 2.0,
+        "net_margin": 2.8811384267016185,
+        "margin_change_pp": -0.2,
+        "debt_to_equity": 0.31,
+        "revenue_yoy": 11.35763825298659,
+        "net_income_yoy": 4.044453717331242,
+        "f_score": 4,
+        "roe": 12.395038074452316,
+        "pe": 20.8,
+        "cash_to_mcap": 6.8,
+        "is_bank": false,
+        "period_end": "2026-03-31 00:00:00"
+      },
+      "technical": {
+        "sma50": 379.2186218261719,
+        "sma200": 326.6809673309326,
+        "above50": true,
+        "above200": true,
+        "dist200_pct": 17.7,
+        "slope200_up": true,
+        "golden_cross_60d": false,
+        "vol_breakout_5d": false,
+        "rsi": 57.2,
+        "rsi_div": "none",
+        "macd_div": "none",
+        "macd_cross_up_10d": true,
+        "atr_pct": 2.9,
+        "ret20_pct": 0.1,
+        "avg_vol_tl_m": 3948.9
+      },
+      "flow": {
+        "foreign_pct": 48.01,
+        "foreign_chg20": 1.11,
+        "free_float_pct": 68.8,
+        "shortable_viop": true,
+        "stale": false
+      },
+      "catalysts": [
+        "hisse geri alım programı — BIMAS 13 Temmuz'da 260 bin pay geri aldı - Borsatek (2026-07-13)",
+        "hisse geri alım programı — BİM Birleşik Mağazalar’dan (BIMAS) geri alım açıklaması - Rota Borsa (2026-07-10)",
+        "hisse geri alım programı — BIMAS 10 Temmuz'da 20.647 adet pay geri aldı - Borsatek (2026-07-10)",
+        "hisse geri alım programı — BİM'den (BIMAS) 1 milyar TL'lik Pay Geri Alım Kararı - Paranın Yönü (2026-07-06)"
       ],
       "watch_reason": "R/G yetersiz"
     },
     {
-      "ticker": "SISE",
-      "close": NaN,
-      "sector": "Industrials",
-      "composite": 37.0,
-      "confidence": 5.7,
-      "risk": 6.0,
+      "ticker": "ODAS",
+      "close": 8.529999732971191,
+      "sector": "Utilities",
+      "composite": 50.0,
+      "confidence": 7.7,
+      "risk": 5.5,
       "scores": {
-        "fundamental": 25.0,
-        "technical": 0.0,
-        "flow": 9.0,
+        "fundamental": 27.0,
+        "technical": 15.0,
+        "flow": 1.0,
+        "catalyst": 7.0
+      },
+      "thesis": "Temel: FCF pozitif, FCF büyümesi %+225 YoY, FCF verimi %62.8 (ucuz), net marj +51.1pp genişledi (YoY). Teknik: 200G ortalama ÜSTÜnde, 50G üstünde, 200G eğim yukarı, RSI 57 sağlıklı bölge. Algı: VIOP'ta short açılabilir (çift yönlü likit). Katalizör: ihale kazanımı (2026-07-03, haber taraması).",
+      "fundamental": {
+        "fcf_ttm": 1646610033.0,
+        "fcf_yoy": 225.2,
+        "fcf_yield": 62.8,
+        "net_margin": 3.2350322293927083,
+        "margin_change_pp": 51.07,
+        "debt_to_equity": 0.11,
+        "revenue_yoy": 4.919001941902157,
+        "net_income_yoy": -107.09595201819295,
+        "f_score": 4,
+        "roe": 2.1347271656550713,
+        "pe": 39.5,
+        "cash_to_mcap": 28.8,
+        "is_bank": false,
+        "period_end": "2026-03-31 00:00:00"
+      },
+      "technical": {
+        "sma50": 7.903800010681152,
+        "sma200": 6.273700003623962,
+        "above50": true,
+        "above200": true,
+        "dist200_pct": 36.0,
+        "slope200_up": true,
+        "golden_cross_60d": false,
+        "vol_breakout_5d": false,
+        "rsi": 57.3,
+        "rsi_div": "none",
+        "macd_div": "none",
+        "macd_cross_up_10d": false,
+        "atr_pct": 4.4,
+        "ret20_pct": 8.7,
+        "avg_vol_tl_m": 1045.8
+      },
+      "flow": {
+        "foreign_pct": 8.94,
+        "foreign_chg20": -0.26,
+        "free_float_pct": 77.7,
+        "shortable_viop": true,
+        "stale": false
+      },
+      "catalysts": [
+        "ihale kazanımı (2026-07-03, haber taraması)",
+        "kasa/piyasa değeri %29 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon)"
+      ],
+      "watch_reason": "R/G yetersiz"
+    },
+    {
+      "ticker": "KRDMD",
+      "close": 40.84000015258789,
+      "sector": "Basic Materials",
+      "composite": 48.0,
+      "confidence": 7.4,
+      "risk": 4.5,
+      "scores": {
+        "fundamental": 26.0,
+        "technical": 10.0,
+        "flow": 12.0,
+        "catalyst": 0.0
+      },
+      "thesis": "Temel: FCF pozitif, FCF büyümesi %+190 YoY, net marj +6.4pp genişledi (YoY), D/E 0.09 (düşük borç). Teknik: 200G ortalama ÜSTÜnde, 50G üstünde, 200G eğim yukarı, RSI 58 sağlıklı bölge. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı 20G'de +2.4pp (kurumsal GİRİŞ).",
+      "fundamental": {
+        "fcf_ttm": 2364465878.0,
+        "fcf_yoy": 189.9,
+        "fcf_yield": -3.2,
+        "net_margin": 0.1643073831043969,
+        "margin_change_pp": 6.43,
+        "debt_to_equity": 0.09,
+        "revenue_yoy": -7.7989388921623215,
+        "net_income_yoy": -102.41860882199616,
+        "f_score": 5,
+        "roe": 0.12317819945222644,
+        "pe": 151.1,
+        "cash_to_mcap": 10.5,
+        "is_bank": false,
+        "period_end": "2026-03-31 00:00:00"
+      },
+      "technical": {
+        "sma50": 39.934400177001955,
+        "sma200": 31.810300092697144,
+        "above50": true,
+        "above200": true,
+        "dist200_pct": 28.4,
+        "slope200_up": true,
+        "golden_cross_60d": false,
+        "vol_breakout_5d": false,
+        "rsi": 57.6,
+        "rsi_div": "bearish",
+        "macd_div": "bearish",
+        "macd_cross_up_10d": false,
+        "atr_pct": 3.97,
+        "ret20_pct": 0.0,
+        "avg_vol_tl_m": 2428.4
+      },
+      "flow": {
+        "foreign_pct": 18.43,
+        "foreign_chg20": 2.4,
+        "free_float_pct": 93.0,
+        "shortable_viop": true,
+        "stale": false
+      },
+      "catalysts": [],
+      "watch_reason": "R/G yetersiz"
+    },
+    {
+      "ticker": "KORDS",
+      "close": 78.69999694824219,
+      "sector": "Consumer Cyclical",
+      "composite": 44.0,
+      "confidence": 6.8,
+      "risk": 5.5,
+      "scores": {
+        "fundamental": 15.0,
+        "technical": 22.0,
+        "flow": 4.0,
         "catalyst": 3.0
       },
-      "thesis": "Temel: FCF pozitif, FCF büyümesi %+138 YoY, net marj +2.5pp, D/E 0.66. Teknik: NEGATİF uyumsuzluk (tepe zayıflığı −). Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı 20G'de +0.6pp (kurumsal GİRİŞ). Katalizör: kasa/piyasa değeri %37 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon).",
+      "thesis": "Temel: FCF pozitif, FCF verimi %9.0 (ucuz), net marj +0.8pp, borçluluk trendi aşağı. Teknik: 200G ortalama ÜSTÜnde, 50G üstünde, 200G eğim yukarı, taze golden cross (50>200). Algı: yabancı oranı +0.0pp. Katalizör: kasa/piyasa değeri %34 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon).",
+      "fundamental": {
+        "fcf_ttm": 920109901.0,
+        "fcf_yoy": -34.1,
+        "fcf_yield": 9.0,
+        "net_margin": -3.619702358756486,
+        "margin_change_pp": 0.85,
+        "debt_to_equity": 1.23,
+        "revenue_yoy": -13.287024706452987,
+        "net_income_yoy": -29.753371616359637,
+        "f_score": 3,
+        "roe": -7.933029236588209,
+        "pe": null,
+        "cash_to_mcap": 33.7,
+        "is_bank": false,
+        "period_end": "2026-03-31 00:00:00"
+      },
+      "technical": {
+        "sma50": 77.66799949645996,
+        "sma200": 60.29369993209839,
+        "above50": true,
+        "above200": true,
+        "dist200_pct": 30.5,
+        "slope200_up": true,
+        "golden_cross_60d": true,
+        "vol_breakout_5d": false,
+        "rsi": 54.0,
+        "rsi_div": "none",
+        "macd_div": "none",
+        "macd_cross_up_10d": true,
+        "atr_pct": 5.58,
+        "ret20_pct": 3.3,
+        "avg_vol_tl_m": 226.0
+      },
+      "flow": {
+        "foreign_pct": 6.88,
+        "foreign_chg20": 0.03,
+        "free_float_pct": 28.6,
+        "shortable_viop": false,
+        "stale": false
+      },
+      "catalysts": [
+        "kasa/piyasa değeri %34 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon)"
+      ],
+      "watch_reason": "R/G yetersiz"
+    },
+    {
+      "ticker": "ASELS",
+      "close": 348.5,
+      "sector": "Industrials",
+      "composite": 43.0,
+      "confidence": 6.6,
+      "risk": 5.5,
+      "scores": {
+        "fundamental": 19.0,
+        "technical": 9.0,
+        "flow": 0.0,
+        "catalyst": 15.0
+      },
+      "thesis": "Temel: net marj +4.8pp genişledi (YoY), D/E 0.19 (düşük borç), borçluluk trendi aşağı, net kâr %69 YoY. Teknik: 200G ortalama ÜSTÜnde, 200G eğim yukarı. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı -1.4pp (kurumsal ÇIKIŞ −). Katalizör: bedelsiz sermaye artırımı — Aselsan (ASELS) 11 bedelsiz sermaye artırımı yaptı - Rota Borsa (2026-07-11).",
+      "fundamental": {
+        "fcf_ttm": -7716663000.0,
+        "fcf_yoy": -281.1,
+        "fcf_yield": -2.9,
+        "net_margin": 17.493313522132333,
+        "margin_change_pp": 4.82,
+        "debt_to_equity": 0.19,
+        "revenue_yoy": 22.125405144167498,
+        "net_income_yoy": 68.63024253340953,
+        "f_score": 4,
+        "roe": 12.63684643723922,
+        "pe": 51.8,
+        "cash_to_mcap": 1.8,
+        "is_bank": false,
+        "period_end": "2026-03-31 00:00:00"
+      },
+      "technical": {
+        "sma50": 387.725,
+        "sma200": 302.25277694702146,
+        "above50": false,
+        "above200": true,
+        "dist200_pct": 15.3,
+        "slope200_up": true,
+        "golden_cross_60d": false,
+        "vol_breakout_5d": false,
+        "rsi": 40.7,
+        "rsi_div": "none",
+        "macd_div": "bullish",
+        "macd_cross_up_10d": false,
+        "atr_pct": 5.25,
+        "ret20_pct": -11.5,
+        "avg_vol_tl_m": 13756.8
+      },
+      "flow": {
+        "foreign_pct": 54.56,
+        "foreign_chg20": -1.45,
+        "free_float_pct": 25.8,
+        "shortable_viop": true,
+        "stale": false
+      },
+      "catalysts": [
+        "bedelsiz sermaye artırımı — Aselsan (ASELS) 11 bedelsiz sermaye artırımı yaptı - Rota Borsa (2026-07-11)",
+        "yeni sözleşme — ASELS yatırımcısının yüzü güldü: Dev anlaşmayla hisse yeşillendi - Yat (2026-07-10)",
+        "yeni sözleşme — ASELSAN'dan Dev Anlaşma! 1,47 Milyar Avroluk Sözleşme İmzalandı - Para (2026-07-10)",
+        "yeni sözleşme — Aselsan ile Savunma Sanayii Başkanlığı Arasında 1,47 Milyar Avroluk Ha (2026-07-10)",
+        "yeni sözleşme — Aselsan dev sözleşmeyi duyurdu: 1,5 milyar euro, hisseleri böyle harek (2026-07-10)"
+      ],
+      "watch_reason": "skor eşik altı"
+    },
+    {
+      "ticker": "CCOLA",
+      "close": 84.05000305175781,
+      "sector": "Consumer Defensive",
+      "composite": 43.0,
+      "confidence": 6.6,
+      "risk": 4.5,
+      "scores": {
+        "fundamental": 20.0,
+        "technical": 11.0,
+        "flow": 12.0,
+        "catalyst": 0.0
+      },
+      "thesis": "Temel: FCF pozitif, FCF büyümesi %+128 YoY, FCF verimi %5.5, D/E 0.62. Teknik: 200G ortalama ÜSTÜnde, 50G üstünde, 200G eğim yukarı, RSI 55 sağlıklı bölge. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı 20G'de +1.2pp (kurumsal GİRİŞ).",
+      "fundamental": {
+        "fcf_ttm": 2130722000.0,
+        "fcf_yoy": 128.1,
+        "fcf_yield": 5.5,
+        "net_margin": 9.028938413779033,
+        "margin_change_pp": -0.08,
+        "debt_to_equity": 0.62,
+        "revenue_yoy": 11.109204037486165,
+        "net_income_yoy": 10.087410786988361,
+        "f_score": 4,
+        "roe": 22.835469773219327,
+        "pe": 13.4,
+        "cash_to_mcap": 10.7,
+        "is_bank": false,
+        "period_end": "2026-03-31 00:00:00"
+      },
+      "technical": {
+        "sma50": 81.55764511108399,
+        "sma200": 67.25276210784912,
+        "above50": true,
+        "above200": true,
+        "dist200_pct": 25.0,
+        "slope200_up": true,
+        "golden_cross_60d": false,
+        "vol_breakout_5d": false,
+        "rsi": 55.1,
+        "rsi_div": "bearish",
+        "macd_div": "bearish",
+        "macd_cross_up_10d": false,
+        "atr_pct": 3.61,
+        "ret20_pct": 4.9,
+        "avg_vol_tl_m": 434.9
+      },
+      "flow": {
+        "foreign_pct": 84.46,
+        "foreign_chg20": 1.19,
+        "free_float_pct": 29.4,
+        "shortable_viop": true,
+        "stale": false
+      },
+      "catalysts": [],
+      "watch_reason": "skor eşik altı"
+    },
+    {
+      "ticker": "AKSA",
+      "close": 11.890000343322754,
+      "sector": "Consumer Cyclical",
+      "composite": 43.0,
+      "confidence": 6.6,
+      "risk": 5.5,
+      "scores": {
+        "fundamental": 25.0,
+        "technical": 15.0,
+        "flow": 3.0,
+        "catalyst": 0.0
+      },
+      "thesis": "Temel: FCF pozitif, FCF büyümesi %+1004 YoY, net marj +10.6pp genişledi (YoY), D/E 0.86. Teknik: 200G ortalama ÜSTÜnde, 50G üstünde, 200G eğim yukarı, RSI 54 sağlıklı bölge. Algı: yabancı takas %18 (kurumsal radar).",
+      "fundamental": {
+        "fcf_ttm": 2838810000.0,
+        "fcf_yoy": 1004.4,
+        "fcf_yield": 0.9,
+        "net_margin": 12.857090478421634,
+        "margin_change_pp": 10.57,
+        "debt_to_equity": 0.86,
+        "revenue_yoy": 1.1291397739193298,
+        "net_income_yoy": 468.2764485744743,
+        "f_score": 4,
+        "roe": 14.281189129677117,
+        "pe": 10.5,
+        "cash_to_mcap": 21.7,
+        "is_bank": false,
+        "period_end": "2026-03-31 00:00:00"
+      },
+      "technical": {
+        "sma50": 11.282200012207031,
+        "sma200": 10.51263165473938,
+        "above50": true,
+        "above200": true,
+        "dist200_pct": 13.1,
+        "slope200_up": true,
+        "golden_cross_60d": false,
+        "vol_breakout_5d": false,
+        "rsi": 53.9,
+        "rsi_div": "none",
+        "macd_div": "none",
+        "macd_cross_up_10d": false,
+        "atr_pct": 4.09,
+        "ret20_pct": -5.2,
+        "avg_vol_tl_m": 284.8
+      },
+      "flow": {
+        "foreign_pct": 17.77,
+        "foreign_chg20": -0.36,
+        "free_float_pct": 30.7,
+        "shortable_viop": false,
+        "stale": false
+      },
+      "catalysts": [],
+      "watch_reason": "skor eşik altı"
+    },
+    {
+      "ticker": "GLYHO",
+      "close": 17.040000915527344,
+      "sector": "Industrials",
+      "composite": 43.0,
+      "confidence": 6.6,
+      "risk": 6.0,
+      "scores": {
+        "fundamental": 18.0,
+        "technical": 15.0,
+        "flow": 7.0,
+        "catalyst": 3.0
+      },
+      "thesis": "Temel: FCF pozitif, FCF büyümesi %+237 YoY, net marj +3.2pp genişledi (YoY), D/E 4.68 (yüksek borç −). Teknik: 200G ortalama ÜSTÜnde, 50G üstünde, 200G eğim yukarı, RSI 47 sağlıklı bölge. Algı: yabancı oranı +0.4pp, yabancı takas %24 (kurumsal radar). Katalizör: kasa/piyasa değeri %43 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon).",
+      "fundamental": {
+        "fcf_ttm": 429951703.0,
+        "fcf_yoy": 236.8,
+        "fcf_yield": -19.0,
+        "net_margin": 19.6530920506164,
+        "margin_change_pp": 3.17,
+        "debt_to_equity": 4.68,
+        "revenue_yoy": 4.939288150879473,
+        "net_income_yoy": 25.118990657040598,
+        "f_score": 4,
+        "roe": 35.96613798451285,
+        "pe": 6.4,
+        "cash_to_mcap": 43.3,
+        "is_bank": false,
+        "period_end": "2026-03-31 00:00:00"
+      },
+      "technical": {
+        "sma50": 16.341199970245363,
+        "sma200": 13.945350012779237,
+        "above50": true,
+        "above200": true,
+        "dist200_pct": 22.2,
+        "slope200_up": true,
+        "golden_cross_60d": false,
+        "vol_breakout_5d": false,
+        "rsi": 46.9,
+        "rsi_div": "none",
+        "macd_div": "none",
+        "macd_cross_up_10d": false,
+        "atr_pct": 3.27,
+        "ret20_pct": -0.6,
+        "avg_vol_tl_m": 90.3
+      },
+      "flow": {
+        "foreign_pct": 24.32,
+        "foreign_chg20": 0.44,
+        "free_float_pct": 61.5,
+        "shortable_viop": false,
+        "stale": false
+      },
+      "catalysts": [
+        "kasa/piyasa değeri %43 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon)"
+      ],
+      "watch_reason": "R/G yetersiz"
+    },
+    {
+      "ticker": "INDES",
+      "close": 10.75,
+      "sector": "Technology",
+      "composite": 41.0,
+      "confidence": 6.3,
+      "risk": 4.5,
+      "scores": {
+        "fundamental": 26.0,
+        "technical": 9.0,
+        "flow": 3.0,
+        "catalyst": 3.0
+      },
+      "thesis": "Temel: FCF pozitif, FCF büyümesi %+146 YoY, net marj +0.3pp, D/E 0.61. Teknik: 200G ortalama ÜSTÜnde, 200G eğim yukarı. Algı: yabancı takas %15 (kurumsal radar). Katalizör: kasa/piyasa değeri %69 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon).",
+      "fundamental": {
+        "fcf_ttm": 713465518.0,
+        "fcf_yoy": 146.0,
+        "fcf_yield": -25.7,
+        "net_margin": 0.7225385118569383,
+        "margin_change_pp": 0.28,
+        "debt_to_equity": 0.61,
+        "revenue_yoy": 17.220319380975347,
+        "net_income_yoy": 93.24602396810049,
+        "f_score": 5,
+        "roe": 10.051483883305037,
+        "pe": 11.0,
+        "cash_to_mcap": 69.4,
+        "is_bank": false,
+        "period_end": "2026-03-31 00:00:00"
+      },
+      "technical": {
+        "sma50": 11.332185115814209,
+        "sma200": 8.977346274852753,
+        "above50": false,
+        "above200": true,
+        "dist200_pct": 19.7,
+        "slope200_up": true,
+        "golden_cross_60d": false,
+        "vol_breakout_5d": false,
+        "rsi": 43.8,
+        "rsi_div": "none",
+        "macd_div": "none",
+        "macd_cross_up_10d": false,
+        "atr_pct": 3.87,
+        "ret20_pct": -5.6,
+        "avg_vol_tl_m": 67.5
+      },
+      "flow": {
+        "foreign_pct": 15.03,
+        "foreign_chg20": -0.45,
+        "free_float_pct": 61.2,
+        "shortable_viop": false,
+        "stale": false
+      },
+      "catalysts": [
+        "kasa/piyasa değeri %69 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon)"
+      ],
+      "watch_reason": "skor eşik altı"
+    },
+    {
+      "ticker": "SISE",
+      "close": 43.599998474121094,
+      "sector": "Industrials",
+      "composite": 40.0,
+      "confidence": 6.2,
+      "risk": 4.5,
+      "scores": {
+        "fundamental": 25.0,
+        "technical": 7.0,
+        "flow": 5.0,
+        "catalyst": 3.0
+      },
+      "thesis": "Temel: FCF pozitif, FCF büyümesi %+138 YoY, net marj +2.5pp, D/E 0.66. Teknik: 200G ortalama ÜSTÜnde, 200G eğim yukarı, RSI 46 sağlıklı bölge, NEGATİF uyumsuzluk (tepe zayıflığı −). Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı +0.4pp. Katalizör: kasa/piyasa değeri %37 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon).",
       "fundamental": {
         "fcf_ttm": 4500740000.0,
         "fcf_yoy": 138.3,
@@ -676,25 +1080,25 @@
         "period_end": "2026-03-31 00:00:00"
       },
       "technical": {
-        "sma50": NaN,
-        "sma200": NaN,
+        "sma50": 45.610984344482425,
+        "sma200": 41.76868534088135,
         "above50": false,
-        "above200": false,
-        "dist200_pct": 0.0,
-        "slope200_up": false,
+        "above200": true,
+        "dist200_pct": 4.4,
+        "slope200_up": true,
         "golden_cross_60d": false,
         "vol_breakout_5d": false,
-        "rsi": 43.7,
+        "rsi": 46.1,
         "rsi_div": "none",
         "macd_div": "bearish",
         "macd_cross_up_10d": false,
-        "atr_pct": 3.0,
-        "ret20_pct": NaN,
-        "avg_vol_tl_m": NaN
+        "atr_pct": 3.11,
+        "ret20_pct": -5.1,
+        "avg_vol_tl_m": 2274.8
       },
       "flow": {
         "foreign_pct": 12.14,
-        "foreign_chg20": 0.63,
+        "foreign_chg20": 0.36,
         "free_float_pct": 47.3,
         "shortable_viop": true,
         "stale": false
@@ -702,79 +1106,22 @@
       "catalysts": [
         "kasa/piyasa değeri %37 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon)"
       ],
-      "watch_reason": "R/G yetersiz"
-    },
-    {
-      "ticker": "EGEPO",
-      "close": 18.739999771118164,
-      "sector": "Healthcare",
-      "composite": 37.0,
-      "confidence": 5.7,
-      "risk": 5.5,
-      "scores": {
-        "fundamental": 22.0,
-        "technical": 15.0,
-        "flow": 0.0,
-        "catalyst": 0.0
-      },
-      "thesis": "Temel: FCF pozitif, FCF büyümesi %+109 YoY, net marj +2.7pp, D/E 0.02 (düşük borç). Teknik: 200G ortalama ÜSTÜnde, 200G eğim yukarı, RSI 51 sağlıklı bölge, taze MACD al kesişimi.",
-      "fundamental": {
-        "fcf_ttm": 10611956.0,
-        "fcf_yoy": 108.8,
-        "fcf_yield": 0.2,
-        "net_margin": 2.5694453754381654,
-        "margin_change_pp": 2.67,
-        "debt_to_equity": 0.02,
-        "revenue_yoy": 9.5236223769253,
-        "net_income_yoy": -200.0,
-        "f_score": 4,
-        "roe": 1.8855683172477062,
-        "pe": 1910.0,
-        "cash_to_mcap": 2.0,
-        "is_bank": false,
-        "period_end": "2026-03-31 00:00:00"
-      },
-      "technical": {
-        "sma50": 18.94740001678467,
-        "sma200": 12.577800014019012,
-        "above50": false,
-        "above200": true,
-        "dist200_pct": 49.0,
-        "slope200_up": true,
-        "golden_cross_60d": false,
-        "vol_breakout_5d": false,
-        "rsi": 50.7,
-        "rsi_div": "none",
-        "macd_div": "none",
-        "macd_cross_up_10d": true,
-        "atr_pct": 4.2,
-        "ret20_pct": 0.2,
-        "avg_vol_tl_m": 52.1
-      },
-      "flow": {
-        "foreign_pct": 9.99,
-        "foreign_chg20": -0.7,
-        "free_float_pct": 21.8,
-        "shortable_viop": false,
-        "stale": false
-      },
-      "catalysts": [],
       "watch_reason": "skor eşik altı"
     },
     {
       "ticker": "GUBRF",
-      "close": NaN,
+      "close": 413.25,
       "sector": "Basic Materials",
-      "composite": 36.0,
-      "confidence": 5.5,
-      "risk": 6.0,
+      "composite": 40.0,
+      "confidence": 6.2,
+      "risk": 7.0,
       "scores": {
         "fundamental": 24.0,
-        "technical": 0.0,
+        "technical": 4.0,
         "flow": 12.0,
         "catalyst": 0.0
       },
-      "thesis": "Temel: FCF pozitif, net marj +7.9pp genişledi (YoY), D/E 0.28 (düşük borç), borçluluk trendi aşağı. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı 20G'de +4.3pp (kurumsal GİRİŞ).",
+      "thesis": "Temel: FCF pozitif, net marj +7.9pp genişledi (YoY), D/E 0.28 (düşük borç), borçluluk trendi aşağı. Teknik: 200G eğim yukarı. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı oranı 20G'de +3.8pp (kurumsal GİRİŞ).",
       "fundamental": {
         "fcf_ttm": 1218068850.0,
         "fcf_yoy": -21.4,
@@ -792,73 +1139,156 @@
         "period_end": "2026-03-31 00:00:00"
       },
       "technical": {
-        "sma50": NaN,
-        "sma200": NaN,
+        "sma50": 512.94,
+        "sma200": 434.73,
         "above50": false,
         "above200": false,
-        "dist200_pct": 0.0,
-        "slope200_up": false,
+        "dist200_pct": -4.9,
+        "slope200_up": true,
         "golden_cross_60d": false,
         "vol_breakout_5d": false,
-        "rsi": 31.6,
+        "rsi": 32.3,
         "rsi_div": "none",
         "macd_div": "none",
         "macd_cross_up_10d": false,
-        "atr_pct": 3.0,
-        "ret20_pct": NaN,
-        "avg_vol_tl_m": NaN
+        "atr_pct": 4.97,
+        "ret20_pct": -21.2,
+        "avg_vol_tl_m": 1335.9
       },
       "flow": {
         "foreign_pct": 15.97,
-        "foreign_chg20": 4.31,
+        "foreign_chg20": 3.82,
         "free_float_pct": 21.1,
         "shortable_viop": true,
         "stale": false
       },
       "catalysts": [],
-      "watch_reason": "R/G yetersiz"
+      "watch_reason": "skor eşik altı"
+    },
+    {
+      "ticker": "SOKM",
+      "close": 48.79999923706055,
+      "sector": "Consumer Cyclical",
+      "composite": 39.0,
+      "confidence": 6.0,
+      "risk": 6.0,
+      "scores": {
+        "fundamental": 19.0,
+        "technical": 13.0,
+        "flow": 4.0,
+        "catalyst": 3.0
+      },
+      "thesis": "Temel: FCF pozitif, FCF büyümesi %+10 YoY, FCF verimi %23.3 (ucuz), marj 2 çeyrektir daralıyor (−). Teknik: 50G üstünde, 200G eğim yukarı, RSI 57 sağlıklı bölge, taze MACD al kesişimi. Algı: VIOP'ta short açılabilir (çift yönlü likit), yabancı takas %36 (kurumsal radar). Katalizör: kasa/piyasa değeri %45 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon).",
+      "fundamental": {
+        "fcf_ttm": 5946562645.0,
+        "fcf_yoy": 9.7,
+        "fcf_yield": 23.3,
+        "net_margin": -0.7657684305141025,
+        "margin_change_pp": -0.63,
+        "debt_to_equity": 0.41,
+        "revenue_yoy": 9.85860646108514,
+        "net_income_yoy": 500.0,
+        "f_score": 1,
+        "roe": -6.267750576339871,
+        "pe": null,
+        "cash_to_mcap": 44.7,
+        "is_bank": false,
+        "period_end": "2026-03-31 00:00:00"
+      },
+      "technical": {
+        "sma50": 48.66900009155273,
+        "sma200": 51.30244985580444,
+        "above50": true,
+        "above200": false,
+        "dist200_pct": -4.9,
+        "slope200_up": true,
+        "golden_cross_60d": false,
+        "vol_breakout_5d": false,
+        "rsi": 56.6,
+        "rsi_div": "none",
+        "macd_div": "none",
+        "macd_cross_up_10d": true,
+        "atr_pct": 2.99,
+        "ret20_pct": -2.8,
+        "avg_vol_tl_m": 275.0
+      },
+      "flow": {
+        "foreign_pct": 36.19,
+        "foreign_chg20": -0.33,
+        "free_float_pct": 41.9,
+        "shortable_viop": true,
+        "stale": false
+      },
+      "catalysts": [
+        "kasa/piyasa değeri %45 — geri alım/temettü kapasitesi (fiyatlanmamış opsiyon)"
+      ],
+      "watch_reason": "skor eşik altı"
     }
   ],
   "excluded_hype": [
     {
-      "ticker": "TUPRS",
-      "reason": "RSI 73 — aşırı ısınmış, kalabalığın treni",
-      "close": NaN,
-      "rsi": 72.9,
-      "dist200_pct": 0.0,
-      "ret20_pct": NaN
+      "ticker": "SELEC",
+      "reason": "200G ortalamanın %129 üstü — fiyat şişmiş",
+      "close": 219.0,
+      "rsi": 68.2,
+      "dist200_pct": 129.1,
+      "ret20_pct": 61.4
+    },
+    {
+      "ticker": "KARTN",
+      "reason": "RSI 77 — aşırı ısınmış, kalabalığın treni",
+      "close": 202.89999389648438,
+      "rsi": 76.9,
+      "dist200_pct": 117.3,
+      "ret20_pct": 56.4
     },
     {
       "ticker": "IZMDC",
-      "reason": "RSI 72 — aşırı ısınmış, kalabalığın treni",
-      "close": NaN,
-      "rsi": 72.3,
-      "dist200_pct": 0.0,
-      "ret20_pct": NaN
-    },
-    {
-      "ticker": "SELEC",
-      "reason": "200G ortalamanın %118 üstü — fiyat şişmiş",
-      "close": 206.60000610351562,
-      "rsi": 64.2,
-      "dist200_pct": 117.7,
-      "ret20_pct": 67.4
+      "reason": "RSI 74 — aşırı ısınmış, kalabalığın treni",
+      "close": 10.350000381469727,
+      "rsi": 73.9,
+      "dist200_pct": 44.4,
+      "ret20_pct": 26.4
     },
     {
       "ticker": "KRDMB",
-      "reason": "200G ortalamanın %135 üstü — fiyat şişmiş",
-      "close": 130.5,
-      "rsi": 57.5,
-      "dist200_pct": 135.4,
-      "ret20_pct": 18.9
+      "reason": "200G ortalamanın %141 üstü — fiyat şişmiş",
+      "close": 135.0,
+      "rsi": 62.5,
+      "dist200_pct": 141.2,
+      "ret20_pct": 21.1
+    },
+    {
+      "ticker": "TUPRS",
+      "reason": "RSI 74 — aşırı ısınmış, kalabalığın treni",
+      "close": 270.75,
+      "rsi": 74.1,
+      "dist200_pct": 23.8,
+      "ret20_pct": 20.1
+    },
+    {
+      "ticker": "AKSEN",
+      "reason": "RSI 72 — aşırı ısınmış, kalabalığın treni",
+      "close": 95.5999984741211,
+      "rsi": 72.5,
+      "dist200_pct": 37.7,
+      "ret20_pct": 16.9
+    },
+    {
+      "ticker": "ASTOR",
+      "reason": "200G ortalamanın %74 üstü — fiyat şişmiş",
+      "close": 325.0,
+      "rsi": 56.7,
+      "dist200_pct": 73.5,
+      "ret20_pct": 9.8
     },
     {
       "ticker": "YEOTK",
-      "reason": "200G ortalamanın %66 üstü — fiyat şişmiş",
-      "close": 93.5,
-      "rsi": 44.2,
-      "dist200_pct": 66.2,
-      "ret20_pct": -13.2
+      "reason": "200G ortalamanın %64 üstü — fiyat şişmiş",
+      "close": 92.5999984741211,
+      "rsi": 43.3,
+      "dist200_pct": 63.7,
+      "ret20_pct": -20.2
     }
   ],
   "dropped_from_buys": [],
