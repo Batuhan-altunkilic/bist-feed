@@ -20,24 +20,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 32.8,
+        "score": -20.7,
         "direction": "NEUTRAL",
         "breakdown": {
-          "gap": 55.0,
-          "orb": 80.0,
-          "vwap": 3.9,
+          "gap": -14.2,
+          "orb": -80.0,
+          "vwap": -24.3,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 395.5,
-          "stop_long": 367.88,
-          "stop_short": 423.12,
-          "target_long": 450.74,
-          "target_short": 340.26,
-          "atr_pct": 2.79
+          "last_price": 389.5,
+          "stop_long": 365.25,
+          "stop_short": 413.75,
+          "target_long": 438.0,
+          "target_short": 341.0,
+          "atr_pct": 2.49
         }
       },
       "long_alarm": {
@@ -53,7 +53,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.8,
+      "estimated_potential_pct": 1.0,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 54.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
@@ -68,7 +68,7 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**BIMAS** (Retail) uzun vade skoru 55/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %48 (sağlıklı seviye); long-term katmanda yer alıyor. Gün içi sinyal nötr (skor +33). Gün içi destek: ORB long tetikleyicisi (açılış aralığı yukarı kırıldı); %3.7 yukarı gap ile açıldı.",
+      "explanation": "**BIMAS** (Retail) uzun vade skoru 55/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %48 (sağlıklı seviye); long-term katmanda yer alıyor.",
       "trade_plan": null
     }
   ],

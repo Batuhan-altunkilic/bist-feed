@@ -1,23 +1,55 @@
 {
-  "date": "2026-07-16",
-  "ts": "2026-07-16T11:00:01",
-  "is_today": false,
+  "date": "2026-07-17",
+  "ts": "2026-07-17T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "EGEPO",
+      "ticker": "ASTOR",
+      "side": "SHORT",
+      "score": -7.42,
+      "entry": 296.75,
+      "rsi": 47.8,
+      "stop": 344.62
+    },
+    {
+      "ticker": "MIATK",
+      "side": "SHORT",
+      "score": -5.95,
+      "entry": 33.12,
+      "rsi": 33.9,
+      "stop": 37.06
+    },
+    {
+      "ticker": "BAGFS",
       "side": "SHORT",
       "score": -5.0,
-      "entry": 18.41,
-      "rsi": 46.8,
-      "stop": 20.12
+      "entry": 24.94,
+      "rsi": 36.6,
+      "stop": 26.35
+    },
+    {
+      "ticker": "TUPRS",
+      "side": "LONG",
+      "score": 6.0,
+      "entry": 286.5,
+      "rsi": 79.1,
+      "stop": 271.12
+    },
+    {
+      "ticker": "AKSEN",
+      "side": "LONG",
+      "score": 6.0,
+      "entry": 103.4,
+      "rsi": 79.1,
+      "stop": 95.55
     },
     {
       "ticker": "SELEC",
       "side": "LONG",
-      "score": 4.5,
-      "entry": 239.0,
-      "rsi": 73.8,
-      "stop": 202.35
+      "score": 8.5,
+      "entry": 256.0,
+      "rsi": 76.5,
+      "stop": 214.8
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
