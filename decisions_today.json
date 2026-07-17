@@ -43,7 +43,7 @@
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 395.5,
+          "last_price": 394.75,
           "stop_long": 367.88,
           "stop_short": 423.12,
           "target_long": 450.74,
@@ -82,5 +82,6 @@
       "explanation": "**BIMAS** (Retail) uzun vade skoru 55/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %48 (sağlıklı seviye); long-term katmanda yer alıyor. Gün içi sinyal nötr (skor +33). Gün içi destek: ORB long tetikleyicisi (açılış aralığı yukarı kırıldı); %3.7 yukarı gap ile açıldı.",
       "trade_plan": null
     }
-  ]
+  ],
+  "price_refreshed_at": "2026-07-17T10:15:06"
 }
