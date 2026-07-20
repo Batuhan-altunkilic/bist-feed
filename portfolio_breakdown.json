@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T14:01:59+00:00",
+  "generated_at": "2026-07-20T06:32:48+00:00",
   "regime": {
     "name": "NORMAL",
     "exposure_multiplier": 1.0,
@@ -64,7 +64,7 @@
     "Takas/yabancı oranı analizi henüz dahil değil (Yol 1'de eklenecek)."
   ],
   "universe": "BIST 100",
-  "production_date": "2026-07-16",
-  "data_cutoff_date": "2026-07-14",
+  "production_date": "2026-07-20",
+  "data_cutoff_date": "2026-07-17",
   "data_sources": "İsyatırım çeyreklik mali tablolar (TTM, PIT) + yfinance fiyat + USDTRY makro"
 }
