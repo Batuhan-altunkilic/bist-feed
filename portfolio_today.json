@@ -20,24 +20,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -16.8,
+        "score": -16.1,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 7.5,
           "orb": -80.0,
-          "vwap": -34.5,
+          "vwap": -29.7,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 393.5,
-          "stop_long": 358.62,
-          "stop_short": 428.38,
-          "target_long": 463.26,
-          "target_short": 323.74,
-          "atr_pct": 3.55
+          "last_price": 391.75,
+          "stop_long": 355.88,
+          "stop_short": 427.62,
+          "target_long": 463.49,
+          "target_short": 320.01,
+          "atr_pct": 3.66
         }
       },
       "long_alarm": {
