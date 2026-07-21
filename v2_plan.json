@@ -1,15 +1,23 @@
 {
-  "date": "2026-07-20",
-  "ts": "2026-07-20T11:00:01",
-  "is_today": false,
+  "date": "2026-07-21",
+  "ts": "2026-07-21T11:00:01",
+  "is_today": true,
   "picks": [
+    {
+      "ticker": "TSKB",
+      "side": "SHORT",
+      "score": -4.78,
+      "entry": 11.46,
+      "rsi": 43.2,
+      "stop": 12.16
+    },
     {
       "ticker": "TUPRS",
       "side": "LONG",
-      "score": 4.5,
-      "entry": 305.75,
-      "rsi": 85.5,
-      "stop": 282.0
+      "score": 6.0,
+      "entry": 308.25,
+      "rsi": 84.6,
+      "stop": 288.75
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
