@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22 09:32",
+  "generated_at": "2026-07-23 09:33",
   "min_n": 30,
   "strategies": [
     {
@@ -12,11 +12,11 @@
         "kaynak": "Faz-2 dürüst bandı (holdout %81 → dolum/survivorship sonrası)"
       },
       "live": {
-        "n": 47,
-        "win_pct": 59.6,
-        "avg_net_pct": 0.646,
-        "sum_net_pct": 30.3,
-        "window": "2026-06-22 → 2026-07-17"
+        "n": 49,
+        "win_pct": 61.2,
+        "avg_net_pct": 0.811,
+        "sum_net_pct": 39.7,
+        "window": "2026-06-22 → 2026-07-20"
       },
       "verdict": "SAPMA ⚠️ canlı, beklenti bandının belirgin altında — araştırma tetiklenmeli"
     },
@@ -39,9 +39,9 @@
     }
   ],
   "karne_signals": {
-    "n": 16,
+    "n": 17,
     "ilk": "2026-07-10",
-    "son": "2026-07-17",
+    "son": "2026-07-21",
     "not": "sonuç eşlemesi T+10/T+20 penceresi dolunca başlar (kalibrasyon verisi birikiyor)"
   }
 }
