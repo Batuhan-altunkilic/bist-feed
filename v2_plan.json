@@ -1,31 +1,55 @@
 {
-  "date": "2026-07-23",
-  "ts": "2026-07-23T11:00:01",
-  "is_today": false,
+  "date": "2026-07-24",
+  "ts": "2026-07-24T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "KARTN",
-      "side": "LONG",
-      "score": 5.0,
-      "entry": 219.2,
-      "rsi": 77.8,
-      "stop": 179.2
+      "ticker": "ECZYT",
+      "side": "SHORT",
+      "score": -8.5,
+      "entry": 336.0,
+      "rsi": 49.4,
+      "stop": 383.88
     },
     {
       "ticker": "SOKM",
-      "side": "LONG",
-      "score": 5.0,
-      "entry": 55.25,
-      "rsi": 72.9,
-      "stop": 49.66
+      "side": "SHORT",
+      "score": -6.44,
+      "entry": 54.4,
+      "rsi": 66.5,
+      "stop": 59.6
     },
     {
-      "ticker": "SELEC",
+      "ticker": "MAVI",
+      "side": "SHORT",
+      "score": -6.2,
+      "entry": 39.48,
+      "rsi": 45.2,
+      "stop": 41.04
+    },
+    {
+      "ticker": "TTKOM",
+      "side": "SHORT",
+      "score": -5.86,
+      "entry": 55.7,
+      "rsi": 36.8,
+      "stop": 59.25
+    },
+    {
+      "ticker": "DESA",
+      "side": "SHORT",
+      "score": -5.72,
+      "entry": 9.86,
+      "rsi": 31.8,
+      "stop": 10.36
+    },
+    {
+      "ticker": "IZMDC",
       "side": "LONG",
-      "score": 4.65,
-      "entry": 245.0,
-      "rsi": 67.4,
-      "stop": 187.82
+      "score": 5.0,
+      "entry": 13.2,
+      "rsi": 85.7,
+      "stop": 10.9
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
