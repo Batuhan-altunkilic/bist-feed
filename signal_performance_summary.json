@@ -29,7 +29,7 @@
   "bottom_sectors": [],
   "period": {
     "last_30d": {
-      "n": 3,
+      "n": 0,
       "win_rate_t3_pct": null
     },
     "last_90d": {
@@ -37,7 +37,7 @@
       "win_rate_t3_pct": 50.0
     }
   },
-  "generated_at": "2026-07-24T14:02:27+00:00",
+  "generated_at": "2026-07-27T06:35:37+00:00",
   "total_signals": 54,
   "win_rate_t1_pct": 46.3,
   "win_rate_t3_pct": 50.0,

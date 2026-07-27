@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T17:02:10",
+  "generated_at": "2026-07-27T09:34:51",
   "summary": {
     "total": 1,
     "golden_picks": 0,
@@ -17,7 +17,7 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 60.0,
-      "foreign_ratio_pct": 48.96,
+      "foreign_ratio_pct": 48.98,
       "long_conviction": {
         "score": 54.6,
         "breakdown": {
@@ -31,24 +31,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -19.2,
+        "score": -27.6,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": -2.0,
           "orb": -80.0,
-          "vwap": -34.8,
+          "vwap": -40.5,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": -50.0
         },
         "intraday": {
-          "last_price": 381.0,
-          "stop_long": 349.0,
-          "stop_short": 416.5,
-          "target_long": 450.25,
-          "target_short": 315.25,
-          "atr_pct": 3.53
+          "last_price": 380.75,
+          "stop_long": 346.12,
+          "stop_short": 415.38,
+          "target_long": 450.01,
+          "target_short": 311.49,
+          "atr_pct": 3.64
         }
       },
       "long_alarm": {
@@ -64,7 +64,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.4,
+      "estimated_potential_pct": 2.0,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 54.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
@@ -75,13 +75,12 @@
         "rev_yoy_pct": 11.4,
         "ni_yoy_pct": 4.0,
         "f_score": 4.0,
-        "dist_high_pct": -6.3
+        "dist_high_pct": -7.7
       },
       "is_shortable": true,
       "short_note": null,
       "explanation": "**BIMAS** (Retail) uzun vade skoru 55/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %49 (sağlıklı seviye); long-term katmanda yer alıyor.",
       "trade_plan": null
     }
-  ],
-  "price_refreshed_at": "2026-07-24T18:15:15"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24 09:33",
+  "generated_at": "2026-07-27 09:35",
   "min_n": 30,
   "strategies": [
     {
@@ -39,9 +39,9 @@
     }
   ],
   "karne_signals": {
-    "n": 19,
+    "n": 21,
     "ilk": "2026-07-10",
-    "son": "2026-07-22",
+    "son": "2026-07-23",
     "not": "sonuç eşlemesi T+10/T+20 penceresi dolunca başlar (kalibrasyon verisi birikiyor)"
   }
 }
