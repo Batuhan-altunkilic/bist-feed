@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28 09:33",
+  "generated_at": "2026-07-28 16:58",
   "min_n": 30,
   "strategies": [
     {
@@ -30,18 +30,26 @@
         "kaynak": "v3 doğrulama dilimi (+%0.55, %66) — bant temkinli genişletildi"
       },
       "live": {
-        "n": 8,
-        "win_pct": 37.5,
-        "avg_net_pct": -1.438,
-        "sum_net_pct": -11.5
+        "n": 46,
+        "win_pct": 63.0,
+        "avg_net_pct": 0.539,
+        "sum_net_pct": 24.8,
+        "window": "2026-06-24 → 2026-07-27"
       },
-      "verdict": "YETERSİZ ÖRNEK (n=8<30) — izlemeye devam, hüküm YOK"
+      "verdict": "MUTABIK ✅ canlı, backtest bandının içinde/yakınında"
     }
   ],
-  "karne_signals": {
-    "n": 26,
-    "ilk": "2026-07-10",
-    "son": "2026-07-24",
-    "not": "sonuç eşlemesi T+10/T+20 penceresi dolunca başlar (kalibrasyon verisi birikiyor)"
+  "karne_forward": {
+    "n": 12,
+    "avg_pnl_pct": 1.52,
+    "sum_pnl_pct": 18.3,
+    "pos_n": 6,
+    "target_n": 1,
+    "stop_n": 0,
+    "open_n": 11,
+    "avg_alpha_pct": 3.58,
+    "window": "2026-07-10 → bugün",
+    "signals_total": 26,
+    "note": "MTM ara-karne: giriş=entry_mid varsayımı, açıklar son kapanışla, %0.30 maliyet düşülmüş NET; T+10/T+20 kesin eşleme ayrıca dolacak"
   }
 }
