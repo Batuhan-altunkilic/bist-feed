@@ -1,31 +1,47 @@
 {
-  "date": "2026-07-27",
-  "ts": "2026-07-27T11:00:02",
-  "is_today": false,
+  "date": "2026-07-28",
+  "ts": "2026-07-28T11:00:02",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "PETKM",
+      "ticker": "KARSN",
       "side": "SHORT",
-      "score": -5.04,
-      "entry": 20.92,
-      "rsi": 51.3,
-      "stop": 23.36
+      "score": -8.0,
+      "entry": 10.31,
+      "rsi": 31.4,
+      "stop": 11.39
     },
     {
-      "ticker": "FROTO",
+      "ticker": "ASELS",
       "side": "SHORT",
-      "score": -4.5,
-      "entry": 79.0,
-      "rsi": 34.9,
-      "stop": 83.35
+      "score": -5.0,
+      "entry": 360.75,
+      "rsi": 45.3,
+      "stop": 391.0
     },
     {
-      "ticker": "ULKER",
+      "ticker": "DESA",
+      "side": "SHORT",
+      "score": -4.94,
+      "entry": 9.32,
+      "rsi": 24.2,
+      "stop": 10.13
+    },
+    {
+      "ticker": "ECZYT",
+      "side": "SHORT",
+      "score": -4.65,
+      "entry": 316.75,
+      "rsi": 46.6,
+      "stop": 375.5
+    },
+    {
+      "ticker": "TOASO",
       "side": "SHORT",
       "score": -4.5,
-      "entry": 92.5,
-      "rsi": 28.9,
-      "stop": 97.05
+      "entry": 267.75,
+      "rsi": 29.9,
+      "stop": 293.13
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
