@@ -1,47 +1,47 @@
 {
-  "date": "2026-07-28",
-  "ts": "2026-07-28T11:00:02",
-  "is_today": false,
+  "date": "2026-07-29",
+  "ts": "2026-07-29T11:00:02",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "KARSN",
+      "ticker": "ALFAS",
+      "side": "SHORT",
+      "score": -9.5,
+      "entry": 42.6,
+      "rsi": 35.5,
+      "stop": 45.72
+    },
+    {
+      "ticker": "YEOTK",
+      "side": "SHORT",
+      "score": -8.5,
+      "entry": 96.3,
+      "rsi": 49.8,
+      "stop": 113.1
+    },
+    {
+      "ticker": "SELEC",
       "side": "SHORT",
       "score": -8.0,
-      "entry": 10.31,
-      "rsi": 31.4,
-      "stop": 11.39
+      "entry": 211.2,
+      "rsi": 50.6,
+      "stop": 268.17
     },
     {
-      "ticker": "ASELS",
+      "ticker": "ESCOM",
       "side": "SHORT",
-      "score": -5.0,
-      "entry": 360.75,
-      "rsi": 45.3,
-      "stop": 391.0
+      "score": -7.25,
+      "entry": 5.33,
+      "rsi": 42.8,
+      "stop": 5.98
     },
     {
-      "ticker": "DESA",
+      "ticker": "OTKAR",
       "side": "SHORT",
-      "score": -4.94,
-      "entry": 9.32,
-      "rsi": 24.2,
-      "stop": 10.13
-    },
-    {
-      "ticker": "ECZYT",
-      "side": "SHORT",
-      "score": -4.65,
-      "entry": 316.75,
-      "rsi": 46.6,
-      "stop": 375.5
-    },
-    {
-      "ticker": "TOASO",
-      "side": "SHORT",
-      "score": -4.5,
-      "entry": 267.75,
-      "rsi": 29.9,
-      "stop": 293.13
+      "score": -7.06,
+      "entry": 310.0,
+      "rsi": 31.0,
+      "stop": 340.75
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
