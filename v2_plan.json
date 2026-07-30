@@ -1,47 +1,47 @@
 {
-  "date": "2026-07-29",
-  "ts": "2026-07-29T11:00:02",
-  "is_today": false,
+  "date": "2026-07-30",
+  "ts": "2026-07-30T11:00:01",
+  "is_today": true,
   "picks": [
+    {
+      "ticker": "BRSAN",
+      "side": "SHORT",
+      "score": -8.5,
+      "entry": 532.5,
+      "rsi": 41.8,
+      "stop": 574.75
+    },
+    {
+      "ticker": "IZMDC",
+      "side": "SHORT",
+      "score": -8.5,
+      "entry": 10.93,
+      "rsi": 52.4,
+      "stop": 13.21
+    },
     {
       "ticker": "ALFAS",
       "side": "SHORT",
-      "score": -9.5,
-      "entry": 42.6,
-      "rsi": 35.5,
-      "stop": 45.72
+      "score": -8.38,
+      "entry": 41.14,
+      "rsi": 33.9,
+      "stop": 44.96
     },
     {
-      "ticker": "YEOTK",
+      "ticker": "GOLTS",
       "side": "SHORT",
-      "score": -8.5,
-      "entry": 96.3,
-      "rsi": 49.8,
-      "stop": 113.1
+      "score": -7.43,
+      "entry": 289.0,
+      "rsi": 24.3,
+      "stop": 302.62
     },
     {
-      "ticker": "SELEC",
+      "ticker": "SAHOL",
       "side": "SHORT",
-      "score": -8.0,
-      "entry": 211.2,
-      "rsi": 50.6,
-      "stop": 268.17
-    },
-    {
-      "ticker": "ESCOM",
-      "side": "SHORT",
-      "score": -7.25,
-      "entry": 5.33,
-      "rsi": 42.8,
-      "stop": 5.98
-    },
-    {
-      "ticker": "OTKAR",
-      "side": "SHORT",
-      "score": -7.06,
-      "entry": 310.0,
-      "rsi": 31.0,
-      "stop": 340.75
+      "score": -7.36,
+      "entry": 84.2,
+      "rsi": 27.9,
+      "stop": 88.52
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
