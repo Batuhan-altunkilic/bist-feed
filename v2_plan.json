@@ -1,7 +1,7 @@
 {
   "date": "2026-07-29",
   "ts": "2026-07-29T11:00:02",
-  "is_today": true,
+  "is_today": false,
   "picks": [
     {
       "ticker": "ALFAS",
