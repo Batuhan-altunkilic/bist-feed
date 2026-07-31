@@ -1,7 +1,7 @@
 {
   "date": "2026-07-30",
   "ts": "2026-07-30T11:00:01",
-  "is_today": true,
+  "is_today": false,
   "picks": [
     {
       "ticker": "BRSAN",

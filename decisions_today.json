@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T13:01:47",
+  "generated_at": "2026-07-31T09:34:29",
   "summary": {
     "total": 1,
     "golden_picks": 0,
@@ -17,7 +17,7 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 60.0,
-      "foreign_ratio_pct": 48.74,
+      "foreign_ratio_pct": 48.93,
       "long_conviction": {
         "score": 54.6,
         "breakdown": {
@@ -31,24 +31,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 3.4,
+        "score": -25.9,
         "direction": "NEUTRAL",
         "breakdown": {
-          "gap": 0.0,
-          "orb": 0.0,
-          "vwap": 6.0,
+          "gap": -11.6,
+          "orb": -80.0,
+          "vwap": -38.7,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": -25.0
         },
         "intraday": {
-          "last_price": 392.25,
-          "stop_long": 366.12,
-          "stop_short": 412.87,
-          "target_long": 436.26,
-          "target_short": 342.76,
-          "atr_pct": 2.4
+          "last_price": 382.5,
+          "stop_long": 356.12,
+          "stop_short": 408.88,
+          "target_long": 435.26,
+          "target_short": 329.74,
+          "atr_pct": 2.76
         }
       },
       "long_alarm": {
@@ -64,7 +64,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 0.2,
+      "estimated_potential_pct": 1.4,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 54.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
@@ -82,6 +82,5 @@
       "explanation": "**BIMAS** (Retail) uzun vade skoru 55/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %49 (sağlıklı seviye); long-term katmanda yer alıyor.",
       "trade_plan": null
     }
-  ],
-  "price_refreshed_at": "2026-07-30T14:15:09"
+  ]
 }
