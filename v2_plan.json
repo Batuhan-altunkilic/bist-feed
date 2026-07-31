@@ -1,47 +1,47 @@
 {
-  "date": "2026-07-30",
-  "ts": "2026-07-30T11:00:01",
-  "is_today": false,
+  "date": "2026-07-31",
+  "ts": "2026-07-31T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "BRSAN",
+      "ticker": "PETKM",
       "side": "SHORT",
-      "score": -8.5,
-      "entry": 532.5,
-      "rsi": 41.8,
-      "stop": 574.75
+      "score": -9.5,
+      "entry": 18.75,
+      "rsi": 40.4,
+      "stop": 20.72
     },
     {
-      "ticker": "IZMDC",
+      "ticker": "YEOTK",
       "side": "SHORT",
-      "score": -8.5,
-      "entry": 10.93,
-      "rsi": 52.4,
-      "stop": 13.21
+      "score": -6.5,
+      "entry": 40.4,
+      "rsi": 22.9,
+      "stop": 55.7
     },
     {
-      "ticker": "ALFAS",
+      "ticker": "KMPUR",
       "side": "SHORT",
-      "score": -8.38,
-      "entry": 41.14,
-      "rsi": 33.9,
-      "stop": 44.96
+      "score": -6.35,
+      "entry": 19.21,
+      "rsi": 44.9,
+      "stop": 22.66
     },
     {
-      "ticker": "GOLTS",
+      "ticker": "ARENA",
       "side": "SHORT",
-      "score": -7.43,
-      "entry": 289.0,
-      "rsi": 24.3,
-      "stop": 302.62
+      "score": -6.0,
+      "entry": 21.38,
+      "rsi": 26.3,
+      "stop": 24.36
     },
     {
-      "ticker": "SAHOL",
+      "ticker": "KNFRT",
       "side": "SHORT",
-      "score": -7.36,
-      "entry": 84.2,
-      "rsi": 27.9,
-      "stop": 88.52
+      "score": -5.39,
+      "entry": 10.46,
+      "rsi": 25.3,
+      "stop": 11.39
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
