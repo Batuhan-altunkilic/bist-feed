@@ -1,47 +1,47 @@
 {
-  "date": "2026-07-31",
-  "ts": "2026-07-31T11:00:01",
-  "is_today": false,
+  "date": "2026-08-03",
+  "ts": "2026-08-03T11:00:02",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "PETKM",
+      "ticker": "TATGD",
       "side": "SHORT",
-      "score": -9.5,
-      "entry": 18.75,
-      "rsi": 40.4,
-      "stop": 20.72
+      "score": -7.07,
+      "entry": 17.59,
+      "rsi": 37.1,
+      "stop": 19.88
     },
     {
-      "ticker": "YEOTK",
+      "ticker": "MAGEN",
       "side": "SHORT",
-      "score": -6.5,
-      "entry": 40.4,
-      "rsi": 22.9,
-      "stop": 55.7
+      "score": -6.95,
+      "entry": 35.58,
+      "rsi": 40.9,
+      "stop": 39.95
     },
     {
-      "ticker": "KMPUR",
+      "ticker": "ODAS",
       "side": "SHORT",
-      "score": -6.35,
-      "entry": 19.21,
-      "rsi": 44.9,
-      "stop": 22.66
+      "score": -5.0,
+      "entry": 7.92,
+      "rsi": 40.8,
+      "stop": 8.53
     },
     {
-      "ticker": "ARENA",
+      "ticker": "KARTN",
       "side": "SHORT",
-      "score": -6.0,
-      "entry": 21.38,
-      "rsi": 26.3,
-      "stop": 24.36
+      "score": -5.0,
+      "entry": 201.9,
+      "rsi": 54.4,
+      "stop": 252.05
     },
     {
-      "ticker": "KNFRT",
+      "ticker": "SMRTG",
       "side": "SHORT",
-      "score": -5.39,
-      "entry": 10.46,
-      "rsi": 25.3,
-      "stop": 11.39
+      "score": -4.83,
+      "entry": 10.73,
+      "rsi": 42.8,
+      "stop": 12.06
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
