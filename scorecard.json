@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04 09:35",
+  "generated_at": "2026-08-05 09:38",
   "min_n": 30,
   "strategies": [
     {
@@ -12,11 +12,11 @@
         "kaynak": "Faz-2 dürüst bandı (holdout %81 → dolum/survivorship sonrası) — v1 hedefli çıkışa ait"
       },
       "live": {
-        "n": 73,
-        "win_pct": 49.3,
-        "avg_net_pct": -0.263,
-        "sum_net_pct": -19.2,
-        "window": "2026-06-22 → 2026-07-30"
+        "n": 74,
+        "win_pct": 48.6,
+        "avg_net_pct": -0.308,
+        "sum_net_pct": -22.8,
+        "window": "2026-06-22 → 2026-08-05"
       },
       "verdict": "SAPMA ⚠️ canlı, beklenti bandının belirgin altında — araştırma tetiklenmeli"
     },
@@ -30,13 +30,13 @@
         "kaynak": "Exit v2 holdout (hedefsiz/stop−8/10g: A +7.3 B +5.2 C +2.3; canlı ağırlık C'de) — temkinli bant"
       },
       "live": {
-        "n": 7,
+        "n": 13,
         "win_pct": 0.0,
         "avg_net_pct": -8.3,
-        "sum_net_pct": -58.1,
-        "window": "2026-07-29 → 2026-07-30"
+        "sum_net_pct": -107.9,
+        "window": "2026-07-29 → 2026-08-03"
       },
-      "verdict": "YETERSİZ ÖRNEK (n=7<30) — izlemeye devam, hüküm YOK"
+      "verdict": "YETERSİZ ÖRNEK (n=13<30) — izlemeye devam, hüküm YOK"
     },
     {
       "name": "Day-trade SHORT v3",
@@ -48,26 +48,26 @@
         "kaynak": "v3 doğrulama dilimi (+%0.55, %66) — bant temkinli genişletildi"
       },
       "live": {
-        "n": 71,
-        "win_pct": 60.6,
-        "avg_net_pct": 0.343,
-        "sum_net_pct": 24.4,
-        "window": "2026-06-24 → 2026-08-03"
+        "n": 75,
+        "win_pct": 60.0,
+        "avg_net_pct": 0.356,
+        "sum_net_pct": 26.7,
+        "window": "2026-06-24 → 2026-08-04"
       },
       "verdict": "MUTABIK ✅ canlı, backtest bandının içinde/yakınında"
     }
   ],
   "karne_forward": {
-    "n": 12,
-    "avg_pnl_pct": -1.26,
-    "sum_pnl_pct": -15.1,
-    "pos_n": 5,
+    "n": 13,
+    "avg_pnl_pct": -1.13,
+    "sum_pnl_pct": -14.7,
+    "pos_n": 4,
     "target_n": 1,
     "stop_n": 1,
-    "open_n": 10,
-    "avg_alpha_pct": 3.5,
+    "open_n": 11,
+    "avg_alpha_pct": 2.64,
     "window": "2026-07-10 → bugün",
-    "signals_total": 41,
+    "signals_total": 45,
     "note": "MTM ara-karne: giriş=entry_mid varsayımı, açıklar son kapanışla, %0.30 maliyet düşülmüş NET; T+10/T+20 kesin eşleme ayrıca dolacak"
   }
 }
