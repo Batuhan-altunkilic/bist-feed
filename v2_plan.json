@@ -1,47 +1,39 @@
 {
-  "date": "2026-08-04",
-  "ts": "2026-08-04T11:00:01",
-  "is_today": false,
+  "date": "2026-08-05",
+  "ts": "2026-08-05T11:00:01",
+  "is_today": true,
   "picks": [
     {
       "ticker": "KARTN",
       "side": "SHORT",
-      "score": -8.5,
-      "entry": 201.3,
-      "rsi": 55.2,
-      "stop": 245.9
+      "score": -8.16,
+      "entry": 182.8,
+      "rsi": 46.4,
+      "stop": 231.8
     },
     {
-      "ticker": "TATGD",
+      "ticker": "KAREL",
       "side": "SHORT",
-      "score": -6.0,
-      "entry": 16.73,
-      "rsi": 35.6,
-      "stop": 19.02
-    },
-    {
-      "ticker": "ODAS",
-      "side": "SHORT",
-      "score": -5.0,
-      "entry": 7.66,
-      "rsi": 38.2,
-      "stop": 8.23
-    },
-    {
-      "ticker": "CIMSA",
-      "side": "SHORT",
-      "score": -4.5,
-      "entry": 45.88,
-      "rsi": 38.5,
-      "stop": 49.63
+      "score": -6.07,
+      "entry": 8.99,
+      "rsi": 32.2,
+      "stop": 10.34
     },
     {
       "ticker": "TKFEN",
       "side": "LONG",
-      "score": 5.0,
-      "entry": 164.9,
-      "rsi": 72.9,
-      "stop": 154.0
+      "score": 5.12,
+      "entry": 172.0,
+      "rsi": 75.8,
+      "stop": 154.95
+    },
+    {
+      "ticker": "TUPRS",
+      "side": "LONG",
+      "score": 4.43,
+      "entry": 306.25,
+      "rsi": 67.7,
+      "stop": 275.38
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
