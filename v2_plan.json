@@ -1,39 +1,23 @@
 {
-  "date": "2026-08-05",
-  "ts": "2026-08-05T11:00:01",
-  "is_today": false,
+  "date": "2026-08-06",
+  "ts": "2026-08-06T11:00:01",
+  "is_today": true,
   "picks": [
-    {
-      "ticker": "KARTN",
-      "side": "SHORT",
-      "score": -8.16,
-      "entry": 182.8,
-      "rsi": 46.4,
-      "stop": 231.8
-    },
-    {
-      "ticker": "KAREL",
-      "side": "SHORT",
-      "score": -6.07,
-      "entry": 8.99,
-      "rsi": 32.2,
-      "stop": 10.34
-    },
     {
       "ticker": "TKFEN",
       "side": "LONG",
-      "score": 5.12,
-      "entry": 172.0,
-      "rsi": 75.8,
-      "stop": 154.95
+      "score": 6.0,
+      "entry": 188.5,
+      "rsi": 83.8,
+      "stop": 170.15
     },
     {
       "ticker": "TUPRS",
       "side": "LONG",
-      "score": 4.43,
-      "entry": 306.25,
-      "rsi": 67.7,
-      "stop": 275.38
+      "score": 6.32,
+      "entry": 313.25,
+      "rsi": 69.3,
+      "stop": 282.5
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
