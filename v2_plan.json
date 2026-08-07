@@ -1,23 +1,71 @@
 {
-  "date": "2026-08-06",
-  "ts": "2026-08-06T11:00:01",
-  "is_today": false,
+  "date": "2026-08-07",
+  "ts": "2026-08-07T11:00:01",
+  "is_today": true,
   "picks": [
+    {
+      "ticker": "PETKM",
+      "side": "SHORT",
+      "score": -8.5,
+      "entry": 18.94,
+      "rsi": 40.5,
+      "stop": 20.67
+    },
+    {
+      "ticker": "OTKAR",
+      "side": "SHORT",
+      "score": -8.29,
+      "entry": 276.25,
+      "rsi": 23.8,
+      "stop": 299.25
+    },
+    {
+      "ticker": "KRDMD",
+      "side": "SHORT",
+      "score": -7.44,
+      "entry": 39.98,
+      "rsi": 46.9,
+      "stop": 43.5
+    },
+    {
+      "ticker": "KRDMA",
+      "side": "SHORT",
+      "score": -7.37,
+      "entry": 40.32,
+      "rsi": 45.7,
+      "stop": 44.25
+    },
+    {
+      "ticker": "KRDMB",
+      "side": "SHORT",
+      "score": -5.77,
+      "entry": 126.5,
+      "rsi": 44.3,
+      "stop": 135.65
+    },
     {
       "ticker": "TKFEN",
       "side": "LONG",
-      "score": 6.0,
-      "entry": 188.5,
-      "rsi": 83.8,
-      "stop": 170.15
+      "score": 9.5,
+      "entry": 207.2,
+      "rsi": 87.7,
+      "stop": 178.45
     },
     {
       "ticker": "TUPRS",
       "side": "LONG",
-      "score": 6.32,
-      "entry": 313.25,
-      "rsi": 69.3,
-      "stop": 282.5
+      "score": 7.5,
+      "entry": 331.25,
+      "rsi": 75.0,
+      "stop": 298.88
+    },
+    {
+      "ticker": "IZMDC",
+      "side": "LONG",
+      "score": 4.5,
+      "entry": 13.8,
+      "rsi": 70.3,
+      "stop": 11.35
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
