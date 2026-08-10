@@ -20,24 +20,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -5.5,
+        "score": 20.8,
         "direction": "NEUTRAL",
         "breakdown": {
-          "gap": 3.9,
-          "orb": 0.0,
-          "vwap": -1.5,
-          "rsi": -25.0,
+          "gap": 4.8,
+          "orb": 80.0,
+          "vwap": 7.5,
+          "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": -25.0
+          "volume": 0.0
         },
         "intraday": {
-          "last_price": 386.75,
-          "stop_long": 361.38,
-          "stop_short": 412.12,
-          "target_long": 437.49,
-          "target_short": 336.01,
-          "atr_pct": 2.62
+          "last_price": 388.5,
+          "stop_long": 368.75,
+          "stop_short": 408.25,
+          "target_long": 428.0,
+          "target_short": 349.0,
+          "atr_pct": 2.03
         }
       },
       "long_alarm": {
@@ -53,7 +53,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 0.3,
+      "estimated_potential_pct": 0.8,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 54.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
