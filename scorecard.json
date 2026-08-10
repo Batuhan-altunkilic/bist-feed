@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07 09:36",
+  "generated_at": "2026-08-10 09:38",
   "min_n": 30,
   "strategies": [
     {
@@ -30,13 +30,13 @@
         "kaynak": "Exit v2 holdout (hedefsiz/stop−8/10g: A +7.3 B +5.2 C +2.3; canlı ağırlık C'de) — temkinli bant"
       },
       "live": {
-        "n": 17,
+        "n": 23,
         "win_pct": 0.0,
         "avg_net_pct": -8.3,
-        "sum_net_pct": -141.1,
-        "window": "2026-07-29 → 2026-08-05"
+        "sum_net_pct": -190.9,
+        "window": "2026-07-29 → 2026-08-07"
       },
-      "verdict": "YETERSİZ ÖRNEK (n=17<30) — izlemeye devam, hüküm YOK"
+      "verdict": "YETERSİZ ÖRNEK (n=23<30) — izlemeye devam, hüküm YOK"
     },
     {
       "name": "Day-trade SHORT v3",
@@ -48,26 +48,26 @@
         "kaynak": "v3 doğrulama dilimi (+%0.55, %66) — bant temkinli genişletildi"
       },
       "live": {
-        "n": 77,
-        "win_pct": 59.7,
-        "avg_net_pct": 0.332,
-        "sum_net_pct": 25.5,
-        "window": "2026-06-24 → 2026-08-05"
+        "n": 82,
+        "win_pct": 59.8,
+        "avg_net_pct": 0.349,
+        "sum_net_pct": 28.6,
+        "window": "2026-06-24 → 2026-08-07"
       },
       "verdict": "MUTABIK ✅ canlı, backtest bandının içinde/yakınında"
     }
   ],
   "karne_forward": {
     "n": 15,
-    "avg_pnl_pct": 1.37,
-    "sum_pnl_pct": 20.6,
+    "avg_pnl_pct": 1.17,
+    "sum_pnl_pct": 17.6,
     "pos_n": 9,
     "target_n": 1,
     "stop_n": 1,
     "open_n": 13,
-    "avg_alpha_pct": 3.1,
+    "avg_alpha_pct": 2.42,
     "window": "2026-07-10 → bugün",
-    "signals_total": 51,
+    "signals_total": 56,
     "note": "MTM ara-karne: giriş=entry_mid varsayımı, açıklar son kapanışla, %0.30 maliyet düşülmüş NET; T+10/T+20 kesin eşleme ayrıca dolacak"
   }
 }
