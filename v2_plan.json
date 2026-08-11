@@ -1,39 +1,71 @@
 {
-  "date": "2026-08-10",
-  "ts": "2026-08-10T11:00:02",
-  "is_today": false,
+  "date": "2026-08-11",
+  "ts": "2026-08-11T11:00:03",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "ENKAI",
+      "ticker": "HALKB",
       "side": "SHORT",
-      "score": -4.5,
-      "entry": 85.6,
-      "rsi": 36.7,
-      "stop": 90.4
+      "score": -9.5,
+      "entry": 32.86,
+      "rsi": 23.7,
+      "stop": 35.65
     },
     {
-      "ticker": "SISE",
+      "ticker": "VAKBN",
       "side": "SHORT",
-      "score": -4.5,
-      "entry": 41.14,
-      "rsi": 33.6,
-      "stop": 43.33
+      "score": -9.18,
+      "entry": 28.86,
+      "rsi": 36.2,
+      "stop": 31.0
+    },
+    {
+      "ticker": "KARTN",
+      "side": "SHORT",
+      "score": -7.65,
+      "entry": 174.2,
+      "rsi": 42.6,
+      "stop": 208.2
+    },
+    {
+      "ticker": "EKSUN",
+      "side": "SHORT",
+      "score": -6.59,
+      "entry": 5.98,
+      "rsi": 35.3,
+      "stop": 6.37
+    },
+    {
+      "ticker": "AKSEN",
+      "side": "SHORT",
+      "score": -6.5,
+      "entry": 79.05,
+      "rsi": 33.0,
+      "stop": 90.08
     },
     {
       "ticker": "TKFEN",
       "side": "LONG",
-      "score": 4.59,
-      "entry": 211.9,
-      "rsi": 86.0,
-      "stop": 177.75
+      "score": 6.5,
+      "entry": 223.5,
+      "rsi": 87.9,
+      "stop": 191.9
     },
     {
-      "ticker": "IZMDC",
+      "ticker": "TUPRS",
       "side": "LONG",
-      "score": 4.5,
-      "entry": 14.07,
-      "rsi": 69.5,
-      "stop": 11.69
+      "score": 5.0,
+      "entry": 341.0,
+      "rsi": 77.0,
+      "stop": 306.38
+    },
+    {
+      "ticker": "GENIL",
+      "side": "LONG",
+      "score": 6.0,
+      "entry": 10.72,
+      "rsi": 70.2,
+      "stop": 9.4
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
