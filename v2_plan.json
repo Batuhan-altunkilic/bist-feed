@@ -1,71 +1,55 @@
 {
-  "date": "2026-08-11",
-  "ts": "2026-08-11T11:00:03",
-  "is_today": false,
+  "date": "2026-08-12",
+  "ts": "2026-08-12T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "HALKB",
-      "side": "SHORT",
-      "score": -9.5,
-      "entry": 32.86,
-      "rsi": 23.7,
-      "stop": 35.65
-    },
-    {
-      "ticker": "VAKBN",
-      "side": "SHORT",
-      "score": -9.18,
-      "entry": 28.86,
-      "rsi": 36.2,
-      "stop": 31.0
-    },
-    {
-      "ticker": "KARTN",
-      "side": "SHORT",
-      "score": -7.65,
-      "entry": 174.2,
-      "rsi": 42.6,
-      "stop": 208.2
-    },
-    {
-      "ticker": "EKSUN",
+      "ticker": "LOGO",
       "side": "SHORT",
       "score": -6.59,
-      "entry": 5.98,
-      "rsi": 35.3,
-      "stop": 6.37
+      "entry": 132.0,
+      "rsi": 45.3,
+      "stop": 141.45
     },
     {
-      "ticker": "AKSEN",
+      "ticker": "MGROS",
       "side": "SHORT",
-      "score": -6.5,
-      "entry": 79.05,
-      "rsi": 33.0,
-      "stop": 90.08
+      "score": -6.0,
+      "entry": 582.5,
+      "rsi": 37.5,
+      "stop": 636.25
     },
     {
-      "ticker": "TKFEN",
-      "side": "LONG",
-      "score": 6.5,
-      "entry": 223.5,
-      "rsi": 87.9,
-      "stop": 191.9
+      "ticker": "AEFES",
+      "side": "SHORT",
+      "score": -5.0,
+      "entry": 19.4,
+      "rsi": 37.6,
+      "stop": 21.14
     },
     {
-      "ticker": "TUPRS",
-      "side": "LONG",
-      "score": 5.0,
-      "entry": 341.0,
-      "rsi": 77.0,
-      "stop": 306.38
+      "ticker": "IZMDC",
+      "side": "SHORT",
+      "score": -4.91,
+      "entry": 13.66,
+      "rsi": 64.9,
+      "stop": 15.83
+    },
+    {
+      "ticker": "TSKB",
+      "side": "SHORT",
+      "score": -4.5,
+      "entry": 10.73,
+      "rsi": 34.9,
+      "stop": 11.17
     },
     {
       "ticker": "GENIL",
       "side": "LONG",
-      "score": 6.0,
-      "entry": 10.72,
-      "rsi": 70.2,
-      "stop": 9.4
+      "score": 7.18,
+      "entry": 11.37,
+      "rsi": 78.8,
+      "stop": 9.46
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
