@@ -1,55 +1,39 @@
 {
-  "date": "2026-08-12",
-  "ts": "2026-08-12T11:00:01",
-  "is_today": false,
+  "date": "2026-08-13",
+  "ts": "2026-08-13T11:00:02",
+  "is_today": true,
   "picks": [
-    {
-      "ticker": "LOGO",
-      "side": "SHORT",
-      "score": -6.59,
-      "entry": 132.0,
-      "rsi": 45.3,
-      "stop": 141.45
-    },
     {
       "ticker": "MGROS",
       "side": "SHORT",
-      "score": -6.0,
-      "entry": 582.5,
-      "rsi": 37.5,
-      "stop": 636.25
+      "score": -7.5,
+      "entry": 554.5,
+      "rsi": 30.0,
+      "stop": 614.0
     },
     {
-      "ticker": "AEFES",
+      "ticker": "SMRTG",
       "side": "SHORT",
-      "score": -5.0,
-      "entry": 19.4,
-      "rsi": 37.6,
-      "stop": 21.14
+      "score": -4.87,
+      "entry": 10.38,
+      "rsi": 36.9,
+      "stop": 11.33
     },
     {
-      "ticker": "IZMDC",
-      "side": "SHORT",
-      "score": -4.91,
-      "entry": 13.66,
-      "rsi": 64.9,
-      "stop": 15.83
-    },
-    {
-      "ticker": "TSKB",
-      "side": "SHORT",
-      "score": -4.5,
-      "entry": 10.73,
-      "rsi": 34.9,
-      "stop": 11.17
+      "ticker": "TKFEN",
+      "side": "LONG",
+      "score": 6.5,
+      "entry": 237.6,
+      "rsi": 92.6,
+      "stop": 193.75
     },
     {
       "ticker": "GENIL",
       "side": "LONG",
-      "score": 7.18,
-      "entry": 11.37,
-      "rsi": 78.8,
-      "stop": 9.46
+      "score": 6.0,
+      "entry": 11.45,
+      "rsi": 80.1,
+      "stop": 9.89
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
