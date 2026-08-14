@@ -1,39 +1,47 @@
 {
-  "date": "2026-08-13",
-  "ts": "2026-08-13T11:00:02",
-  "is_today": false,
+  "date": "2026-08-14",
+  "ts": "2026-08-14T11:00:02",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "MGROS",
-      "side": "SHORT",
-      "score": -7.5,
-      "entry": 554.5,
-      "rsi": 30.0,
-      "stop": 614.0
-    },
-    {
-      "ticker": "SMRTG",
-      "side": "SHORT",
-      "score": -4.87,
-      "entry": 10.38,
-      "rsi": 36.9,
-      "stop": 11.33
-    },
-    {
       "ticker": "TKFEN",
-      "side": "LONG",
-      "score": 6.5,
-      "entry": 237.6,
-      "rsi": 92.6,
-      "stop": 193.75
+      "side": "SHORT",
+      "score": -5.0,
+      "entry": 237.0,
+      "rsi": 86.8,
+      "stop": 276.4
+    },
+    {
+      "ticker": "ECILC",
+      "side": "SHORT",
+      "score": -5.0,
+      "entry": 75.25,
+      "rsi": 58.4,
+      "stop": 83.58
     },
     {
       "ticker": "GENIL",
+      "side": "SHORT",
+      "score": -4.3,
+      "entry": 10.76,
+      "rsi": 65.7,
+      "stop": 12.68
+    },
+    {
+      "ticker": "TUPRS",
       "side": "LONG",
-      "score": 6.0,
-      "entry": 11.45,
-      "rsi": 80.1,
-      "stop": 9.89
+      "score": 4.5,
+      "entry": 358.0,
+      "rsi": 80.6,
+      "stop": 319.75
+    },
+    {
+      "ticker": "KORDS",
+      "side": "LONG",
+      "score": 9.5,
+      "entry": 91.75,
+      "rsi": 69.5,
+      "stop": 81.25
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
