@@ -1,7 +1,7 @@
 {
   "date": "2026-08-13",
   "ts": "2026-08-13T11:00:02",
-  "is_today": true,
+  "is_today": false,
   "picks": [
     {
       "ticker": "MGROS",
