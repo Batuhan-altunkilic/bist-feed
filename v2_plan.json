@@ -1,7 +1,7 @@
 {
   "date": "2026-08-14",
   "ts": "2026-08-14T11:00:02",
-  "is_today": true,
+  "is_today": false,
   "picks": [
     {
       "ticker": "TKFEN",
