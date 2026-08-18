@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17 09:39",
+  "generated_at": "2026-08-18 09:37",
   "min_n": 30,
   "strategies": [
     {
@@ -48,11 +48,11 @@
         "kaynak": "v3 doğrulama dilimi (+%0.55, %66) — bant temkinli genişletildi"
       },
       "live": {
-        "n": 99,
-        "win_pct": 54.5,
-        "avg_net_pct": 0.156,
-        "sum_net_pct": 15.5,
-        "window": "2026-06-24 → 2026-08-14"
+        "n": 101,
+        "win_pct": 55.4,
+        "avg_net_pct": 0.169,
+        "sum_net_pct": 17.1,
+        "window": "2026-06-24 → 2026-08-17"
       },
       "verdict": "MUTABIK ✅ canlı, backtest bandının içinde/yakınında"
     }
@@ -67,7 +67,7 @@
     "open_n": 11,
     "avg_alpha_pct": -1.07,
     "window": "2026-07-10 → bugün",
-    "signals_total": 72,
+    "signals_total": 74,
     "note": "MTM ara-karne: giriş=entry_mid varsayımı, açıklar son kapanışla, %0.30 maliyet düşülmüş NET; T+10/T+20 kesin eşleme ayrıca dolacak"
   }
 }
