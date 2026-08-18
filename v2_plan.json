@@ -1,47 +1,71 @@
 {
-  "date": "2026-08-17",
-  "ts": "2026-08-17T11:00:02",
-  "is_today": false,
+  "date": "2026-08-18",
+  "ts": "2026-08-18T11:00:01",
+  "is_today": true,
   "picks": [
     {
       "ticker": "PRKME",
       "side": "SHORT",
-      "score": -5.02,
-      "entry": 18.65,
-      "rsi": 49.4,
-      "stop": 21.31
+      "score": -8.5,
+      "entry": 17.76,
+      "rsi": 45.0,
+      "stop": 20.28
+    },
+    {
+      "ticker": "KARSN",
+      "side": "SHORT",
+      "score": -6.0,
+      "entry": 9.53,
+      "rsi": 29.9,
+      "stop": 10.21
     },
     {
       "ticker": "SISE",
       "side": "SHORT",
-      "score": -4.38,
-      "entry": 39.34,
-      "rsi": 31.2,
-      "stop": 42.3
+      "score": -6.0,
+      "entry": 38.3,
+      "rsi": 27.8,
+      "stop": 41.12
     },
     {
-      "ticker": "TKFEN",
+      "ticker": "ENKAI",
+      "side": "SHORT",
+      "score": -5.0,
+      "entry": 79.55,
+      "rsi": 29.6,
+      "stop": 84.0
+    },
+    {
+      "ticker": "IZMDC",
+      "side": "SHORT",
+      "score": -4.55,
+      "entry": 12.65,
+      "rsi": 54.4,
+      "stop": 14.55
+    },
+    {
+      "ticker": "TUPRS",
       "side": "LONG",
-      "score": 4.5,
-      "entry": 242.9,
-      "rsi": 83.5,
-      "stop": 203.75
+      "score": 5.33,
+      "entry": 371.75,
+      "rsi": 80.6,
+      "stop": 334.88
     },
     {
-      "ticker": "KORDS",
-      "side": "LONG",
-      "score": 5.0,
-      "entry": 95.55,
-      "rsi": 72.3,
-      "stop": 82.68
-    },
-    {
-      "ticker": "DEVA",
+      "ticker": "NETAS",
       "side": "LONG",
       "score": 7.5,
-      "entry": 79.8,
-      "rsi": 69.3,
-      "stop": 74.8
+      "entry": 75.1,
+      "rsi": 68.9,
+      "stop": 70.45
+    },
+    {
+      "ticker": "BAGFS",
+      "side": "LONG",
+      "score": 6.5,
+      "entry": 26.92,
+      "rsi": 68.9,
+      "stop": 25.17
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
