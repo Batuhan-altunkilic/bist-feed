@@ -1,71 +1,71 @@
 {
-  "date": "2026-08-18",
-  "ts": "2026-08-18T11:00:01",
-  "is_today": false,
+  "date": "2026-08-19",
+  "ts": "2026-08-19T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "PRKME",
+      "ticker": "DESA",
       "side": "SHORT",
-      "score": -8.5,
-      "entry": 17.76,
-      "rsi": 45.0,
-      "stop": 20.28
+      "score": -8.94,
+      "entry": 9.5,
+      "rsi": 42.5,
+      "stop": 10.73
     },
     {
-      "ticker": "KARSN",
+      "ticker": "EGEPO",
       "side": "SHORT",
-      "score": -6.0,
-      "entry": 9.53,
-      "rsi": 29.9,
-      "stop": 10.21
+      "score": -8.41,
+      "entry": 17.17,
+      "rsi": 36.2,
+      "stop": 18.35
     },
     {
-      "ticker": "SISE",
+      "ticker": "ESCOM",
       "side": "SHORT",
-      "score": -6.0,
-      "entry": 38.3,
-      "rsi": 27.8,
-      "stop": 41.12
+      "score": -7.57,
+      "entry": 5.83,
+      "rsi": 52.5,
+      "stop": 6.41
     },
     {
-      "ticker": "ENKAI",
+      "ticker": "KAREL",
       "side": "SHORT",
-      "score": -5.0,
-      "entry": 79.55,
-      "rsi": 29.6,
-      "stop": 84.0
+      "score": -7.14,
+      "entry": 9.35,
+      "rsi": 44.4,
+      "stop": 10.5
     },
     {
-      "ticker": "IZMDC",
+      "ticker": "ODAS",
       "side": "SHORT",
-      "score": -4.55,
-      "entry": 12.65,
-      "rsi": 54.4,
-      "stop": 14.55
-    },
-    {
-      "ticker": "TUPRS",
-      "side": "LONG",
-      "score": 5.33,
-      "entry": 371.75,
-      "rsi": 80.6,
-      "stop": 334.88
+      "score": -6.49,
+      "entry": 7.34,
+      "rsi": 38.8,
+      "stop": 7.96
     },
     {
       "ticker": "NETAS",
       "side": "LONG",
-      "score": 7.5,
-      "entry": 75.1,
-      "rsi": 68.9,
-      "stop": 70.45
+      "score": 9.5,
+      "entry": 82.6,
+      "rsi": 75.0,
+      "stop": 77.55
+    },
+    {
+      "ticker": "DEVA",
+      "side": "LONG",
+      "score": 6.5,
+      "entry": 83.35,
+      "rsi": 74.8,
+      "stop": 78.0
     },
     {
       "ticker": "BAGFS",
       "side": "LONG",
-      "score": 6.5,
-      "entry": 26.92,
-      "rsi": 68.9,
-      "stop": 25.17
+      "score": 5.0,
+      "entry": 27.08,
+      "rsi": 70.1,
+      "stop": 24.94
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
