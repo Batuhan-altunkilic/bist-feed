@@ -1,71 +1,71 @@
 {
-  "date": "2026-08-20",
-  "ts": "2026-08-20T11:00:01",
-  "is_today": false,
+  "date": "2026-08-21",
+  "ts": "2026-08-21T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "KNFRT",
+      "ticker": "TATGD",
       "side": "SHORT",
-      "score": -6.97,
-      "entry": 11.41,
-      "rsi": 45.9,
-      "stop": 13.43
+      "score": -5.18,
+      "entry": 17.62,
+      "rsi": 44.7,
+      "stop": 19.17
     },
     {
-      "ticker": "KMPUR",
-      "side": "SHORT",
-      "score": -6.68,
-      "entry": 21.12,
-      "rsi": 51.7,
-      "stop": 23.5
-    },
-    {
-      "ticker": "GOODY",
+      "ticker": "KRDMB",
       "side": "SHORT",
       "score": -5.0,
-      "entry": 2.77,
+      "entry": 131.8,
+      "rsi": 49.2,
+      "stop": 146.7
+    },
+    {
+      "ticker": "ALARK",
+      "side": "SHORT",
+      "score": -4.77,
+      "entry": 108.7,
+      "rsi": 58.1,
+      "stop": 120.35
+    },
+    {
+      "ticker": "ULKER",
+      "side": "SHORT",
+      "score": -4.76,
+      "entry": 92.8,
       "rsi": 51.7,
-      "stop": 3.41
+      "stop": 100.2
     },
     {
-      "ticker": "DESA",
+      "ticker": "AKSEN",
       "side": "SHORT",
-      "score": -5.0,
-      "entry": 9.57,
-      "rsi": 42.7,
-      "stop": 10.76
+      "score": -4.21,
+      "entry": 82.45,
+      "rsi": 40.5,
+      "stop": 90.6
     },
     {
-      "ticker": "EGEEN",
-      "side": "SHORT",
-      "score": -4.5,
-      "entry": 5155.0,
-      "rsi": 35.1,
-      "stop": 5423.75
-    },
-    {
-      "ticker": "DEVA",
+      "ticker": "NETAS",
       "side": "LONG",
-      "score": 5.0,
-      "entry": 88.7,
-      "rsi": 79.1,
-      "stop": 80.57
+      "score": 7.5,
+      "entry": 97.1,
+      "rsi": 83.2,
+      "stop": 89.72
     },
     {
-      "ticker": "SELEC",
+      "ticker": "GENIL",
       "side": "LONG",
-      "score": 5.0,
-      "entry": 276.5,
-      "rsi": 73.1,
-      "stop": 246.95
+      "score": 7.5,
+      "entry": 12.2,
+      "rsi": 76.3,
+      "stop": 11.15
     },
     {
-      "ticker": "BRSAN",
+      "ticker": "TTRAK",
       "side": "LONG",
-      "score": 9.5,
-      "entry": 692.5,
-      "rsi": 71.6,
-      "stop": 628.25
+      "score": 4.62,
+      "entry": 436.25,
+      "rsi": 66.6,
+      "stop": 414.0
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
