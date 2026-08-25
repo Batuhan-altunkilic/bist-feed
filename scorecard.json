@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 09:38",
+  "generated_at": "2026-08-25 09:36",
   "min_n": 30,
   "strategies": [
     {
@@ -30,11 +30,11 @@
         "kaynak": "Exit v2 holdout (hedefsiz/stop−8/10g: A +7.3 B +5.2 C +2.3; canlı ağırlık C'de) — temkinli bant"
       },
       "live": {
-        "n": 166,
-        "win_pct": 28.9,
-        "avg_net_pct": -1.564,
-        "sum_net_pct": -259.6,
-        "window": "2026-07-29 → 2026-08-24"
+        "n": 169,
+        "win_pct": 29.6,
+        "avg_net_pct": -1.522,
+        "sum_net_pct": -257.2,
+        "window": "2026-07-29 → 2026-08-25"
       },
       "verdict": "SAPMA ⚠️ canlı, beklenti bandının belirgin altında — araştırma tetiklenmeli"
     },
@@ -67,7 +67,7 @@
     "open_n": 11,
     "avg_alpha_pct": 0.48,
     "window": "2026-07-10 → bugün",
-    "signals_total": 88,
+    "signals_total": 90,
     "note": "MTM ara-karne: giriş=entry_mid varsayımı, açıklar son kapanışla, %0.30 maliyet düşülmüş NET; T+10/T+20 kesin eşleme ayrıca dolacak"
   }
 }
