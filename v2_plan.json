@@ -1,23 +1,23 @@
 {
-  "date": "2026-08-24",
-  "ts": "2026-08-24T11:00:02",
-  "is_today": false,
+  "date": "2026-08-25",
+  "ts": "2026-08-25T11:00:02",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "BRSAN",
-      "side": "LONG",
-      "score": 5.63,
-      "entry": 731.0,
-      "rsi": 75.2,
-      "stop": 650.5
+      "ticker": "CCOLA",
+      "side": "SHORT",
+      "score": -5.71,
+      "entry": 77.95,
+      "rsi": 35.3,
+      "stop": 83.12
     },
     {
-      "ticker": "EKGYO",
+      "ticker": "ALBRK",
       "side": "LONG",
-      "score": 4.37,
-      "entry": 20.28,
-      "rsi": 65.1,
-      "stop": 19.09
+      "score": 6.38,
+      "entry": 9.03,
+      "rsi": 71.9,
+      "stop": 8.58
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
