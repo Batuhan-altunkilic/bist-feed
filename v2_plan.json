@@ -1,23 +1,55 @@
 {
-  "date": "2026-08-25",
-  "ts": "2026-08-25T11:00:02",
-  "is_today": false,
+  "date": "2026-08-26",
+  "ts": "2026-08-26T11:00:03",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "CCOLA",
+      "ticker": "MAGEN",
       "side": "SHORT",
-      "score": -5.71,
-      "entry": 77.95,
-      "rsi": 35.3,
-      "stop": 83.12
+      "score": -8.5,
+      "entry": 32.28,
+      "rsi": 33.5,
+      "stop": 34.99
     },
     {
-      "ticker": "ALBRK",
+      "ticker": "MAVI",
+      "side": "SHORT",
+      "score": -5.0,
+      "entry": 38.3,
+      "rsi": 47.3,
+      "stop": 40.14
+    },
+    {
+      "ticker": "KARTN",
+      "side": "SHORT",
+      "score": -5.0,
+      "entry": 166.1,
+      "rsi": 37.7,
+      "stop": 189.15
+    },
+    {
+      "ticker": "KMPUR",
+      "side": "SHORT",
+      "score": -4.38,
+      "entry": 20.26,
+      "rsi": 43.9,
+      "stop": 23.09
+    },
+    {
+      "ticker": "KRDMA",
       "side": "LONG",
-      "score": 6.38,
-      "entry": 9.03,
-      "rsi": 71.9,
-      "stop": 8.58
+      "score": 9.5,
+      "entry": 63.0,
+      "rsi": 85.6,
+      "stop": 54.04
+    },
+    {
+      "ticker": "INDES",
+      "side": "LONG",
+      "score": 5.64,
+      "entry": 11.98,
+      "rsi": 67.0,
+      "stop": 11.1
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
