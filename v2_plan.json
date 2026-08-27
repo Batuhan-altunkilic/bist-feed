@@ -1,7 +1,7 @@
 {
   "date": "2026-08-26",
   "ts": "2026-08-26T11:00:03",
-  "is_today": true,
+  "is_today": false,
   "picks": [
     {
       "ticker": "MAGEN",
