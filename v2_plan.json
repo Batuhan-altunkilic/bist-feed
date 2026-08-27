@@ -1,55 +1,39 @@
 {
-  "date": "2026-08-26",
-  "ts": "2026-08-26T11:00:03",
-  "is_today": false,
+  "date": "2026-08-27",
+  "ts": "2026-08-27T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "MAGEN",
-      "side": "SHORT",
-      "score": -8.5,
-      "entry": 32.28,
-      "rsi": 33.5,
-      "stop": 34.99
-    },
-    {
-      "ticker": "MAVI",
-      "side": "SHORT",
-      "score": -5.0,
-      "entry": 38.3,
-      "rsi": 47.3,
-      "stop": 40.14
-    },
-    {
-      "ticker": "KARTN",
-      "side": "SHORT",
-      "score": -5.0,
-      "entry": 166.1,
-      "rsi": 37.7,
-      "stop": 189.15
-    },
-    {
-      "ticker": "KMPUR",
-      "side": "SHORT",
-      "score": -4.38,
-      "entry": 20.26,
-      "rsi": 43.9,
-      "stop": 23.09
-    },
-    {
       "ticker": "KRDMA",
-      "side": "LONG",
-      "score": 9.5,
-      "entry": 63.0,
-      "rsi": 85.6,
-      "stop": 54.04
+      "side": "SHORT",
+      "score": -4.27,
+      "entry": 58.75,
+      "rsi": 79.7,
+      "stop": 68.08
     },
     {
-      "ticker": "INDES",
+      "ticker": "DEVA",
       "side": "LONG",
-      "score": 5.64,
-      "entry": 11.98,
-      "rsi": 67.0,
-      "stop": 11.1
+      "score": 4.86,
+      "entry": 91.45,
+      "rsi": 73.6,
+      "stop": 79.3
+    },
+    {
+      "ticker": "HALKB",
+      "side": "LONG",
+      "score": 5.0,
+      "entry": 41.92,
+      "rsi": 69.9,
+      "stop": 39.97
+    },
+    {
+      "ticker": "IZMDC",
+      "side": "LONG",
+      "score": 5.61,
+      "entry": 14.45,
+      "rsi": 67.4,
+      "stop": 13.08
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
