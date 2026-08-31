@@ -1,55 +1,47 @@
 {
-  "date": "2026-08-28",
-  "ts": "2026-08-28T11:00:01",
-  "is_today": false,
+  "date": "2026-08-31",
+  "ts": "2026-08-31T11:00:03",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "KARTN",
+      "ticker": "IZMDC",
       "side": "SHORT",
-      "score": -6.19,
-      "entry": 159.5,
-      "rsi": 35.7,
-      "stop": 180.45
+      "score": -5.0,
+      "entry": 13.27,
+      "rsi": 54.7,
+      "stop": 14.9
     },
     {
-      "ticker": "SMRTG",
-      "side": "SHORT",
-      "score": -5.38,
-      "entry": 9.9,
-      "rsi": 37.2,
-      "stop": 10.73
-    },
-    {
-      "ticker": "EGEPO",
-      "side": "SHORT",
-      "score": -5.13,
-      "entry": 16.0,
-      "rsi": 32.1,
-      "stop": 17.78
-    },
-    {
-      "ticker": "AEFES",
+      "ticker": "BRISA",
       "side": "SHORT",
       "score": -4.5,
-      "entry": 18.43,
-      "rsi": 31.4,
-      "stop": 19.28
+      "entry": 77.45,
+      "rsi": 39.6,
+      "stop": 80.6
     },
     {
-      "ticker": "SELEC",
-      "side": "LONG",
-      "score": 9.5,
-      "entry": 331.75,
-      "rsi": 84.6,
-      "stop": 293.5
+      "ticker": "MIATK",
+      "side": "SHORT",
+      "score": -4.5,
+      "entry": 29.24,
+      "rsi": 35.7,
+      "stop": 30.86
     },
     {
-      "ticker": "HALKB",
+      "ticker": "KRDMA",
       "side": "LONG",
-      "score": 5.0,
-      "entry": 46.1,
-      "rsi": 77.3,
-      "stop": 43.79
+      "score": 6.5,
+      "entry": 63.05,
+      "rsi": 83.3,
+      "stop": 52.97
+    },
+    {
+      "ticker": "DEVA",
+      "side": "LONG",
+      "score": 4.09,
+      "entry": 93.6,
+      "rsi": 74.9,
+      "stop": 84.33
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
