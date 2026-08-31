@@ -6,7 +6,7 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 60.0,
-      "foreign_ratio_pct": 49.5,
+      "foreign_ratio_pct": 49.49,
       "long_conviction": {
         "score": 54.6,
         "breakdown": {
@@ -20,24 +20,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 3.2,
+        "score": -0.4,
         "direction": "NEUTRAL",
         "breakdown": {
-          "gap": 3.6,
+          "gap": -12.6,
           "orb": 0.0,
-          "vwap": -1.5,
+          "vwap": 1.5,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 414.25,
-          "stop_long": 393.25,
-          "stop_short": 435.25,
-          "target_long": 456.25,
-          "target_short": 372.25,
-          "atr_pct": 2.03
+          "last_price": 414.75,
+          "stop_long": 392.25,
+          "stop_short": 437.25,
+          "target_long": 459.75,
+          "target_short": 369.75,
+          "atr_pct": 2.17
         }
       },
       "long_alarm": {
@@ -53,7 +53,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 0.1,
+      "estimated_potential_pct": 0.0,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 54.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
@@ -68,7 +68,7 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**BIMAS** (Retail) uzun vade skoru 55/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %50 (sağlıklı seviye); long-term katmanda yer alıyor.",
+      "explanation": "**BIMAS** (Retail) uzun vade skoru 55/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %49 (sağlıklı seviye); long-term katmanda yer alıyor.",
       "trade_plan": null
     }
   ],
