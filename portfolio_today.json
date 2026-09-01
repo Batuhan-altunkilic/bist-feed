@@ -6,7 +6,7 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 60.0,
-      "foreign_ratio_pct": 49.49,
+      "foreign_ratio_pct": 49.33,
       "long_conviction": {
         "score": 54.6,
         "breakdown": {
@@ -20,24 +20,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": -19.4,
+        "score": -23.6,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": 7.2,
           "orb": -80.0,
-          "vwap": -51.0,
+          "vwap": -29.4,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": -50.0
         },
         "intraday": {
-          "last_price": 403.25,
-          "stop_long": 378.25,
-          "stop_short": 428.25,
-          "target_long": 453.25,
-          "target_short": 353.25,
-          "atr_pct": 2.48
+          "last_price": 404.5,
+          "stop_long": 383.5,
+          "stop_short": 425.5,
+          "target_long": 446.5,
+          "target_short": 362.5,
+          "atr_pct": 2.08
         }
       },
       "long_alarm": {
