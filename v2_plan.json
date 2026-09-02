@@ -1,63 +1,47 @@
 {
-  "date": "2026-09-01",
-  "ts": "2026-09-01T11:00:01",
-  "is_today": false,
+  "date": "2026-09-02",
+  "ts": "2026-09-02T11:00:02",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "ISGYO",
+      "ticker": "EKSUN",
       "side": "SHORT",
       "score": -8.5,
-      "entry": 26.0,
-      "rsi": 42.9,
-      "stop": 27.93
+      "entry": 5.66,
+      "rsi": 35.8,
+      "stop": 6.5
     },
     {
-      "ticker": "KAREL",
+      "ticker": "KRDMA",
       "side": "SHORT",
-      "score": -8.2,
-      "entry": 8.5,
-      "rsi": 35.5,
-      "stop": 9.03
+      "score": -8.5,
+      "entry": 58.0,
+      "rsi": 62.7,
+      "stop": 69.2
     },
     {
-      "ticker": "GENIL",
+      "ticker": "KRDMB",
       "side": "SHORT",
-      "score": -8.02,
-      "entry": 11.28,
-      "rsi": 55.6,
-      "stop": 12.41
+      "score": -8.5,
+      "entry": 118.0,
+      "rsi": 35.0,
+      "stop": 128.5
     },
     {
-      "ticker": "IZMDC",
+      "ticker": "ECILC",
       "side": "SHORT",
-      "score": -8.0,
-      "entry": 12.09,
-      "rsi": 43.7,
-      "stop": 13.58
+      "score": -7.62,
+      "entry": 72.8,
+      "rsi": 43.9,
+      "stop": 79.48
     },
     {
-      "ticker": "MIATK",
+      "ticker": "ARENA",
       "side": "SHORT",
-      "score": -7.02,
-      "entry": 28.26,
-      "rsi": 31.3,
-      "stop": 29.82
-    },
-    {
-      "ticker": "SELEC",
-      "side": "LONG",
-      "score": 4.5,
-      "entry": 335.0,
-      "rsi": 86.3,
-      "stop": 289.62
-    },
-    {
-      "ticker": "TUPRS",
-      "side": "LONG",
-      "score": 6.52,
-      "entry": 414.5,
-      "rsi": 74.4,
-      "stop": 373.38
+      "score": -6.08,
+      "entry": 20.06,
+      "rsi": 34.9,
+      "stop": 22.38
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
