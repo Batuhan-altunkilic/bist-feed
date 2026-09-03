@@ -6,7 +6,7 @@
       "sector": "Retail",
       "layer": "Long",
       "weight_pct": 60.0,
-      "foreign_ratio_pct": 49.26,
+      "foreign_ratio_pct": 48.95,
       "long_conviction": {
         "score": 54.6,
         "breakdown": {
@@ -20,24 +20,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 5.0,
+        "score": 7.9,
         "direction": "NEUTRAL",
         "breakdown": {
-          "gap": -4.7,
+          "gap": 5.5,
           "orb": 0.0,
-          "vwap": 24.6,
+          "vwap": 1.5,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 0.0
+          "volume": 25.0
         },
         "intraday": {
-          "last_price": 408.25,
-          "stop_long": 382.5,
-          "stop_short": 434.0,
-          "target_long": 459.75,
-          "target_short": 356.75,
-          "atr_pct": 2.52
+          "last_price": 405.5,
+          "stop_long": 379.75,
+          "stop_short": 431.25,
+          "target_long": 457.0,
+          "target_short": 354.0,
+          "atr_pct": 2.54
         }
       },
       "long_alarm": {
@@ -53,7 +53,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 0.3,
+      "estimated_potential_pct": 0.4,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 54.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
