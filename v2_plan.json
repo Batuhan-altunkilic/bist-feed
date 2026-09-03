@@ -1,47 +1,63 @@
 {
-  "date": "2026-09-02",
-  "ts": "2026-09-02T11:00:02",
-  "is_today": false,
+  "date": "2026-09-03",
+  "ts": "2026-09-03T11:00:01",
+  "is_today": true,
   "picks": [
-    {
-      "ticker": "EKSUN",
-      "side": "SHORT",
-      "score": -8.5,
-      "entry": 5.66,
-      "rsi": 35.8,
-      "stop": 6.5
-    },
     {
       "ticker": "KRDMA",
       "side": "SHORT",
-      "score": -8.5,
-      "entry": 58.0,
-      "rsi": 62.7,
-      "stop": 69.2
+      "score": -8.34,
+      "entry": 56.3,
+      "rsi": 58.7,
+      "stop": 69.33
+    },
+    {
+      "ticker": "KNFRT",
+      "side": "SHORT",
+      "score": -5.94,
+      "entry": 12.14,
+      "rsi": 51.2,
+      "stop": 13.3
     },
     {
       "ticker": "KRDMB",
       "side": "SHORT",
-      "score": -8.5,
-      "entry": 118.0,
-      "rsi": 35.0,
-      "stop": 128.5
+      "score": -5.74,
+      "entry": 111.9,
+      "rsi": 30.5,
+      "stop": 129.85
     },
     {
-      "ticker": "ECILC",
+      "ticker": "IZMDC",
       "side": "SHORT",
-      "score": -7.62,
-      "entry": 72.8,
-      "rsi": 43.9,
-      "stop": 79.48
+      "score": -5.0,
+      "entry": 9.62,
+      "rsi": 30.1,
+      "stop": 11.83
     },
     {
-      "ticker": "ARENA",
+      "ticker": "MGROS",
       "side": "SHORT",
-      "score": -6.08,
-      "entry": 20.06,
-      "rsi": 34.9,
-      "stop": 22.38
+      "score": -4.5,
+      "entry": 520.5,
+      "rsi": 30.9,
+      "stop": 551.5
+    },
+    {
+      "ticker": "HALKB",
+      "side": "LONG",
+      "score": 5.0,
+      "entry": 49.44,
+      "rsi": 72.1,
+      "stop": 45.51
+    },
+    {
+      "ticker": "VAKBN",
+      "side": "LONG",
+      "score": 5.0,
+      "entry": 34.32,
+      "rsi": 65.5,
+      "stop": 30.86
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
