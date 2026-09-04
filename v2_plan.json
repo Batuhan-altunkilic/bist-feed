@@ -1,63 +1,71 @@
 {
-  "date": "2026-09-03",
-  "ts": "2026-09-03T11:00:01",
-  "is_today": false,
+  "date": "2026-09-04",
+  "ts": "2026-09-04T11:00:02",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "KRDMA",
+      "ticker": "ARENA",
       "side": "SHORT",
-      "score": -8.34,
-      "entry": 56.3,
-      "rsi": 58.7,
-      "stop": 69.33
+      "score": -6.0,
+      "entry": 19.17,
+      "rsi": 30.0,
+      "stop": 21.35
     },
     {
-      "ticker": "KNFRT",
-      "side": "SHORT",
-      "score": -5.94,
-      "entry": 12.14,
-      "rsi": 51.2,
-      "stop": 13.3
-    },
-    {
-      "ticker": "KRDMB",
-      "side": "SHORT",
-      "score": -5.74,
-      "entry": 111.9,
-      "rsi": 30.5,
-      "stop": 129.85
-    },
-    {
-      "ticker": "IZMDC",
+      "ticker": "ZOREN",
       "side": "SHORT",
       "score": -5.0,
-      "entry": 9.62,
-      "rsi": 30.1,
-      "stop": 11.83
+      "entry": 2.3,
+      "rsi": 43.2,
+      "stop": 2.62
     },
     {
-      "ticker": "MGROS",
+      "ticker": "KAREL",
       "side": "SHORT",
-      "score": -4.5,
-      "entry": 520.5,
-      "rsi": 30.9,
-      "stop": 551.5
+      "score": -5.0,
+      "entry": 8.13,
+      "rsi": 31.6,
+      "stop": 8.91
+    },
+    {
+      "ticker": "DEVA",
+      "side": "SHORT",
+      "score": -4.63,
+      "entry": 91.75,
+      "rsi": 66.3,
+      "stop": 98.42
+    },
+    {
+      "ticker": "GENIL",
+      "side": "SHORT",
+      "score": -4.59,
+      "entry": 11.02,
+      "rsi": 52.9,
+      "stop": 12.25
+    },
+    {
+      "ticker": "KARSN",
+      "side": "LONG",
+      "score": 5.0,
+      "entry": 12.89,
+      "rsi": 80.3,
+      "stop": 10.94
     },
     {
       "ticker": "HALKB",
       "side": "LONG",
-      "score": 5.0,
-      "entry": 49.44,
-      "rsi": 72.1,
-      "stop": 45.51
+      "score": 7.5,
+      "entry": 54.35,
+      "rsi": 76.1,
+      "stop": 46.86
     },
     {
-      "ticker": "VAKBN",
+      "ticker": "NETAS",
       "side": "LONG",
-      "score": 5.0,
-      "entry": 34.32,
-      "rsi": 65.5,
-      "stop": 30.86
+      "score": 6.5,
+      "entry": 101.7,
+      "rsi": 68.9,
+      "stop": 85.05
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
