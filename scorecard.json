@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 09:36",
+  "generated_at": "2026-09-07 09:36",
   "min_n": 30,
   "strategies": [
     {
@@ -30,11 +30,11 @@
         "kaynak": "Exit v2 holdout (hedefsiz/stop−8/10g: A +7.3 B +5.2 C +2.3; canlı ağırlık C'de) — temkinli bant"
       },
       "live": {
-        "n": 243,
-        "win_pct": 33.3,
-        "avg_net_pct": -1.423,
-        "sum_net_pct": -345.8,
-        "window": "2026-07-29 → 2026-09-03"
+        "n": 259,
+        "win_pct": 31.3,
+        "avg_net_pct": -1.848,
+        "sum_net_pct": -478.6,
+        "window": "2026-07-29 → 2026-09-04"
       },
       "verdict": "SAPMA ⚠️ canlı, beklenti bandının belirgin altında — araştırma tetiklenmeli"
     },
@@ -48,26 +48,26 @@
         "kaynak": "v3 doğrulama dilimi (+%0.55, %66) — bant temkinli genişletildi"
       },
       "live": {
-        "n": 149,
-        "win_pct": 51.0,
-        "avg_net_pct": -0.092,
-        "sum_net_pct": -13.8,
-        "window": "2026-06-24 → 2026-09-03"
+        "n": 154,
+        "win_pct": 49.4,
+        "avg_net_pct": -0.147,
+        "sum_net_pct": -22.6,
+        "window": "2026-06-24 → 2026-09-04"
       },
       "verdict": "SAPMA ⚠️ canlı, beklenti bandının belirgin altında — araştırma tetiklenmeli"
     }
   ],
   "karne_forward": {
     "n": 25,
-    "avg_pnl_pct": 0.88,
-    "sum_pnl_pct": 22.0,
-    "pos_n": 11,
+    "avg_pnl_pct": 0.78,
+    "sum_pnl_pct": 19.5,
+    "pos_n": 12,
     "target_n": 4,
-    "stop_n": 7,
-    "open_n": 14,
-    "avg_alpha_pct": 0.85,
+    "stop_n": 8,
+    "open_n": 13,
+    "avg_alpha_pct": 0.93,
     "window": "2026-07-10 → bugün",
-    "signals_total": 122,
+    "signals_total": 126,
     "note": "MTM ara-karne: giriş=entry_mid varsayımı, açıklar son kapanışla, %0.30 maliyet düşülmüş NET; T+10/T+20 kesin eşleme ayrıca dolacak"
   }
 }
