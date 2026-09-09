@@ -1,39 +1,47 @@
 {
-  "date": "2026-09-08",
-  "ts": "2026-09-08T11:00:02",
-  "is_today": false,
+  "date": "2026-09-09",
+  "ts": "2026-09-09T11:00:03",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "NETAS",
+      "ticker": "EGEPO",
       "side": "SHORT",
-      "score": -4.8,
-      "entry": 100.9,
-      "rsi": 66.3,
-      "stop": 118.5
+      "score": -9.5,
+      "entry": 12.44,
+      "rsi": 23.1,
+      "stop": 15.66
     },
     {
-      "ticker": "KARSN",
+      "ticker": "HALKB",
+      "side": "SHORT",
+      "score": -5.0,
+      "entry": 51.35,
+      "rsi": 68.0,
+      "stop": 57.11
+    },
+    {
+      "ticker": "SELEC",
       "side": "LONG",
-      "score": 5.0,
-      "entry": 14.39,
-      "rsi": 86.6,
-      "stop": 12.33
+      "score": 6.0,
+      "entry": 376.75,
+      "rsi": 91.0,
+      "stop": 333.38
     },
     {
       "ticker": "PETKM",
       "side": "LONG",
       "score": 5.0,
-      "entry": 23.38,
-      "rsi": 71.5,
-      "stop": 21.21
+      "entry": 24.38,
+      "rsi": 73.8,
+      "stop": 22.21
     },
     {
-      "ticker": "MIATK",
+      "ticker": "ISCTR",
       "side": "LONG",
       "score": 5.0,
-      "entry": 37.12,
-      "rsi": 70.1,
-      "stop": 32.85
+      "entry": 14.24,
+      "rsi": 73.0,
+      "stop": 13.3
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"

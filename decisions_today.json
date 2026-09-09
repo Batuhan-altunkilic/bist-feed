@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T09:47:04",
+  "generated_at": "2026-09-09T13:02:10",
   "summary": {
     "total": 1,
     "golden_picks": 0,
@@ -31,24 +31,24 @@
         }
       },
       "day_trade_conviction": {
-        "score": 33.3,
+        "score": 4.4,
         "direction": "NEUTRAL",
         "breakdown": {
-          "gap": 14.5,
-          "orb": 80.0,
-          "vwap": 24.6,
+          "gap": 0.9,
+          "orb": 0.0,
+          "vwap": 11.4,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
-          "volume": 50.0
+          "volume": 0.0
         },
         "intraday": {
-          "last_price": 423.0,
-          "stop_long": 392.0,
-          "stop_short": 447.0,
-          "target_long": 474.5,
-          "target_short": 364.5,
-          "atr_pct": 2.62
+          "last_price": 422.25,
+          "stop_long": 401.5,
+          "stop_short": 444.0,
+          "target_long": 465.25,
+          "target_short": 380.25,
+          "atr_pct": 2.01
         }
       },
       "long_alarm": {
@@ -64,7 +64,7 @@
         "threshold": 0
       },
       "is_golden_pick": false,
-      "estimated_potential_pct": 1.7,
+      "estimated_potential_pct": 0.2,
       "advice": "🟡 BIMAS ortalama bir hisse (skor 54.6/100). Acelesi yok, daha güçlü sinyal bekle.",
       "fundamentals": {
         "fund_composite": 0.455,
@@ -79,9 +79,9 @@
       },
       "is_shortable": true,
       "short_note": null,
-      "explanation": "**BIMAS** (Retail) uzun vade skoru 55/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %49 (sağlıklı seviye); long-term katmanda yer alıyor. Gün içi sinyal nötr (skor +33). Gün içi destek: ORB long tetikleyicisi (açılış aralığı yukarı kırıldı).",
+      "explanation": "**BIMAS** (Retail) uzun vade skoru 55/100 (ORTA seviye). Skorun ana sürücüleri: teknik görünüm pozitif (52w yüksekten makul mesafede); yabancı oranı %49 (sağlıklı seviye); long-term katmanda yer alıyor.",
       "trade_plan": null
     }
   ],
-  "price_refreshed_at": "2026-09-09T12:55:09"
+  "price_refreshed_at": "2026-09-09T13:05:07"
 }
