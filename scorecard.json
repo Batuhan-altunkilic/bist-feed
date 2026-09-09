@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08 09:36",
+  "generated_at": "2026-09-09 09:51",
   "min_n": 30,
   "strategies": [
     {
@@ -48,24 +48,24 @@
         "kaynak": "v3 doğrulama dilimi (+%0.55, %66) — bant temkinli genişletildi"
       },
       "live": {
-        "n": 154,
-        "win_pct": 49.4,
-        "avg_net_pct": -0.147,
-        "sum_net_pct": -22.6,
-        "window": "2026-06-24 → 2026-09-04"
+        "n": 155,
+        "win_pct": 49.7,
+        "avg_net_pct": -0.115,
+        "sum_net_pct": -17.9,
+        "window": "2026-06-24 → 2026-09-08"
       },
       "verdict": "SAPMA ⚠️ canlı, beklenti bandının belirgin altında — araştırma tetiklenmeli"
     }
   ],
   "karne_forward": {
-    "n": 25,
-    "avg_pnl_pct": 0.78,
-    "sum_pnl_pct": 19.5,
-    "pos_n": 12,
-    "target_n": 4,
-    "stop_n": 8,
-    "open_n": 13,
-    "avg_alpha_pct": 0.93,
+    "n": 17,
+    "avg_pnl_pct": -0.33,
+    "sum_pnl_pct": -5.6,
+    "pos_n": 8,
+    "target_n": 2,
+    "stop_n": 4,
+    "open_n": 11,
+    "avg_alpha_pct": -0.47,
     "window": "2026-07-10 → bugün",
     "signals_total": 128,
     "note": "MTM ara-karne: giriş=entry_mid varsayımı, açıklar son kapanışla, %0.30 maliyet düşülmüş NET; T+10/T+20 kesin eşleme ayrıca dolacak"
