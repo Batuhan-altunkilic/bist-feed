@@ -1,7 +1,7 @@
 {
   "date": "2026-09-09",
   "ts": "2026-09-09T11:00:03",
-  "is_today": true,
+  "is_today": false,
   "picks": [
     {
       "ticker": "EGEPO",
