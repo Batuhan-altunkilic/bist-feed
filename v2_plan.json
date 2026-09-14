@@ -1,55 +1,55 @@
 {
-  "date": "2026-09-11",
-  "ts": "2026-09-11T11:00:01",
-  "is_today": false,
+  "date": "2026-09-14",
+  "ts": "2026-09-14T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "AKCNS",
+      "ticker": "KRDMB",
       "side": "SHORT",
-      "score": -8.5,
-      "entry": 226.1,
-      "rsi": 35.8,
-      "stop": 242.25
+      "score": -6.0,
+      "entry": 94.45,
+      "rsi": 24.3,
+      "stop": 106.93
     },
     {
-      "ticker": "ODAS",
-      "side": "SHORT",
-      "score": -6.37,
-      "entry": 7.41,
-      "rsi": 47.1,
-      "stop": 8.16
-    },
-    {
-      "ticker": "PETKM",
-      "side": "SHORT",
-      "score": -6.36,
-      "entry": 24.96,
-      "rsi": 70.9,
-      "stop": 28.2
-    },
-    {
-      "ticker": "KRDMD",
-      "side": "SHORT",
-      "score": -5.69,
-      "entry": 45.6,
-      "rsi": 53.6,
-      "stop": 49.78
-    },
-    {
-      "ticker": "ASTOR",
+      "ticker": "ALBRK",
       "side": "SHORT",
       "score": -5.0,
-      "entry": 287.5,
-      "rsi": 35.9,
-      "stop": 317.12
+      "entry": 8.93,
+      "rsi": 55.7,
+      "stop": 9.66
     },
     {
-      "ticker": "JANTS",
+      "ticker": "SELEC",
+      "side": "SHORT",
+      "score": -5.0,
+      "entry": 324.0,
+      "rsi": 54.4,
+      "stop": 364.62
+    },
+    {
+      "ticker": "ECZYT",
+      "side": "SHORT",
+      "score": -5.0,
+      "entry": 303.0,
+      "rsi": 37.6,
+      "stop": 318.88
+    },
+    {
+      "ticker": "ICBCT",
+      "side": "SHORT",
+      "score": -4.5,
+      "entry": 18.67,
+      "rsi": 34.7,
+      "stop": 19.97
+    },
+    {
+      "ticker": "EGEEN",
       "side": "LONG",
-      "score": 5.0,
-      "entry": 17.73,
-      "rsi": 72.2,
-      "stop": 15.95
+      "score": 6.74,
+      "entry": 6442.5,
+      "rsi": 73.0,
+      "stop": 5240.0
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
