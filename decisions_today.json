@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T13:01:44",
+  "generated_at": "2026-09-15T17:01:53",
   "summary": {
     "total": 1,
     "golden_picks": 0,
@@ -31,23 +31,23 @@
         }
       },
       "day_trade_conviction": {
-        "score": -17.1,
+        "score": -16.5,
         "direction": "NEUTRAL",
         "breakdown": {
           "gap": -2.6,
           "orb": -80.0,
-          "vwap": -19.5,
+          "vwap": -15.9,
           "rsi": 25.0,
           "fund_filter": 0.0,
           "news": 0,
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 419.25,
-          "stop_long": 393.5,
-          "stop_short": 445.5,
-          "target_long": 471.5,
-          "target_short": 367.5,
+          "last_price": 418.5,
+          "stop_long": 393.0,
+          "stop_short": 445.0,
+          "target_long": 471.0,
+          "target_short": 367.0,
           "atr_pct": 2.48
         }
       },
@@ -83,5 +83,5 @@
       "trade_plan": null
     }
   ],
-  "price_refreshed_at": "2026-09-15T16:55:06"
+  "price_refreshed_at": "2026-09-15T17:05:07"
 }
