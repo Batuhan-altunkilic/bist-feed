@@ -1,55 +1,63 @@
 {
-  "date": "2026-09-14",
-  "ts": "2026-09-14T11:00:01",
-  "is_today": false,
+  "date": "2026-09-15",
+  "ts": "2026-09-15T11:00:02",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "KRDMB",
+      "ticker": "HALKB",
       "side": "SHORT",
-      "score": -6.0,
-      "entry": 94.45,
-      "rsi": 24.3,
-      "stop": 106.93
+      "score": -8.5,
+      "entry": 46.98,
+      "rsi": 57.8,
+      "stop": 53.3
     },
     {
-      "ticker": "ALBRK",
+      "ticker": "VAKBN",
       "side": "SHORT",
-      "score": -5.0,
-      "entry": 8.93,
-      "rsi": 55.7,
-      "stop": 9.66
+      "score": -8.5,
+      "entry": 35.54,
+      "rsi": 57.4,
+      "stop": 40.93
     },
     {
-      "ticker": "SELEC",
+      "ticker": "TTKOM",
       "side": "SHORT",
-      "score": -5.0,
-      "entry": 324.0,
-      "rsi": 54.4,
-      "stop": 364.62
+      "score": -8.5,
+      "entry": 57.0,
+      "rsi": 56.6,
+      "stop": 63.47
     },
     {
-      "ticker": "ECZYT",
+      "ticker": "IZMDC",
       "side": "SHORT",
-      "score": -5.0,
-      "entry": 303.0,
-      "rsi": 37.6,
-      "stop": 318.88
+      "score": -8.5,
+      "entry": 9.98,
+      "rsi": 36.5,
+      "stop": 11.48
     },
     {
-      "ticker": "ICBCT",
+      "ticker": "SMRTG",
       "side": "SHORT",
-      "score": -4.5,
-      "entry": 18.67,
-      "rsi": 34.7,
-      "stop": 19.97
+      "score": -7.41,
+      "entry": 7.9,
+      "rsi": 20.8,
+      "stop": 8.53
     },
     {
       "ticker": "EGEEN",
       "side": "LONG",
-      "score": 6.74,
-      "entry": 6442.5,
-      "rsi": 73.0,
-      "stop": 5240.0
+      "score": 6.0,
+      "entry": 6760.0,
+      "rsi": 76.3,
+      "stop": 5653.75
+    },
+    {
+      "ticker": "SASA",
+      "side": "LONG",
+      "score": 10.61,
+      "entry": 3.05,
+      "rsi": 75.6,
+      "stop": 2.54
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
