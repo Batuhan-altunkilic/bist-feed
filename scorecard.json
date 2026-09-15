@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14 09:38",
+  "generated_at": "2026-09-15 09:38",
   "min_n": 30,
   "strategies": [
     {
@@ -30,11 +30,11 @@
         "kaynak": "Exit v2 holdout (hedefsiz/stop−8/10g: A +7.3 B +5.2 C +2.3; canlı ağırlık C'de) — temkinli bant"
       },
       "live": {
-        "n": 274,
-        "win_pct": 31.4,
-        "avg_net_pct": -1.731,
-        "sum_net_pct": -474.4,
-        "window": "2026-07-29 → 2026-09-11"
+        "n": 291,
+        "win_pct": 33.0,
+        "avg_net_pct": -1.475,
+        "sum_net_pct": -429.2,
+        "window": "2026-07-29 → 2026-09-15"
       },
       "verdict": "SAPMA ⚠️ canlı, beklenti bandının belirgin altında — araştırma tetiklenmeli"
     },
@@ -48,11 +48,11 @@
         "kaynak": "v3 doğrulama dilimi (+%0.55, %66) — bant temkinli genişletildi"
       },
       "live": {
-        "n": 165,
-        "win_pct": 49.1,
-        "avg_net_pct": -0.124,
-        "sum_net_pct": -20.4,
-        "window": "2026-06-24 → 2026-09-11"
+        "n": 170,
+        "win_pct": 48.8,
+        "avg_net_pct": -0.134,
+        "sum_net_pct": -22.7,
+        "window": "2026-06-24 → 2026-09-14"
       },
       "verdict": "SAPMA ⚠️ canlı, beklenti bandının belirgin altında — araştırma tetiklenmeli"
     }
