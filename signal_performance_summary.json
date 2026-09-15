@@ -33,11 +33,11 @@
       "win_rate_t3_pct": null
     },
     "last_90d": {
-      "n": 40,
-      "win_rate_t3_pct": 45.0
+      "n": 25,
+      "win_rate_t3_pct": null
     }
   },
-  "generated_at": "2026-09-14T14:02:00+00:00",
+  "generated_at": "2026-09-15T06:35:46+00:00",
   "total_signals": 54,
   "win_rate_t1_pct": 46.3,
   "win_rate_t3_pct": 50.0,
