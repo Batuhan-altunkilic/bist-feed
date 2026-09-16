@@ -1,63 +1,47 @@
 {
-  "date": "2026-09-15",
-  "ts": "2026-09-15T11:00:02",
-  "is_today": false,
+  "date": "2026-09-16",
+  "ts": "2026-09-16T11:00:03",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "HALKB",
+      "ticker": "YEOTK",
       "side": "SHORT",
-      "score": -8.5,
-      "entry": 46.98,
-      "rsi": 57.8,
-      "stop": 53.3
+      "score": -11.0,
+      "entry": 30.86,
+      "rsi": 37.7,
+      "stop": 36.07
     },
     {
-      "ticker": "VAKBN",
+      "ticker": "MAVI",
       "side": "SHORT",
-      "score": -8.5,
-      "entry": 35.54,
-      "rsi": 57.4,
-      "stop": 40.93
+      "score": -10.21,
+      "entry": 34.16,
+      "rsi": 29.4,
+      "stop": 37.83
     },
     {
-      "ticker": "TTKOM",
+      "ticker": "GENIL",
       "side": "SHORT",
-      "score": -8.5,
-      "entry": 57.0,
-      "rsi": 56.6,
-      "stop": 63.47
+      "score": -10.0,
+      "entry": 10.57,
+      "rsi": 42.7,
+      "stop": 12.29
     },
     {
-      "ticker": "IZMDC",
+      "ticker": "SAHOL",
       "side": "SHORT",
-      "score": -8.5,
-      "entry": 9.98,
-      "rsi": 36.5,
-      "stop": 11.48
+      "score": -9.69,
+      "entry": 86.0,
+      "rsi": 33.6,
+      "stop": 93.48
     },
     {
-      "ticker": "SMRTG",
+      "ticker": "ECZYT",
       "side": "SHORT",
-      "score": -7.41,
-      "entry": 7.9,
-      "rsi": 20.8,
-      "stop": 8.53
-    },
-    {
-      "ticker": "EGEEN",
-      "side": "LONG",
-      "score": 6.0,
-      "entry": 6760.0,
-      "rsi": 76.3,
-      "stop": 5653.75
-    },
-    {
-      "ticker": "SASA",
-      "side": "LONG",
-      "score": 10.61,
-      "entry": 3.05,
-      "rsi": 75.6,
-      "stop": 2.54
+      "score": -9.56,
+      "entry": 276.5,
+      "rsi": 27.7,
+      "stop": 298.38
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
