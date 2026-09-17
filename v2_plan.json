@@ -1,47 +1,55 @@
 {
-  "date": "2026-09-16",
-  "ts": "2026-09-16T11:00:03",
-  "is_today": false,
+  "date": "2026-09-17",
+  "ts": "2026-09-17T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "YEOTK",
+      "ticker": "EGEPO",
       "side": "SHORT",
-      "score": -11.0,
-      "entry": 30.86,
-      "rsi": 37.7,
-      "stop": 36.07
+      "score": -7.5,
+      "entry": 7.86,
+      "rsi": 13.8,
+      "stop": 10.32
     },
     {
-      "ticker": "MAVI",
+      "ticker": "KRDMB",
       "side": "SHORT",
-      "score": -10.21,
-      "entry": 34.16,
-      "rsi": 29.4,
-      "stop": 37.83
+      "score": -7.5,
+      "entry": 76.95,
+      "rsi": 17.5,
+      "stop": 86.37
     },
     {
-      "ticker": "GENIL",
+      "ticker": "KARSN",
       "side": "SHORT",
-      "score": -10.0,
-      "entry": 10.57,
-      "rsi": 42.7,
-      "stop": 12.29
+      "score": -6.5,
+      "entry": 10.63,
+      "rsi": 43.3,
+      "stop": 14.35
     },
     {
-      "ticker": "SAHOL",
+      "ticker": "EGEEN",
       "side": "SHORT",
-      "score": -9.69,
-      "entry": 86.0,
-      "rsi": 33.6,
-      "stop": 93.48
+      "score": -5.49,
+      "entry": 5900.0,
+      "rsi": 58.2,
+      "stop": 7110.0
     },
     {
-      "ticker": "ECZYT",
+      "ticker": "KNFRT",
       "side": "SHORT",
-      "score": -9.56,
-      "entry": 276.5,
-      "rsi": 27.7,
-      "stop": 298.38
+      "score": -5.0,
+      "entry": 12.1,
+      "rsi": 47.1,
+      "stop": 13.23
+    },
+    {
+      "ticker": "TKFEN",
+      "side": "LONG",
+      "score": 6.67,
+      "entry": 244.7,
+      "rsi": 70.9,
+      "stop": 215.8
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
