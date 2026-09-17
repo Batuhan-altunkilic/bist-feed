@@ -43,7 +43,7 @@
           "volume": 0.0
         },
         "intraday": {
-          "last_price": 418.75,
+          "last_price": 419.0,
           "stop_long": 378.1,
           "stop_short": 456.9,
           "target_long": 496.3,
@@ -83,5 +83,5 @@
       "trade_plan": null
     }
   ],
-  "price_refreshed_at": "2026-09-17T15:55:06"
+  "price_refreshed_at": "2026-09-17T16:05:06"
 }
