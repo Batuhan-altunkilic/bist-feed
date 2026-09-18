@@ -1,55 +1,47 @@
 {
-  "date": "2026-09-17",
-  "ts": "2026-09-17T11:00:01",
-  "is_today": false,
+  "date": "2026-09-18",
+  "ts": "2026-09-18T11:00:01",
+  "is_today": true,
   "picks": [
     {
-      "ticker": "EGEPO",
+      "ticker": "SMRTG",
       "side": "SHORT",
       "score": -7.5,
-      "entry": 7.86,
-      "rsi": 13.8,
-      "stop": 10.32
+      "entry": 6.03,
+      "rsi": 15.2,
+      "stop": 7.12
     },
     {
-      "ticker": "KRDMB",
+      "ticker": "MAGEN",
       "side": "SHORT",
       "score": -7.5,
-      "entry": 76.95,
-      "rsi": 17.5,
-      "stop": 86.37
+      "entry": 27.24,
+      "rsi": 29.4,
+      "stop": 32.58
     },
     {
       "ticker": "KARSN",
       "side": "SHORT",
       "score": -6.5,
-      "entry": 10.63,
-      "rsi": 43.3,
-      "stop": 14.35
+      "entry": 9.48,
+      "rsi": 39.0,
+      "stop": 12.95
     },
     {
-      "ticker": "EGEEN",
+      "ticker": "ZOREN",
       "side": "SHORT",
-      "score": -5.49,
-      "entry": 5900.0,
-      "rsi": 58.2,
-      "stop": 7110.0
+      "score": -6.21,
+      "entry": 2.33,
+      "rsi": 42.1,
+      "stop": 2.75
     },
     {
-      "ticker": "KNFRT",
+      "ticker": "MIATK",
       "side": "SHORT",
-      "score": -5.0,
-      "entry": 12.1,
-      "rsi": 47.1,
-      "stop": 13.23
-    },
-    {
-      "ticker": "TKFEN",
-      "side": "LONG",
-      "score": 6.67,
-      "entry": 244.7,
-      "rsi": 70.9,
-      "stop": 215.8
+      "score": -6.0,
+      "entry": 25.3,
+      "rsi": 33.3,
+      "stop": 32.22
     }
   ],
   "rule": "SHORT @ 11:00, stop = OR üstü, hedef yok → gün sonu kapanışta çık"
